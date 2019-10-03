@@ -1,10 +1,10 @@
 # autd3 #
 
-最新版は[devブランチ](https://github.com/shinolab/autd3-library-software/tree/dev)にあります.
+Version: 3.0.0 (旧安定版)
 
-これは https://github.com/shinolab/autd をフォークし, C#, Unityの機能等を追加したものです.
+最新版は[masterブランチ](https://github.com/shinolab/autd3-library-software/tree/master)にあります.
 
-Installは[GitHubのWiki](https://github.com/shinolab/autd3-library-software/wiki)を参照して下さい.
+詳細は[Wiki](https://github.com/shinolab/autd3-library-software/wiki)を参照して下さい.
 
 # Author #
 

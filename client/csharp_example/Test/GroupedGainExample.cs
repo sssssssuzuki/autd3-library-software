@@ -3,7 +3,7 @@ using System;
 
 namespace AUTD3SharpTest.Test
 {
-    class GroupedGainTest
+    internal class GroupedGainTest
     {
         public static void Test()
         {
@@ -13,7 +13,7 @@ namespace AUTD3SharpTest.Test
             float y = 66.0f;
             float z = 150.0f;
 
-            using (var autd = new AUTD())
+            using (AUTD autd = new AUTD())
             {
                 autd.Open();
                 autd.AddDevice(Vector3f.Zero, Vector3f.Zero, 0); // Group ID 0

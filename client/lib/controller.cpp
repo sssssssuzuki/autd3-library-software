@@ -53,7 +53,6 @@ public:
 	mutex _send_mtx;
 
 	bool silentMode = true;
-	uint8_t modReset = MOD_RESET;
 
 	~impl() noexcept(false);
 	bool isOpen();
@@ -221,10 +220,8 @@ unique_ptr<uint8_t[]> Controller::impl::MakeBody(GainPtr gain, ModulationPtr mod
 
 		const uint8_t mod_size = max(0, min(static_cast<int>(mod->buffer.size() - mod->sent), MOD_FRAME_SIZE));
 		header->mod_size = mod_size;
-		if (mod->sent == 0) {
+		if (mod->sent == 0)
 			header->control_flags |= MOD_BEGIN;
-			header->control_flags |= (this->modReset ^= MOD_RESET);
-		}
 		if (mod->loop && mod->sent == 0) header->control_flags |= LOOP_BEGIN;
 		if (mod->loop && mod->sent + mod_size >= mod->buffer.size()) header->control_flags |= LOOP_END;
 		header->frequency_shift = this->_geometry->_freq_shift;
@@ -255,7 +252,7 @@ void Controller::impl::Close() {
 		this->silentMode = false;
 		auto nullgain = NullGain::Create();
 		this->AppendGainSync(nullgain);
-#if DLL_FOR_CSHARP
+#if DLL_FOR_CAPI
 		delete nullgain;
 #endif
 		this->_link->Close();
@@ -368,7 +365,6 @@ Controller::Controller() noexcept(false) {
 	this->_pimpl = make_shared<impl>();
 	this->_pimpl->_geometry = Geometry::Create();
 	this->_pimpl->silentMode = true;
-	this->_pimpl->modReset = MOD_RESET;
 
 	this->_ptimer = make_unique<lateraltimer>();
 	this->_ptimer->_pcnt = this->_pimpl;

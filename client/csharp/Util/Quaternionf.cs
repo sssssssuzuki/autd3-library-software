@@ -46,8 +46,15 @@ namespace AUTD3Sharp
 
 
         #region arithmetic
-        public static bool operator ==(Quaternionf left, Quaternionf right) => left.Equals(right);
-        public static bool operator !=(Quaternionf left, Quaternionf right) => !left.Equals(right);
+        public static bool operator ==(Quaternionf left, Quaternionf right)
+        {
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(Quaternionf left, Quaternionf right)
+        {
+            return !left.Equals(right);
+        }
 
         public bool Equals(Quaternionf other)
         {
@@ -57,8 +64,13 @@ namespace AUTD3Sharp
         public override bool Equals(object obj)
         {
             if (obj is Quaternionf qua)
+            {
                 return Equals(qua);
-            else return false;
+            }
+            else
+            {
+                return false;
+            }
         }
         #endregion
 

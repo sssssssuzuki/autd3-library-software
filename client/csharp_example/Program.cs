@@ -2,9 +2,9 @@
 
 namespace AUTD3SharpTest
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             SimpleExample.Test();
             BesselExample.Test();
