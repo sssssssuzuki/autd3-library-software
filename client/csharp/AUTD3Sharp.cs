@@ -564,8 +564,8 @@ namespace AUTD3Sharp
 #if DEBUG
         public static void SetDebugLogFunc(Action<string> debugLogFunc)
         {
-            var callback = new NativeMethods.DebugLogDelegate(debugLogFunc);
-            var funcPtr = Marshal.GetFunctionPointerForDelegate(callback);
+            NativeMethods.DebugLogDelegate callback = new NativeMethods.DebugLogDelegate(debugLogFunc);
+            IntPtr funcPtr = Marshal.GetFunctionPointerForDelegate(callback);
             NativeMethods.SetDebugLog(funcPtr);
             NativeMethods.DebugLogTest();
         }
