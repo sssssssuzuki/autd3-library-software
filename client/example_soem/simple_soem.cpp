@@ -4,7 +4,7 @@
  * Created Date: 24/08/2019
  * Author: Shun Suzuki
  * -----
- * Last Modified: 04/09/2019
+ * Last Modified: 31/10/2019
  * Modified By: Shun Suzuki (suzuki@hapis.k.u-tokyo.ac.jp)
  * -----
  * Copyright (c) 2019 Hapis Lab. All rights reserved.
@@ -39,9 +39,6 @@ int main()
 
 	// AddDevice() must be called before Open(), and be called as many times as for the number of AUTDs connected.
 	autd.geometry()->AddDevice(Eigen::Vector3f(0, 0, 0), Eigen::Vector3f(0, 0, 0));
-	autd.geometry()->AddDevice(Eigen::Vector3f(0, 0, 0), Eigen::Vector3f(0, 0, 0));
-	autd.geometry()->AddDevice(Eigen::Vector3f(0, 0, 0), Eigen::Vector3f(0, 0, 0));
-	autd.geometry()->AddDevice(Eigen::Vector3f(0, 0, 0), Eigen::Vector3f(0, 0, 0));
 	//autd.geometry()->AddDevice(Eigen::Vector3f(0, 151.4f, 0), Eigen::Vector3f(0, 0, 0));
 
 	auto ifname = GetAdapterName();
@@ -55,7 +52,7 @@ int main()
 
 	auto gain = autd::FocalPointGain::Create(Eigen::Vector3f(90, 70, 150));
 
-	autd.AppendModulationSync(autd::Modulation::Create(1)); // 150Hz AM
+	autd.AppendModulationSync(autd::SineModulation::Create(150)); // 150Hz AM
 	autd.AppendGainSync(gain);
 
 	std::cout << "press any key to finish..." << std::endl;

@@ -4,7 +4,7 @@
  * Created Date: 02/07/2018
  * Author: Shun Suzuki
  * -----
- * Last Modified: 05/09/2019
+ * Last Modified: 31/10/2019
  * Modified By: Shun Suzuki (suzuki@hapis.k.u-tokyo.ac.jp)
  * -----
  * Copyright (c) 2018-2019 Hapis Lab. All rights reserved.
@@ -39,7 +39,7 @@ using Quaternionf = UnityEngine.Quaternion;
 #endif
 
 [assembly: CLSCompliant(false), ComVisible(false)]
-[assembly: AssemblyVersion("3.3.1.0")]
+[assembly: AssemblyVersion("3.0.1.4")]
 namespace AUTD3Sharp
 {
     [ComVisible(false)]
@@ -231,6 +231,8 @@ namespace AUTD3Sharp
         {
             NativeMethods.AUTDSetSilentMode(_autdControllerHandle, mode);
         }
+
+
         ~AUTD()
         {
             Dispose(false);

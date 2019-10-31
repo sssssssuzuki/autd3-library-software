@@ -54,6 +54,7 @@ public:
 	mutex _send_mtx;
 
 	bool silentMode = true;
+	uint8_t mod_reset = 0;
 
 	impl();
 	~impl();
@@ -246,7 +247,7 @@ unique_ptr<uint8_t[]> Controller::impl::MakeBody(GainPtr gain, ModulationPtr mod
 
 	if (this->silentMode)
 		header->control_flags |= SILENT;
-	header->control_flags |= MOD_RESET_MODE;
+	header->control_flags |= (mod_reset ^= MOD_RESET);
 
 	if (mod != nullptr)
 	{
