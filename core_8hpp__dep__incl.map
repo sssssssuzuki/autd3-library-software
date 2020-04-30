@@ -1,0 +1,10 @@
+<map id="include/core.hpp" name="include/core.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="196,5,312,32"/>
+<area shape="rect" id="node2" href="$gain_8hpp.html" title=" " alt="" coords="152,229,266,256"/>
+<area shape="rect" id="node5" href="$quaternion_8hpp.html" title=" " alt="" coords="14,80,164,107"/>
+<area shape="rect" id="node7" href="$vector3_8hpp.html" title=" " alt="" coords="240,80,375,107"/>
+<area shape="rect" id="node8" href="$modulation_8hpp.html" title=" " alt="" coords="392,229,546,256"/>
+<area shape="rect" id="node3" href="$controller_8hpp.html" title=" " alt="" coords="173,304,317,331"/>
+<area shape="rect" id="node4" href="$autd3_8hpp.html" title=" " alt="" coords="129,379,252,405"/>
+<area shape="rect" id="node6" href="$geometry_8hpp.html" title=" " alt="" coords="21,155,165,181"/>
+</map>

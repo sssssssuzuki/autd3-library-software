@@ -1,0 +1,4 @@
+<map id="autd::gain::PlaneWaveGain" name="autd::gain::PlaneWaveGain">
+<area shape="rect" id="node1" title="Gain to create plane wave." alt="" coords="5,80,181,107"/>
+<area shape="rect" id="node2" href="$classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD." alt="" coords="38,5,149,32"/>
+</map>
