@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['planewavegain_368',['PlaneWaveGain',['../namespaceautd.html#aa8665bd19e52f2f22cc921fbe9fd8060',1,'autd']]]
+  ['nullgain_447',['NullGain',['../namespaceautd.html#aa76b5f5ce4f0e179823917aa79efc38b',1,'autd']]]
 ];

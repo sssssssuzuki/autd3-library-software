@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.0</span>
+   &#160;<span id="projectnumber">0.4.1</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab1a54c088f66357bd2e3c509a9eaa7e0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#ab1a54c088f66357bd2e3c509a9eaa7e0">~Controller</a> ()</td></tr>
+<tr class="separator:ab1a54c088f66357bd2e3c509a9eaa7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5404de7040be695024516480bc2a81b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#ac5404de7040be695024516480bc2a81b">is_open</a> ()=0</td></tr>
 <tr class="memdesc:ac5404de7040be695024516480bc2a81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify that the device is properly connected.  <a href="classautd_1_1Controller.html#ac5404de7040be695024516480bc2a81b">More...</a><br /></td></tr>
 <tr class="separator:ac5404de7040be695024516480bc2a81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,8 +97,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aac6df062318ecc2c0a692dd24270506c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the remaining data (Gain and Modulation) in buffer.  <a href="classautd_1_1Controller.html#aac6df062318ecc2c0a692dd24270506c">More...</a><br /></td></tr>
 <tr class="separator:aac6df062318ecc2c0a692dd24270506c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31648a4c59e4d98ab87873962d67a970"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970">Open</a> (<a class="el" href="namespaceautd.html#a56e8ba057d6cca9bcde82dd49a2e761d">LinkType</a> type, std::string location=&quot;&quot;)=0</td></tr>
-<tr class="memdesc:a31648a4c59e4d98ab87873962d67a970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open device by link type and location.  <a href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970">More...</a><br /></td></tr>
+<tr class="memdesc:a31648a4c59e4d98ab87873962d67a970"><td class="mdescLeft">&#160;</td><td class="mdescRight">[This method is deprecated, use <a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a" title="Open device with a specific link.">OpenWith(LinkPtr)</a> instead.] Open device by link type and location.  <a href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970">More...</a><br /></td></tr>
 <tr class="separator:a31648a4c59e4d98ab87873962d67a970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe60c0ebdfb09010ce319a70788fc5a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a">OpenWith</a> (<a class="el" href="namespaceautd.html#ad99cdec66b028c3e3d20dbb3505885dd">LinkPtr</a> link)=0</td></tr>
+<tr class="memdesc:acbe60c0ebdfb09010ce319a70788fc5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open device with a specific link.  <a href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a">More...</a><br /></td></tr>
+<tr class="separator:acbe60c0ebdfb09010ce319a70788fc5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a34a72ac892dc59ab9b1468f6ba4bafc1">SetSilentMode</a> (bool silent) noexcept=0</td></tr>
 <tr class="memdesc:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set silent mode.  <a href="classautd_1_1Controller.html#a34a72ac892dc59ab9b1468f6ba4bafc1">More...</a><br /></td></tr>
 <tr class="separator:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,8 +162,36 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AUTD <a class="el" href="classautd_1_1Controller.html" title="AUTD Controller.">Controller</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00043">43</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00028">28</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab1a54c088f66357bd2e3c509a9eaa7e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a54c088f66357bd2e3c509a9eaa7e0">&#9670;&nbsp;</a></span>~Controller()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual autd::Controller::~Controller </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00030">30</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae2d2e85461b7f5139a326f8e2261804e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2d2e85461b7f5139a326f8e2261804e">&#9670;&nbsp;</a></span>AppendGain()</h2>
 
@@ -370,7 +403,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calibrate Modulation. </p>
-<p>If you use more than one AUTD, call this function only once after <a class="el" href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970" title="Open device by link type and location.">Open()</a>. It takes several seconds and blocks the thread in the meantime. </p>
+<p>If you use more than one AUTD, call this function only once after <a class="el" href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970" title="[This method is deprecated, use OpenWith(LinkPtr) instead.] Open device by link type and location.">Open()</a>. It takes several seconds and blocks the thread in the meantime. </p>
 
 </div>
 </div>
@@ -674,7 +707,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Open device by link type and location. </p>
+<p>[This method is deprecated, use <a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a" title="Open device with a specific link.">OpenWith(LinkPtr)</a> instead.] Open device by link type and location. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>LinkType </td></tr>
@@ -684,6 +717,40 @@ Static Public Member Functions</h2></td></tr>
 <li>EMULATOR: &lt;ipv4 addr&gt;:&lt;port&gt; of the computer running emulator </li>
 </ol>
 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="acbe60c0ebdfb09010ce319a70788fc5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe60c0ebdfb09010ce319a70788fc5a">&#9670;&nbsp;</a></span>OpenWith()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void autd::Controller::OpenWith </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#ad99cdec66b028c3e3d20dbb3505885dd">LinkPtr</a>&#160;</td>
+          <td class="paramname"><em>link</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open device with a specific link. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">link</td><td><a class="el" href="classautd_1_1Link.html">Link</a> </td></tr>
   </table>
   </dd>
 </dl>

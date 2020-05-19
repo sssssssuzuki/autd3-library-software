@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['quaternion_197',['Quaternion',['../classautd_1_1__utils_1_1Quaternion.html',1,'autd::_utils']]]
+  ['link_238',['Link',['../classautd_1_1Link.html',1,'autd']]],
+  ['localethercatlink_239',['LocalEthercatLink',['../classautd_1_1LocalEthercatLink.html',1,'autd']]]
 ];

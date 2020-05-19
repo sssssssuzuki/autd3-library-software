@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rawpcmmodulation_369',['RawPCMModulation',['../namespaceautd.html#a14a5880a50ebb2977b62629b35562461',1,'autd']]]
+  ['planewavegain_448',['PlaneWaveGain',['../namespaceautd.html#aa8665bd19e52f2f22cc921fbe9fd8060',1,'autd']]]
 ];

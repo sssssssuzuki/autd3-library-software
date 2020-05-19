@@ -1,6 +1,7 @@
 <map id="include/geometry.hpp" name="include/geometry.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="85,5,229,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="132,5,276,32"/>
 <area shape="rect" id="node2" href="$gain_8hpp.html" title=" " alt="" coords="100,80,215,107"/>
 <area shape="rect" id="node3" href="$controller_8hpp.html" title=" " alt="" coords="5,155,149,181"/>
 <area shape="rect" id="node4" href="$autd3_8hpp.html" title=" " alt="" coords="125,229,248,256"/>
+<area shape="rect" id="node5" href="$emulator__link_8hpp.html" title=" " alt="" coords="289,80,457,107"/>
 </map>

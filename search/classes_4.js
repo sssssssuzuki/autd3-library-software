@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['hologainsdp_193',['HoloGainSdp',['../classautd_1_1gain_1_1HoloGainSdp.html',1,'autd::gain']]]
+  ['gain_233',['Gain',['../classautd_1_1gain_1_1Gain.html',1,'autd::gain']]],
+  ['geometry_234',['Geometry',['../classautd_1_1Geometry.html',1,'autd']]],
+  ['groupedgain_235',['GroupedGain',['../classautd_1_1gain_1_1GroupedGain.html',1,'autd::gain']]]
 ];

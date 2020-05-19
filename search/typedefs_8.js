@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['nullgain_367',['NullGain',['../namespaceautd.html#aa76b5f5ce4f0e179823917aa79efc38b',1,'autd']]]
+  ['matlabgain_444',['MatlabGain',['../namespaceautd.html#a55717dc3ef9772052d6dace0f86b6cf1',1,'autd']]],
+  ['modulation_445',['Modulation',['../namespaceautd.html#a6c1b3814c892692d79fddf5199dd85c5',1,'autd']]],
+  ['modulationptr_446',['ModulationPtr',['../namespaceautd.html#a6a1a17952c10d0cce5d2b11f637ab924',1,'autd']]]
 ];

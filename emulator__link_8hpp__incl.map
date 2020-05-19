@@ -1,0 +1,15 @@
+<map id="include/emulator_link.hpp" name="include/emulator_link.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="242,7,410,33"/>
+<area shape="rect" id="node2" title=" " alt="" coords="42,305,110,332"/>
+<area shape="rect" id="node3" title=" " alt="" coords="284,305,338,332"/>
+<area shape="rect" id="node4" title=" " alt="" coords="447,305,506,332"/>
+<area shape="rect" id="node5" href="$geometry_8hpp.html" title=" " alt="" coords="124,81,223,108"/>
+<area shape="rect" id="node12" href="$link_8hpp.html" title=" " alt="" coords="363,231,430,257"/>
+<area shape="rect" id="node6" href="$quaternion_8hpp.html" title=" " alt="" coords="182,156,288,183"/>
+<area shape="rect" id="node10" href="$vector3_8hpp.html" title=" " alt="" coords="68,156,157,183"/>
+<area shape="rect" id="node7" title=" " alt="" coords="134,231,192,257"/>
+<area shape="rect" id="node8" href="$core_8hpp.html" title=" " alt="" coords="217,231,288,257"/>
+<area shape="rect" id="node9" title=" " alt="" coords="208,305,260,332"/>
+<area shape="rect" id="node11" title=" " alt="" coords="38,231,110,257"/>
+<area shape="rect" id="node13" title=" " alt="" coords="362,305,422,332"/>
+</map>
