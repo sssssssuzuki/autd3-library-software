@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ec_5fsm3_5fcyctime_5fns_412',['ec_sm3_cyctime_ns',['../structautdsoem_1_1ECConfig.html#ab9f2f66eb946376e9c39bb0ba540b012',1,'autdsoem::ECConfig']]],
-  ['ec_5fsync0_5fcyctime_5fns_413',['ec_sync0_cyctime_ns',['../structautdsoem_1_1ECConfig.html#ad350039a34d92d9c799f74d31500d390',1,'autdsoem::ECConfig']]]
+  ['mod_5fbuf_5fsize_384',['MOD_BUF_SIZE',['../namespaceautd.html#a825fb105754c76da4b607b9be54708fc',1,'autd']]],
+  ['mod_5fsampling_5ffreq_385',['MOD_SAMPLING_FREQ',['../namespaceautd.html#ac7d89b09b8745855d33e51d974f84a73',1,'autd']]]
 ];

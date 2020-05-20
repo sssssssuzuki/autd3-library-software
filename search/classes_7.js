@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['link_238',['Link',['../classautd_1_1Link.html',1,'autd']]],
-  ['localethercatlink_239',['LocalEthercatLink',['../classautd_1_1LocalEthercatLink.html',1,'autd']]]
+  ['matlabgain_220',['MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html',1,'autd::gain']]],
+  ['modulation_221',['Modulation',['../classautd_1_1modulation_1_1Modulation.html',1,'autd::modulation']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['planewavegain_242',['PlaneWaveGain',['../classautd_1_1gain_1_1PlaneWaveGain.html',1,'autd::gain']]]
+  ['quaternion_223',['Quaternion',['../classautd_1_1__utils_1_1Quaternion.html',1,'autd::_utils']]]
 ];

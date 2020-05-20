@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['matlabgain_240',['MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html',1,'autd::gain']]],
-  ['modulation_241',['Modulation',['../classautd_1_1modulation_1_1Modulation.html',1,'autd::modulation']]]
+  ['planewavegain_222',['PlaneWaveGain',['../classautd_1_1gain_1_1PlaneWaveGain.html',1,'autd::gain']]]
 ];

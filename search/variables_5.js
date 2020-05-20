@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['input_5fframe_5fsize_416',['input_frame_size',['../structautdsoem_1_1ECConfig.html#a9e2700e6cabf7ec50a88047b975522fc',1,'autdsoem::ECConfig']]]
+  ['ultrasound_5ffrequency_390',['ULTRASOUND_FREQUENCY',['../namespaceautd.html#add3d98c8c808313d610177de1b34439c',1,'autd']]],
+  ['ultrasound_5fwavelength_391',['ULTRASOUND_WAVELENGTH',['../namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1',1,'autd']]]
 ];
