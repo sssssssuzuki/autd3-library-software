@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classautd_1_1Link.html" title=" " alt="" coords="5,81,84,108"/>
-<area shape="rect" id="node2" href="$classautd_1_1EmulatorLink.html" title=" " alt="" coords="147,5,276,32"/>
-<area shape="rect" id="node3" href="$classautd_1_1EthercatLink.html" title=" " alt="" coords="148,56,275,83"/>
-<area shape="rect" id="node4" href="$classautd_1_1LocalEthercatLink.html" title=" " alt="" coords="132,107,291,133"/>
-<area shape="rect" id="node5" href="$classautd_1_1SOEMLink.html" title=" " alt="" coords="153,157,269,184"/>
+<area shape="rect" id="node1" href="$classautd_1_1Link.html" title="Link is the interface to the AUTD device." alt="" coords="5,81,84,108"/>
+<area shape="rect" id="node2" href="$classautd_1_1EmulatorLink.html" title="Experimental: Link to connect with Emulator" alt="" coords="147,5,276,32"/>
+<area shape="rect" id="node3" href="$classautd_1_1EthercatLink.html" title="EtherCAT Link using remote TwinCAT server." alt="" coords="148,56,275,83"/>
+<area shape="rect" id="node4" href="$classautd_1_1LocalEthercatLink.html" title="EtherCAT Link using local TwinCAT server." alt="" coords="132,107,291,133"/>
+<area shape="rect" id="node5" href="$classautd_1_1SOEMLink.html" title="Link using SOEM" alt="" coords="153,157,269,184"/>
 </map>

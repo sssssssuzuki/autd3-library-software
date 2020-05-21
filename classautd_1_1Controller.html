@@ -155,9 +155,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">ControllerPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a824edbf48e91dda68d2c0aa07d1bfba1">Create</a> ()</td></tr>
 <tr class="memdesc:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create controller.  <a href="classautd_1_1Controller.html#a824edbf48e91dda68d2c0aa07d1bfba1">More...</a><br /></td></tr>
 <tr class="separator:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8dd2edffb145b82960654ca087700c1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#aeab24f1e86f5ac56326f607081d0db48">EtherCATAdapters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#ab8dd2edffb145b82960654ca087700c1">EnumerateAdapters</a> (int *const size)</td></tr>
-<tr class="memdesc:ab8dd2edffb145b82960654ca087700c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumerate Ethernet adapter of the computer.  <a href="classautd_1_1Controller.html#ab8dd2edffb145b82960654ca087700c1">More...</a><br /></td></tr>
-<tr class="separator:ab8dd2edffb145b82960654ca087700c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AUTD <a class="el" href="classautd_1_1Controller.html" title="AUTD Controller.">Controller</a>. </p>
@@ -461,34 +458,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8dd2edffb145b82960654ca087700c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8dd2edffb145b82960654ca087700c1">&#9670;&nbsp;</a></span>EnumerateAdapters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="namespaceautd.html#aeab24f1e86f5ac56326f607081d0db48">EtherCATAdapters</a> autd::Controller::EnumerateAdapters </td>
-          <td>(</td>
-          <td class="paramtype">int *const&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Enumerate Ethernet adapter of the computer. </p>
-
-</div>
-</div>
 <a id="a7ca1a36782133adf9cdf33d47630080c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ca1a36782133adf9cdf33d47630080c">&#9670;&nbsp;</a></span>FinishSTModulation()</h2>
 
@@ -713,7 +682,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>LinkType </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">location</td><td>The scheme of location is as follows:<ol type="1">
 <li>ETHERCAT, TwinCAT: &lt;ams net id&gt; or &lt;ipv4 addr&gt;:&lt;ams net id&gt; (ex. 192.168.1.2:192.168.1.3.1.1 ). The ipv4 addr will be extracted from leading 4 octets of ams net id if not specified. If empty, localhost</li>
-<li>SOEM: Network interface name (can be obtained by <a class="el" href="classautd_1_1Controller.html#ab8dd2edffb145b82960654ca087700c1" title="Enumerate Ethernet adapter of the computer.">EnumerateAdapters()</a>)</li>
+<li>SOEM: Network interface name (can be obtained by <a class="el" href="classautd_1_1SOEMLink.html#ad1aa7b8a1556539d26cb27d3a752fa64" title="Enumerate Ethernet adapters of the computer.">SOEMLink::EnumerateAdapters()</a>)</li>
 <li>EMULATOR: &lt;ipv4 addr&gt;:&lt;port&gt; of the computer running emulator </li>
 </ol>
 </td></tr>
@@ -750,7 +719,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Open device with a specific link. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">link</td><td><a class="el" href="classautd_1_1Link.html">Link</a> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">link</td><td><a class="el" href="classautd_1_1Link.html" title="Link is the interface to the AUTD device.">Link</a> </td></tr>
   </table>
   </dd>
 </dl>
