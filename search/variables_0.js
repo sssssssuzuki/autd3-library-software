@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['buffer_407',['buffer',['../classautd_1_1modulation_1_1Modulation.html#afc7b1cda705040701edf82abe25e8aa7',1,'autd::modulation::Modulation']]]
+  ['autd_5fheight_409',['AUTD_HEIGHT',['../namespaceautd.html#a037a3a6161f9fefda67f3268d690b997',1,'autd']]],
+  ['autd_5fwidth_410',['AUTD_WIDTH',['../namespaceautd.html#a2f6e2d9e43dabab468072d6a8934b6c9',1,'autd']]]
 ];

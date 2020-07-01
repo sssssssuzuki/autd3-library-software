@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['point_5fseq_5fbase_5ffreq_414',['POINT_SEQ_BASE_FREQ',['../namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588',1,'autd']]],
-  ['point_5fseq_5fbuffer_5fsize_5fmax_415',['POINT_SEQ_BUFFER_SIZE_MAX',['../namespaceautd.html#a37c491d3aec2472bf5109295388ce89a',1,'autd']]],
-  ['point_5fseq_5fclk_5fidx_5fmax_416',['POINT_SEQ_CLK_IDX_MAX',['../namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b',1,'autd']]]
+  ['num_5ftrans_5fin_5funit_415',['NUM_TRANS_IN_UNIT',['../namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea',1,'autd']]],
+  ['num_5ftrans_5fx_416',['NUM_TRANS_X',['../namespaceautd.html#ad6774eed0e4a9b96e644dbe4b470e795',1,'autd']]],
+  ['num_5ftrans_5fy_417',['NUM_TRANS_Y',['../namespaceautd.html#a8caff93de9170505fcf236e48fc5d602',1,'autd']]]
 ];

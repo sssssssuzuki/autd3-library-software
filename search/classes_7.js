@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['matlabgain_232',['MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html',1,'autd::gain']]],
-  ['modulation_233',['Modulation',['../classautd_1_1modulation_1_1Modulation.html',1,'autd::modulation']]]
+  ['matlabgain_234',['MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html',1,'autd::gain']]],
+  ['modulation_235',['Modulation',['../classautd_1_1modulation_1_1Modulation.html',1,'autd::modulation']]]
 ];
