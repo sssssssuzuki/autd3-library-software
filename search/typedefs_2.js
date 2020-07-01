@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['controllerptr_397',['ControllerPtr',['../namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869',1,'autd']]],
-  ['customgain_398',['CustomGain',['../namespaceautd.html#a1afaf43e962115b07564769f76b80721',1,'autd']]]
+  ['ethercatadapter_425',['EtherCATAdapter',['../namespaceautd_1_1link.html#a9c4484cac63f7b1ffe36b259b8541e34',1,'autd::link']]],
+  ['ethercatadapters_426',['EtherCATAdapters',['../namespaceautd_1_1link.html#ab7530ecdf180b6b7866b37d7d80f55e9',1,'autd::link']]]
 ];

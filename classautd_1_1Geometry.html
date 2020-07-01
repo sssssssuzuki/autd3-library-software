@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.1</span>
+   &#160;<span id="projectnumber">0.5.0</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a> (int transducer_idx)=0</td></tr>
 <tr class="memdesc:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of a transducer specified by id.  <a href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">More...</a><br /></td></tr>
 <tr class="separator:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3632039c9ff2e1c82445c22c062b8a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">local_position</a> (int device, <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> global_position)=0</td></tr>
+<tr class="memdesc:a7b3632039c9ff2e1c82445c22c062b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a global position to a local position.  <a href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">More...</a><br /></td></tr>
+<tr class="separator:a7b3632039c9ff2e1c82445c22c062b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99bcc2a6086508a20f93870d0461b6c9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9">direction</a> (int transducer_id)=0</td></tr>
 <tr class="memdesc:a99bcc2a6086508a20f93870d0461b6c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized direction of a transducer specified by id.  <a href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9">More...</a><br /></td></tr>
 <tr class="separator:a99bcc2a6086508a20f93870d0461b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -405,6 +408,44 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Convert device ID into group ID. </p>
+
+</div>
+</div>
+<a id="a7b3632039c9ff2e1c82445c22c062b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b3632039c9ff2e1c82445c22c062b8a">&#9670;&nbsp;</a></span>local_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::local_position </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td>
+          <td class="paramname"><em>global_position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert a global position to a local position. </p>
 
 </div>
 </div>

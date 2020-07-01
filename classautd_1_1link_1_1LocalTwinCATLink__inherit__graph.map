@@ -1,0 +1,4 @@
+<map id="autd::link::LocalTwinCATLink" name="autd::link::LocalTwinCATLink">
+<area shape="rect" id="node1" title="TwinCATLink using local TwinCAT server." alt="" coords="5,80,196,107"/>
+<area shape="rect" id="node2" href="$classautd_1_1link_1_1Link.html" title="Link is the interface to the AUTD device." alt="" coords="49,5,153,32"/>
+</map>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.1</span>
+   &#160;<span id="projectnumber">0.5.0</span>
    </div>
   </td>
  </tr>
@@ -81,13 +81,14 @@ $(function() {
   <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a2ca6efe33e22e7f5163e7cb1dc77b96f">deviceIdForTransIdx</a>(int transducer_idx)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9">direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a5764b7a8365413f9a32468c6fb1d6374">GroupIDForDeviceID</a>(int device_iD)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a3f0832f54f993b8dadafc0ed96b430ef">numDevices</a>() noexcept=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a401fb74386e5208858769c03bfc0baa1">numTransducers</a>() noexcept=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a>(int transducer_idx)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a698f8d913ac9a6a087262cb6410134d5">x_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#ab2c96335d980eb40930ca72edc3ddb58">y_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf">z_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a1ee00c8f2bbaa98d35fd8fbf1f951309">~Geometry</a>()</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">local_position</a>(int device, Vector3 global_position)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a3f0832f54f993b8dadafc0ed96b430ef">numDevices</a>() noexcept=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a401fb74386e5208858769c03bfc0baa1">numTransducers</a>() noexcept=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a>(int transducer_idx)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a698f8d913ac9a6a087262cb6410134d5">x_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#ab2c96335d980eb40930ca72edc3ddb58">y_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf">z_direction</a>(int transducer_id)=0</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1Geometry.html#a1ee00c8f2bbaa98d35fd8fbf1f951309">~Geometry</a>()</td><td class="entry"><a class="el" href="classautd_1_1Geometry.html">autd::Geometry</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.1</span>
+   &#160;<span id="projectnumber">0.5.0</span>
    </div>
   </td>
  </tr>
@@ -68,9 +68,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">core.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,17 +94,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="core_8hpp__dep__incl.png" border="0" usemap="#include_2core_8hppdep" alt=""/></div>
 <map name="include_2core_8hppdep" id="include_2core_8hppdep">
-<area shape="rect" title=" " alt="" coords="540,5,656,32"/>
-<area shape="rect" href="gain_8hpp.html" title=" " alt="" coords="81,229,195,256"/>
-<area shape="rect" href="quaternion_8hpp.html" title=" " alt="" coords="5,80,156,107"/>
-<area shape="rect" href="vector3_8hpp.html" title=" " alt="" coords="479,80,613,107"/>
-<area shape="rect" href="modulation_8hpp.html" title=" " alt="" coords="638,229,793,256"/>
-<area shape="rect" href="ethercat__link_8hpp.html" title=" " alt="" coords="689,80,854,107"/>
-<area shape="rect" href="soem__link_8hpp.html" title=" " alt="" coords="879,80,1029,107"/>
-<area shape="rect" href="controller_8hpp.html" title=" " alt="" coords="419,304,563,331"/>
-<area shape="rect" href="autd3_8hpp.html" title=" " alt="" coords="301,379,423,405"/>
-<area shape="rect" href="geometry_8hpp.html" title=" " alt="" coords="282,155,426,181"/>
-<area shape="rect" href="emulator__link_8hpp.html" title=" " alt="" coords="270,229,438,256"/>
+<area shape="rect" title=" " alt="" coords="602,5,718,32"/>
+<area shape="rect" href="gain_8hpp.html" title=" " alt="" coords="22,229,136,256"/>
+<area shape="rect" href="quaternion_8hpp.html" title=" " alt="" coords="472,80,622,107"/>
+<area shape="rect" href="vector3_8hpp.html" title=" " alt="" coords="106,80,241,107"/>
+<area shape="rect" href="modulation_8hpp.html" title=" " alt="" coords="528,229,683,256"/>
+<area shape="rect" href="sequence_8hpp.html" title=" " alt="" coords="698,155,844,181"/>
+<area shape="rect" href="soem__link_8hpp.html" title=" " alt="" coords="749,80,900,107"/>
+<area shape="rect" href="twincat__link_8hpp.html" title=" " alt="" coords="924,80,1084,107"/>
+<area shape="rect" href="controller_8hpp.html" title=" " alt="" coords="102,304,246,331"/>
+<area shape="rect" href="autd3_8hpp.html" title=" " alt="" coords="222,379,344,405"/>
+<area shape="rect" href="geometry_8hpp.html" title=" " alt="" coords="211,155,355,181"/>
+<area shape="rect" href="emulator__link_8hpp.html" title=" " alt="" coords="312,229,480,256"/>
 </map>
 </div>
 </div>
@@ -118,74 +117,33 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceautd_1_1__utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1__utils.html">autd::_utils</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceautd_1_1link"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1link.html">autd::link</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceautd_1_1gain"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html">autd::gain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceautd_1_1modulation"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1modulation.html">autd::modulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceautd_1_1sequence"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1sequence.html">autd::sequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aa76b5f5ce4f0e179823917aa79efc38b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aa76b5f5ce4f0e179823917aa79efc38b">autd::NullGain</a> = gain::Gain</td></tr>
-<tr class="separator:aa76b5f5ce4f0e179823917aa79efc38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a28674814b35c0846b21032716a99f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2a28674814b35c0846b21032716a99f9">autd::HoloGain</a> = gain::HoloGainSdp</td></tr>
-<tr class="separator:a2a28674814b35c0846b21032716a99f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8665bd19e52f2f22cc921fbe9fd8060"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aa8665bd19e52f2f22cc921fbe9fd8060">autd::PlaneWaveGain</a> = gain::PlaneWaveGain</td></tr>
-<tr class="separator:aa8665bd19e52f2f22cc921fbe9fd8060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace51362efd45a237b6c6b892aeed6b03"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ace51362efd45a237b6c6b892aeed6b03">autd::FocalPointGain</a> = gain::FocalPointGain</td></tr>
-<tr class="separator:ace51362efd45a237b6c6b892aeed6b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02b93b7af59f1b46d5871a02127685cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a02b93b7af59f1b46d5871a02127685cb">autd::BesselBeamGain</a> = gain::BesselBeamGain</td></tr>
-<tr class="separator:a02b93b7af59f1b46d5871a02127685cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1afaf43e962115b07564769f76b80721"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a1afaf43e962115b07564769f76b80721">autd::CustomGain</a> = gain::CustomGain</td></tr>
-<tr class="separator:a1afaf43e962115b07564769f76b80721"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7470cc93a85669188076458d789dccc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad7470cc93a85669188076458d789dccc">autd::GroupedGain</a> = gain::GroupedGain</td></tr>
-<tr class="separator:ad7470cc93a85669188076458d789dccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6465e1860825833c594fe254be6d6dee"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6465e1860825833c594fe254be6d6dee">autd::HoloGainSdp</a> = gain::HoloGainSdp</td></tr>
-<tr class="separator:a6465e1860825833c594fe254be6d6dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55717dc3ef9772052d6dace0f86b6cf1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a55717dc3ef9772052d6dace0f86b6cf1">autd::MatlabGain</a> = gain::MatlabGain</td></tr>
-<tr class="separator:a55717dc3ef9772052d6dace0f86b6cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aacddaccb523b9bc236bbb89d797a78"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a8aacddaccb523b9bc236bbb89d797a78">autd::TransducerTestGain</a> = gain::TransducerTestGain</td></tr>
-<tr class="separator:a8aacddaccb523b9bc236bbb89d797a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c1b3814c892692d79fddf5199dd85c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6c1b3814c892692d79fddf5199dd85c5">autd::Modulation</a> = modulation::Modulation</td></tr>
-<tr class="separator:a6c1b3814c892692d79fddf5199dd85c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26928272229cf51bc3ea922f36e58615"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a26928272229cf51bc3ea922f36e58615">autd::SineModulation</a> = modulation::SineModulation</td></tr>
-<tr class="separator:a26928272229cf51bc3ea922f36e58615"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c332de9635eb1436bb44750c0660085"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a4c332de9635eb1436bb44750c0660085">autd::SawModulation</a> = modulation::SawModulation</td></tr>
-<tr class="separator:a4c332de9635eb1436bb44750c0660085"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a5880a50ebb2977b62629b35562461"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a14a5880a50ebb2977b62629b35562461">autd::RawPCMModulation</a> = modulation::RawPCMModulation</td></tr>
-<tr class="separator:a14a5880a50ebb2977b62629b35562461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d746a8f220bb0d59a833978f28819df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a8d746a8f220bb0d59a833978f28819df">autd::WavModulation</a> = modulation::WavModulation</td></tr>
-<tr class="separator:a8d746a8f220bb0d59a833978f28819df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba37b8bac919b10b6076cb43249e7db3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aba37b8bac919b10b6076cb43249e7db3">autd::EtherCATAdapter</a> = std::pair&lt; std::string, std::string &gt;</td></tr>
-<tr class="separator:aba37b8bac919b10b6076cb43249e7db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9987a6e6649d6caf2c883bf0bd7240b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#a9987a6e6649d6caf2c883bf0bd7240b0">autd::gain::NullGain</a> = Gain</td></tr>
+<tr class="separator:a9987a6e6649d6caf2c883bf0bd7240b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a76e44baa2fc4a6e537f197500353f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#ab7a76e44baa2fc4a6e537f197500353f">autd::gain::HoloGain</a> = HoloGainSdp</td></tr>
+<tr class="separator:ab7a76e44baa2fc4a6e537f197500353f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6c61ef858b46b1b35bc0019ebb7fc6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aae6c61ef858b46b1b35bc0019ebb7fc6">autd::GainPtr</a> = std::shared_ptr&lt; gain::Gain &gt;</td></tr>
 <tr class="separator:aae6c61ef858b46b1b35bc0019ebb7fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99cdec66b028c3e3d20dbb3505885dd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad99cdec66b028c3e3d20dbb3505885dd">autd::LinkPtr</a> = std::shared_ptr&lt; Link &gt;</td></tr>
-<tr class="separator:ad99cdec66b028c3e3d20dbb3505885dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb23fa0532da3d9178c03045c7e42896"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#acb23fa0532da3d9178c03045c7e42896">autd::LinkPtr</a> = std::shared_ptr&lt; link::Link &gt;</td></tr>
+<tr class="separator:acb23fa0532da3d9178c03045c7e42896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1a17952c10d0cce5d2b11f637ab924"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6a1a17952c10d0cce5d2b11f637ab924">autd::ModulationPtr</a> = std::shared_ptr&lt; modulation::Modulation &gt;</td></tr>
 <tr class="separator:a6a1a17952c10d0cce5d2b11f637ab924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeab24f1e86f5ac56326f607081d0db48"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aeab24f1e86f5ac56326f607081d0db48">autd::EtherCATAdapters</a> = std::vector&lt; EtherCATAdapter &gt;</td></tr>
-<tr class="separator:aeab24f1e86f5ac56326f607081d0db48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4090d5d851ee1dc3e378012600c1fd04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a4090d5d851ee1dc3e378012600c1fd04">autd::SequencePtr</a> = std::shared_ptr&lt; sequence::PointSequence &gt;</td></tr>
+<tr class="separator:a4090d5d851ee1dc3e378012600c1fd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41ca445e4ceb29ec29a5efa7d1ae869"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">autd::ControllerPtr</a> = std::shared_ptr&lt; Controller &gt;</td></tr>
 <tr class="separator:ad41ca445e4ceb29ec29a5efa7d1ae869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a5518e2af5efb606ab313ee89dbdb99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6a5518e2af5efb606ab313ee89dbdb99">autd::FirmwareInfoList</a> = std::vector&lt; FirmwareInfo &gt;</td></tr>
 <tr class="separator:a6a5518e2af5efb606ab313ee89dbdb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a56e8ba057d6cca9bcde82dd49a2e761d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a56e8ba057d6cca9bcde82dd49a2e761d">autd::LinkType</a> : int { <a class="el" href="namespaceautd.html#a56e8ba057d6cca9bcde82dd49a2e761dac954164d21804a68c6bd9c9ed29ac5b3">autd::LinkType::ETHERCAT</a>, 
-<a class="el" href="namespaceautd.html#a56e8ba057d6cca9bcde82dd49a2e761dafe6055cc8373bc022f575aeb6c1e6207">autd::LinkType::TwinCAT</a>, 
-<a class="el" href="namespaceautd.html#a56e8ba057d6cca9bcde82dd49a2e761da7977567bc5809324c7efefdf77566e33">autd::LinkType::SOEM</a>
- }</td></tr>
-<tr class="separator:a56e8ba057d6cca9bcde82dd49a2e761d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aea6ec41362ee8db2dc7c0c8ffaf62787"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aea6ec41362ee8db2dc7c0c8ffaf62787"><td class="memTemplItemLeft" align="right" valign="top">static std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aea6ec41362ee8db2dc7c0c8ffaf62787">autd::CreateHelper</a> ()</td></tr>
-<tr class="separator:aea6ec41362ee8db2dc7c0c8ffaf62787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643fd7b0c4085fd0adce1862b283795b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a643fd7b0c4085fd0adce1862b283795b"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a643fd7b0c4085fd0adce1862b283795b">autd::DeleteHelper</a> (std::shared_ptr&lt; T &gt; *ptr)</td></tr>
-<tr class="separator:a643fd7b0c4085fd0adce1862b283795b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

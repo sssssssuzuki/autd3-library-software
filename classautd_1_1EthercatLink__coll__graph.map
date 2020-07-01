@@ -1,4 +1,0 @@
-<map id="autd::EthercatLink" name="autd::EthercatLink">
-<area shape="rect" id="node1" title="EtherCAT Link using remote TwinCAT server." alt="" coords="5,80,132,107"/>
-<area shape="rect" id="node2" href="$classautd_1_1Link.html" title="Link is the interface to the AUTD device." alt="" coords="29,5,108,32"/>
-</map>

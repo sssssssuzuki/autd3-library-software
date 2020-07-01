@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rawpcmmodulation_166',['RawPCMModulation',['../classautd_1_1modulation_1_1RawPCMModulation.html',1,'autd::modulation::RawPCMModulation'],['../namespaceautd.html#a14a5880a50ebb2977b62629b35562461',1,'autd::RawPCMModulation()']]],
-  ['remaininginbuffer_167',['remainingInBuffer',['../classautd_1_1Controller.html#aac6df062318ecc2c0a692dd24270506c',1,'autd::Controller']]]
+  ['rawpcmmodulation_173',['RawPCMModulation',['../classautd_1_1modulation_1_1RawPCMModulation.html',1,'autd::modulation']]],
+  ['remaining_5fin_5fbuffer_174',['remaining_in_buffer',['../classautd_1_1Controller.html#a3d503f1398aca58ea62f76b9abc06a7c',1,'autd::Controller']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.1</span>
+   &#160;<span id="projectnumber">0.5.0</span>
    </div>
   </td>
  </tr>
@@ -75,7 +75,7 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// Created Date: 07/06/2016</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author: Seki Inoue</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// -----</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 30/04/2020</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 01/07/2020</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Modified By: Shun Suzuki (suzuki@hapis.k.u-tokyo.ac.jp)</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// -----</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Copyright (c) 2016-2020 Hapis Lab. All rights reserved.</span></div>
@@ -102,12 +102,20 @@ $(function() {
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="namespaceautd.html#ac7d89b09b8745855d33e51d974f84a73">   31</a></span>&#160;constexpr <span class="keyword">auto</span> <a class="code" href="namespaceautd.html#ac7d89b09b8745855d33e51d974f84a73">MOD_SAMPLING_FREQ</a> = 4000;</div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="namespaceautd.html#a825fb105754c76da4b607b9be54708fc">   32</a></span>&#160;constexpr <span class="keyword">auto</span> <a class="code" href="namespaceautd.html#a825fb105754c76da4b607b9be54708fc">MOD_BUF_SIZE</a> = 4000;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}  <span class="comment">// namespace autd</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="namespaceautd.html#a37c491d3aec2472bf5109295388ce89a">   34</a></span>&#160;constexpr <span class="keyword">auto</span> <a class="code" href="namespaceautd.html#a37c491d3aec2472bf5109295388ce89a">POINT_SEQ_BUFFER_SIZE_MAX</a> = 2000;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b">   35</a></span>&#160;constexpr <span class="keyword">auto</span> <a class="code" href="namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b">POINT_SEQ_CLK_IDX_MAX</a> = 40000;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588">   36</a></span>&#160;constexpr <span class="keywordtype">double</span> <a class="code" href="namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588">POINT_SEQ_BASE_FREQ</a> = 40000.0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}  <span class="comment">// namespace autd</span></div>
 </div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="anamespaceautd_html_ab07ccf15669a8c1d37a74da2e756f588"><div class="ttname"><a href="namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588">autd::POINT_SEQ_BASE_FREQ</a></div><div class="ttdeci">constexpr double POINT_SEQ_BASE_FREQ</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00036">consts.hpp:36</a></div></div>
+<div class="ttc" id="anamespaceautd_html_acd8328a50ea98ad6ad7347ff45e8464b"><div class="ttname"><a href="namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b">autd::POINT_SEQ_CLK_IDX_MAX</a></div><div class="ttdeci">constexpr auto POINT_SEQ_CLK_IDX_MAX</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00035">consts.hpp:35</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a82a93877b9cb4080c03dfd540a0a6ee1"><div class="ttname"><a href="namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1">autd::ULTRASOUND_WAVELENGTH</a></div><div class="ttdeci">constexpr auto ULTRASOUND_WAVELENGTH</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00029">consts.hpp:29</a></div></div>
 <div class="ttc" id="anamespaceautd_html"><div class="ttname"><a href="namespaceautd.html">autd</a></div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00016">consts.hpp:16</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a682044665c146ab76d94e776224d8de0"><div class="ttname"><a href="namespaceautd.html#a682044665c146ab76d94e776224d8de0">autd::TRANS_SIZE_MM</a></div><div class="ttdeci">constexpr double TRANS_SIZE_MM</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00020">consts.hpp:20</a></div></div>
 <div class="ttc" id="anamespaceautd_html_ac7d89b09b8745855d33e51d974f84a73"><div class="ttname"><a href="namespaceautd.html#ac7d89b09b8745855d33e51d974f84a73">autd::MOD_SAMPLING_FREQ</a></div><div class="ttdeci">constexpr auto MOD_SAMPLING_FREQ</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00031">consts.hpp:31</a></div></div>
+<div class="ttc" id="anamespaceautd_html_a37c491d3aec2472bf5109295388ce89a"><div class="ttname"><a href="namespaceautd.html#a37c491d3aec2472bf5109295388ce89a">autd::POINT_SEQ_BUFFER_SIZE_MAX</a></div><div class="ttdeci">constexpr auto POINT_SEQ_BUFFER_SIZE_MAX</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00034">consts.hpp:34</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a8e861f65643865270f7fe8610a3bd1ea"><div class="ttname"><a href="namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea">autd::NUM_TRANS_IN_UNIT</a></div><div class="ttdeci">constexpr size_t NUM_TRANS_IN_UNIT</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00017">consts.hpp:17</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a2590369033b0824463ac61d6162ab528"><div class="ttname"><a href="namespaceautd.html#a2590369033b0824463ac61d6162ab528">autd::FPGA_CLOCK</a></div><div class="ttdeci">constexpr auto FPGA_CLOCK</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00026">consts.hpp:26</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a825fb105754c76da4b607b9be54708fc"><div class="ttname"><a href="namespaceautd.html#a825fb105754c76da4b607b9be54708fc">autd::MOD_BUF_SIZE</a></div><div class="ttdeci">constexpr auto MOD_BUF_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="consts_8hpp_source.html#l00032">consts.hpp:32</a></div></div>

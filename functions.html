@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.4.1</span>
+   &#160;<span id="projectnumber">0.5.0</span>
    </div>
   </td>
  </tr>
@@ -71,6 +71,9 @@ $(function() {
 <li>AddDeviceQuaternion()
 : <a class="el" href="classautd_1_1Geometry.html#af7baf0d4ab9aee027647b681b5d83f44">autd::Geometry</a>
 </li>
+<li>angle()
+: <a class="el" href="classautd_1_1__utils_1_1Vector3.html#aa713e9b65e12ef8c64beaf8ac136cc14">autd::_utils::Vector3</a>
+</li>
 <li>AppendGain()
 : <a class="el" href="classautd_1_1Controller.html#ae2d2e85461b7f5139a326f8e2261804e">autd::Controller</a>
 </li>
@@ -83,17 +86,26 @@ $(function() {
 <li>AppendModulationSync()
 : <a class="el" href="classautd_1_1Controller.html#a6d622a284cf3c9492a43df5e4277c8a2">autd::Controller</a>
 </li>
+<li>AppendPoint()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a5865c471d51bfdedb125a863100040e0">autd::sequence::PointSequence</a>
+</li>
+<li>AppendPoints()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a3115a7512ecd5bb9e4b378eadebf080f">autd::sequence::PointSequence</a>
+</li>
+<li>AppendSequence()
+: <a class="el" href="classautd_1_1Controller.html#a63093e90725eac4c77fa3ad305bff354">autd::Controller</a>
+</li>
 <li>AppendSTMGain()
-: <a class="el" href="classautd_1_1Controller.html#a664d4f4a5290e8a9bb8654a6974d5617">autd::Controller</a>
+: <a class="el" href="classautd_1_1Controller.html#a43667710e21c8d7320c0526295a6dfe9">autd::Controller</a>
 </li>
 <li>autd::AUTDController
 : <a class="el" href="classautd_1_1gain_1_1Gain.html#ac92629164d4822c6ac7b684c7be75204">autd::gain::Gain</a>
 , <a class="el" href="classautd_1_1modulation_1_1Modulation.html#ac92629164d4822c6ac7b684c7be75204">autd::modulation::Modulation</a>
+, <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#ac92629164d4822c6ac7b684c7be75204">autd::sequence::PointSequence</a>
 </li>
 <li>AUTDController
 : <a class="el" href="classautd_1_1FirmwareInfo.html#ae97fa9485194ad10ddebcf842dc8738e">autd::FirmwareInfo</a>
 , <a class="el" href="classautd_1_1Geometry.html#ae97fa9485194ad10ddebcf842dc8738e">autd::Geometry</a>
-, <a class="el" href="classautd_1_1Link.html#ae97fa9485194ad10ddebcf842dc8738e">autd::Link</a>
 </li>
 </ul>
 
@@ -117,19 +129,23 @@ $(function() {
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>CalibrateModulation()
-: <a class="el" href="classautd_1_1Controller.html#a56ec37edeebdb662caa97d0f2fc0879a">autd::Controller</a>
+<li>Calibrate()
+: <a class="el" href="classautd_1_1Controller.html#a209c94c4195858f1b3ad92844541e651">autd::Controller</a>
+</li>
+<li>Clear()
+: <a class="el" href="classautd_1_1Controller.html#a33b3663ad67630f3458f2cd9410a05b2">autd::Controller</a>
 </li>
 <li>Close()
 : <a class="el" href="classautd_1_1Controller.html#a791bb24df1a1bbc964765dbce7735fba">autd::Controller</a>
+</li>
+<li>control_points()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a0e10755fb0f1677aa6bfe84062bd1f04">autd::sequence::PointSequence</a>
 </li>
 <li>cpu_version()
 : <a class="el" href="classautd_1_1FirmwareInfo.html#ae3b64ff82307f0dd6cd8d788395fe949">autd::FirmwareInfo</a>
 </li>
 <li>Create()
 : <a class="el" href="classautd_1_1Controller.html#a824edbf48e91dda68d2c0aa07d1bfba1">autd::Controller</a>
-, <a class="el" href="classautd_1_1EmulatorLink.html#aff2279e51ed36e25017e28eb60c54b95">autd::EmulatorLink</a>
-, <a class="el" href="classautd_1_1EthercatLink.html#a88caaaae78d3e212e60d27a535fec172">autd::EthercatLink</a>
 , <a class="el" href="classautd_1_1gain_1_1BesselBeamGain.html#a0da13158444d067f2c764711967eb187">autd::gain::BesselBeamGain</a>
 , <a class="el" href="classautd_1_1gain_1_1CustomGain.html#a99f41130a0d632b83e6cb3cb1c4089de">autd::gain::CustomGain</a>
 , <a class="el" href="classautd_1_1gain_1_1FocalPointGain.html#a0c742586a2b069dc1526bbe1384a5741">autd::gain::FocalPointGain</a>
@@ -139,13 +155,17 @@ $(function() {
 , <a class="el" href="classautd_1_1gain_1_1MatlabGain.html#aa7042315b8de67284954e49dce1a8b4a">autd::gain::MatlabGain</a>
 , <a class="el" href="classautd_1_1gain_1_1PlaneWaveGain.html#aaef716c871a4f4c58d280f026edb1690">autd::gain::PlaneWaveGain</a>
 , <a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html#abd8f1122a78dbc2b2a9ccce4be38bbc2">autd::gain::TransducerTestGain</a>
-, <a class="el" href="classautd_1_1LocalEthercatLink.html#ad244157958855d3e641fabe1f2493856">autd::LocalEthercatLink</a>
+, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#a0ca441a39da3b1a7b494e62f225fdd57">autd::link::EmulatorLink</a>
+, <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#af4d53e2977a1b64ce356093907fbf0e6">autd::link::LocalTwinCATLink</a>
+, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#a323375bc8b69cdcefec395aac41ebd72">autd::link::SOEMLink</a>
+, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#a6a8a8b187147bc31e43c00c8220a0643">autd::link::TwinCATLink</a>
 , <a class="el" href="classautd_1_1modulation_1_1Modulation.html#a29a0169f256aa8a948ddb967ceea99b5">autd::modulation::Modulation</a>
 , <a class="el" href="classautd_1_1modulation_1_1RawPCMModulation.html#a2a766dca62815376538e70be201ec310">autd::modulation::RawPCMModulation</a>
 , <a class="el" href="classautd_1_1modulation_1_1SawModulation.html#ac14171bc66180ceb8900ceee2c771631">autd::modulation::SawModulation</a>
 , <a class="el" href="classautd_1_1modulation_1_1SineModulation.html#a1c40d6cb16b9218ba86ffc62da7160ae">autd::modulation::SineModulation</a>
 , <a class="el" href="classautd_1_1modulation_1_1WavModulation.html#a5235ed24e7fe21916ea1f3311a49e8e4">autd::modulation::WavModulation</a>
-, <a class="el" href="classautd_1_1SOEMLink.html#a4369775af0180b83abb99a9eb0ab753d">autd::SOEMLink</a>
+, <a class="el" href="classautd_1_1sequence_1_1CircumSeq.html#a5138455cb80c5331018f95fd738bb609">autd::sequence::CircumSeq</a>
+, <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a6de24f65b42c99f74338efa952cb890d">autd::sequence::PointSequence</a>
 </li>
 <li>cross()
 : <a class="el" href="classautd_1_1__utils_1_1Vector3.html#aa807f34d63483d8cb362f6938ea7927e">autd::_utils::Vector3</a>
@@ -177,7 +197,7 @@ $(function() {
 
 <h3><a id="index_e"></a>- e -</h3><ul>
 <li>EnumerateAdapters()
-: <a class="el" href="classautd_1_1SOEMLink.html#ad1aa7b8a1556539d26cb27d3a752fa64">autd::SOEMLink</a>
+: <a class="el" href="classautd_1_1link_1_1SOEMLink.html#ae71ec3f51d56962c8a299e29e1bf5e30">autd::link::SOEMLink</a>
 </li>
 </ul>
 
@@ -195,10 +215,16 @@ $(function() {
 <li>fpga_version()
 : <a class="el" href="classautd_1_1FirmwareInfo.html#a71bcb7ac4b06c9101d5cb9873ff95925">autd::FirmwareInfo</a>
 </li>
+<li>frequency()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a8588000bf5631a9a128b2be129e6cce4">autd::sequence::PointSequence</a>
+</li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>Gain()
+: <a class="el" href="classautd_1_1gain_1_1Gain.html#aea4572ac44fd64f341db64d669151ba1">autd::gain::Gain</a>
+</li>
 <li>geometry()
 : <a class="el" href="classautd_1_1Controller.html#ac1c0a7b368fdbce324fa64354df724a3">autd::Controller</a>
 </li>
@@ -228,6 +254,9 @@ $(function() {
 <li>LateralModulationAT()
 : <a class="el" href="classautd_1_1Controller.html#a3a14f0d476cfd89193ae69de7ac21c63">autd::Controller</a>
 </li>
+<li>local_position()
+: <a class="el" href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">autd::Geometry</a>
+</li>
 </ul>
 
 
@@ -252,9 +281,6 @@ $(function() {
 
 
 <h3><a id="index_o"></a>- o -</h3><ul>
-<li>Open()
-: <a class="el" href="classautd_1_1Controller.html#a31648a4c59e4d98ab87873962d67a970">autd::Controller</a>
-</li>
 <li>OpenWith()
 : <a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a">autd::Controller</a>
 </li>
@@ -262,7 +288,7 @@ $(function() {
 : <a class="el" href="classautd_1_1__utils_1_1Vector3.html#a4b2a874906dac44f90106ace737e5cb3">autd::_utils::Vector3</a>
 </li>
 <li>operator*
-: <a class="el" href="classautd_1_1__utils_1_1Vector3.html#a55f5de54017e3c0d36bcd74e873481e2">autd::_utils::Vector3</a>
+: <a class="el" href="classautd_1_1__utils_1_1Vector3.html#abd8faa9c9054c893301d0c47b545917a">autd::_utils::Vector3</a>
 </li>
 <li>operator*=()
 : <a class="el" href="classautd_1_1__utils_1_1Vector3.html#a1a62616e109aa428004019602a5f1e87">autd::_utils::Vector3</a>
@@ -299,6 +325,9 @@ $(function() {
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>PointSequence()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a5aecc9214d9d5e09781250710e211b1b">autd::sequence::PointSequence</a>
+</li>
 <li>position()
 : <a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">autd::Geometry</a>
 </li>
@@ -313,15 +342,24 @@ $(function() {
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
-<li>remainingInBuffer()
-: <a class="el" href="classautd_1_1Controller.html#aac6df062318ecc2c0a692dd24270506c">autd::Controller</a>
+<li>remaining_in_buffer()
+: <a class="el" href="classautd_1_1Controller.html#a3d503f1398aca58ea62f76b9abc06a7c">autd::Controller</a>
 </li>
 </ul>
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>sampling_frequency()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#ae1064102c8ab8da212aa26b9606971f2">autd::sequence::PointSequence</a>
+</li>
+<li>sampling_frequency_division()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#abe9236e2281fa706957c397fe9fe6557">autd::sequence::PointSequence</a>
+</li>
 <li>samplingFrequency()
 : <a class="el" href="classautd_1_1modulation_1_1Modulation.html#a8c5d88e784c337c55a973745a62f8305">autd::modulation::Modulation</a>
+</li>
+<li>SetFrequency()
+: <a class="el" href="classautd_1_1sequence_1_1PointSequence.html#a5cdad493057cb5b6b54e7d4e69ef9567">autd::sequence::PointSequence</a>
 </li>
 <li>SetGeometry()
 : <a class="el" href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">autd::gain::Gain</a>
@@ -412,22 +450,22 @@ $(function() {
 : <a class="el" href="classautd_1_1Controller.html#ab1a54c088f66357bd2e3c509a9eaa7e0">autd::Controller</a>
 </li>
 <li>~EmulatorLink()
-: <a class="el" href="classautd_1_1EmulatorLink.html#a17b7663237697cd4e06486118fc512d7">autd::EmulatorLink</a>
-</li>
-<li>~EthercatLink()
-: <a class="el" href="classautd_1_1EthercatLink.html#a289389c522f00a43c791fc5bdf711392">autd::EthercatLink</a>
+: <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#a69a9ccbc0412b3bf58426e1bd9f62736">autd::link::EmulatorLink</a>
 </li>
 <li>~Geometry()
 : <a class="el" href="classautd_1_1Geometry.html#a1ee00c8f2bbaa98d35fd8fbf1f951309">autd::Geometry</a>
 </li>
 <li>~Link()
-: <a class="el" href="classautd_1_1Link.html#a6692836b1e69fb7e5f3b51d08ad389f5">autd::Link</a>
+: <a class="el" href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">autd::link::Link</a>
 </li>
-<li>~LocalEthercatLink()
-: <a class="el" href="classautd_1_1LocalEthercatLink.html#a78f2de72c43ff34b4cc6bb577a2601b8">autd::LocalEthercatLink</a>
+<li>~LocalTwinCATLink()
+: <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#a0cec7653f3ed294d26301c8b5fcdc941">autd::link::LocalTwinCATLink</a>
 </li>
 <li>~SOEMLink()
-: <a class="el" href="classautd_1_1SOEMLink.html#afea519f64bf8a856e6865ef1e36cd1c3">autd::SOEMLink</a>
+: <a class="el" href="classautd_1_1link_1_1SOEMLink.html#af10d04116efb9a2e89ffe015bcee806a">autd::link::SOEMLink</a>
+</li>
+<li>~TwinCATLink()
+: <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#ae3307c16c3e649b6973208b98d8a1e56">autd::link::TwinCATLink</a>
 </li>
 </ul>
 </div><!-- contents -->

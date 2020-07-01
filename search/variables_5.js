@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ultrasound_5ffrequency_390',['ULTRASOUND_FREQUENCY',['../namespaceautd.html#add3d98c8c808313d610177de1b34439c',1,'autd']]],
-  ['ultrasound_5fwavelength_391',['ULTRASOUND_WAVELENGTH',['../namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1',1,'autd']]]
+  ['trans_5fsize_5fmm_417',['TRANS_SIZE_MM',['../namespaceautd.html#a682044665c146ab76d94e776224d8de0',1,'autd']]]
 ];

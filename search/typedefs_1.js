@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['besselbeamgain_396',['BesselBeamGain',['../namespaceautd.html#a02b93b7af59f1b46d5871a02127685cb',1,'autd']]]
+  ['controllerptr_424',['ControllerPtr',['../namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869',1,'autd']]]
 ];
