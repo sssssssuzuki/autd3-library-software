@@ -129,7 +129,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classautd_1_1sequence_1_1PointSequence.html" title="PointSequence provides a function to display the focus sequentially and periodically.">PointSequence</a> provides a function to display the focus sequentially and periodically. </p>
 <p><a class="el" href="classautd_1_1sequence_1_1PointSequence.html" title="PointSequence provides a function to display the focus sequentially and periodically.">PointSequence</a> uses a timer on the FPGA to ensure that the focus is precisely timed. <a class="el" href="classautd_1_1sequence_1_1PointSequence.html" title="PointSequence provides a function to display the focus sequentially and periodically.">PointSequence</a> currently has the following four limitations.</p><ol type="1">
-<li>The maximum number of control points is 2000.</li>
+<li>The maximum number of control points is 40000.</li>
 <li>the sampling interval of Control Points is an integer multiple of 25us.</li>
 <li>(number of Control Points) x (sampling interval) must be less than or equal 1 second.</li>
 <li>Only a single focus can be displayed at a certain moment. </li>
@@ -368,7 +368,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 <p>The Point Sequence Mode has three constraints, which determine the actual frequency of the sequence.</p><ol type="1">
-<li>The maximum number of control points is 2000.</li>
+<li>The maximum number of control points is 40000.</li>
 <li>the sampling interval of Control Points is an integer multiple of 25us.</li>
 <li>(number of Control Points) x (sampling interval) must be less than or equal 1 second. <dl class="section return"><dt>Returns</dt><dd>double Actual frequency of sequence </dd></dl>
 </li>
