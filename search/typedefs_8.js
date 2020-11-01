@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nullgain_465',['NullGain',['../namespaceautd_1_1gain.html#a9987a6e6649d6caf2c883bf0bd7240b0',1,'autd::gain']]]
+  ['sequenceptr_531',['SequencePtr',['../namespaceautd.html#a4090d5d851ee1dc3e378012600c1fd04',1,'autd']]]
 ];

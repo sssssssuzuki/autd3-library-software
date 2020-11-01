@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rawpcmmodulation_190',['RawPCMModulation',['../classautd_1_1modulation_1_1RawPCMModulation.html',1,'autd::modulation']]],
-  ['remaining_5fin_5fbuffer_191',['remaining_in_buffer',['../classautd_1_1Controller.html#a3d503f1398aca58ea62f76b9abc06a7c',1,'autd::Controller']]]
+  ['quaternion_217',['Quaternion',['../classautd_1_1__utils_1_1Quaternion.html',1,'autd::_utils::Quaternion'],['../classautd_1_1__utils_1_1Quaternion.html#a3385767d05e5eb31f050ca36be7053ae',1,'autd::_utils::Quaternion::Quaternion()']]],
+  ['quaternion_2ehpp_218',['quaternion.hpp',['../quaternion_8hpp.html',1,'']]]
 ];

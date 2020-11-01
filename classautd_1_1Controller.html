@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
   </td>
  </tr>
@@ -102,9 +102,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a34a72ac892dc59ab9b1468f6ba4bafc1">SetSilentMode</a> (bool silent) noexcept=0</td></tr>
 <tr class="memdesc:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set silent mode.  <a href="classautd_1_1Controller.html#a34a72ac892dc59ab9b1468f6ba4bafc1">More...</a><br /></td></tr>
 <tr class="separator:a34a72ac892dc59ab9b1468f6ba4bafc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a209c94c4195858f1b3ad92844541e651"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a209c94c4195858f1b3ad92844541e651">Calibrate</a> ()=0</td></tr>
-<tr class="memdesc:a209c94c4195858f1b3ad92844541e651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrate.  <a href="classautd_1_1Controller.html#a209c94c4195858f1b3ad92844541e651">More...</a><br /></td></tr>
-<tr class="separator:a209c94c4195858f1b3ad92844541e651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a751441d9e44b608cb10ad1711321924e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a751441d9e44b608cb10ad1711321924e">Calibrate</a> (<a class="el" href="classautd_1_1Configuration.html">Configuration</a> config=<a class="el" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">Configuration::GetDefaultConfiguration</a>())=0</td></tr>
+<tr class="memdesc:a751441d9e44b608cb10ad1711321924e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibrate.  <a href="classautd_1_1Controller.html#a751441d9e44b608cb10ad1711321924e">More...</a><br /></td></tr>
+<tr class="separator:a751441d9e44b608cb10ad1711321924e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33b3663ad67630f3458f2cd9410a05b2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a33b3663ad67630f3458f2cd9410a05b2">Clear</a> ()=0</td></tr>
 <tr class="memdesc:a33b3663ad67630f3458f2cd9410a05b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all data in hardware.  <a href="classautd_1_1Controller.html#a33b3663ad67630f3458f2cd9410a05b2">More...</a><br /></td></tr>
 <tr class="separator:a33b3663ad67630f3458f2cd9410a05b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,14 +155,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">ControllerPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a824edbf48e91dda68d2c0aa07d1bfba1">Create</a> ()</td></tr>
-<tr class="memdesc:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create controller.  <a href="classautd_1_1Controller.html#a824edbf48e91dda68d2c0aa07d1bfba1">More...</a><br /></td></tr>
-<tr class="separator:a824edbf48e91dda68d2c0aa07d1bfba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10923c9bc3c5eb546697257eb9b3e544"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">ControllerPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Controller.html#a10923c9bc3c5eb546697257eb9b3e544">Create</a> (<a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7">AUTD_VERSION</a> version=<a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7a0c6182ce4549b5b162d717e828bc89d2">AUTD_VERSION::V_0_7</a>)</td></tr>
+<tr class="memdesc:a10923c9bc3c5eb546697257eb9b3e544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create controller.  <a href="classautd_1_1Controller.html#a10923c9bc3c5eb546697257eb9b3e544">More...</a><br /></td></tr>
+<tr class="separator:a10923c9bc3c5eb546697257eb9b3e544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AUTD <a class="el" href="classautd_1_1Controller.html" title="AUTD Controller.">Controller</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00028">28</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00036">36</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab1a54c088f66357bd2e3c509a9eaa7e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab1a54c088f66357bd2e3c509a9eaa7e0">&#9670;&nbsp;</a></span>~Controller()</h2>
@@ -187,7 +187,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00030">30</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00038">38</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
 
 </div>
 </div>
@@ -412,8 +412,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a209c94c4195858f1b3ad92844541e651"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a209c94c4195858f1b3ad92844541e651">&#9670;&nbsp;</a></span>Calibrate()</h2>
+<a id="a751441d9e44b608cb10ad1711321924e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a751441d9e44b608cb10ad1711321924e">&#9670;&nbsp;</a></span>Calibrate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +424,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool autd::Controller::Calibrate </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classautd_1_1Configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>config</em> = <code><a class="el" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">Configuration::GetDefaultConfiguration</a>()</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -436,7 +437,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calibrate. </p>
-<p>Call this function only once after <a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a" title="Open device with a specific link.">OpenWith()</a>. It takes several seconds and blocks the thread in the meantime. </p><dl class="section return"><dt>Returns</dt><dd>true if success to calibrate </dd></dl>
+<p>Call this function only once after <a class="el" href="classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a" title="Open device with a specific link.">OpenWith()</a>. It takes several seconds and blocks the thread in the meantime. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>configration </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if success to calibrate </dd></dl>
 
 </div>
 </div>
@@ -495,8 +502,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a824edbf48e91dda68d2c0aa07d1bfba1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a824edbf48e91dda68d2c0aa07d1bfba1">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="a10923c9bc3c5eb546697257eb9b3e544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10923c9bc3c5eb546697257eb9b3e544">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +514,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">ControllerPtr</a> autd::Controller::Create </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7">AUTD_VERSION</a>&#160;</td>
+          <td class="paramname"><em>version</em> = <code><a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7a0c6182ce4549b5b162d717e828bc89d2">AUTD_VERSION::V_0_7</a></code></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['vector3_259',['Vector3',['../classautd_1_1__utils_1_1Vector3.html',1,'autd::_utils']]]
+  ['transducertestgain_308',['TransducerTestGain',['../classautd_1_1gain_1_1TransducerTestGain.html',1,'autd::gain']]],
+  ['twincatlink_309',['TwinCATLink',['../classautd_1_1link_1_1TwinCATLink.html',1,'autd::link']]]
 ];

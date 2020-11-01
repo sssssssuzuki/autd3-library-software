@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['ultrasound_5ffrequency_212',['ULTRASOUND_FREQUENCY',['../namespaceautd.html#add3d98c8c808313d610177de1b34439c',1,'autd']]],
-  ['ultrasound_5fwavelength_213',['ULTRASOUND_WAVELENGTH',['../namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1',1,'autd']]],
-  ['unit_5fx_214',['unit_x',['../classautd_1_1__utils_1_1Vector3.html#a1628191ab5bafc9133a68a4c61d7259d',1,'autd::_utils::Vector3']]],
-  ['unit_5fy_215',['unit_y',['../classautd_1_1__utils_1_1Vector3.html#aa678755e9f0ca34b82cc744b387b38e9',1,'autd::_utils::Vector3']]],
-  ['unit_5fz_216',['unit_z',['../classautd_1_1__utils_1_1Vector3.html#a655260a468f00c03e3ebb83b2f818d74',1,'autd::_utils::Vector3']]]
+  ['tau_250',['tau',['../structautd_1_1gain_1_1NLSParams.html#aadcc0f1344a6b34e9b7109bdae85ed5c',1,'autd::gain::NLSParams']]],
+  ['trans_5fsize_5fmm_251',['TRANS_SIZE_MM',['../namespaceautd.html#a682044665c146ab76d94e776224d8de0',1,'autd']]],
+  ['transducertestgain_252',['TransducerTestGain',['../classautd_1_1gain_1_1TransducerTestGain.html',1,'autd::gain']]],
+  ['twincat_5flink_2ehpp_253',['twincat_link.hpp',['../twincat__link_8hpp.html',1,'']]],
+  ['twincatlink_254',['TwinCATLink',['../classautd_1_1link_1_1TwinCATLink.html',1,'autd::link']]]
 ];

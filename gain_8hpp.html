@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
   </td>
  </tr>
@@ -70,6 +70,7 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gain.hpp File Reference</div>  </div>
@@ -138,8 +139,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to group some gains.  <a href="classautd_1_1gain_1_1GroupedGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1HoloGainSdp.html">autd::gain::HoloGainSdp</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to produce multiple focal points.  <a href="classautd_1_1gain_1_1HoloGainSdp.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1SDPParams.html">autd::gain::SDPParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1EVDParams.html">autd::gain::EVDParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1NLSParams.html">autd::gain::NLSParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1HoloGain.html">autd::gain::HoloGain</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to produce multiple focal points.  <a href="classautd_1_1gain_1_1HoloGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1MatlabGain.html">autd::gain::MatlabGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> created from Matlab mat file.  <a href="classautd_1_1gain_1_1MatlabGain.html#details">More...</a><br /></td></tr>
@@ -159,6 +166,21 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a525335710b53cb064ca56b936120431e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gain_8hpp.html#a525335710b53cb064ca56b936120431e">_USE_MATH_DEFINES</a></td></tr>
 <tr class="separator:a525335710b53cb064ca56b936120431e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a331754fb8512a3e5d0425116e49ea176"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176">autd::gain::OptMethod</a> { <br />
+&#160;&#160;<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a081ef54584e3dfae6e72ffa694daed91">autd::gain::OptMethod::SDP</a> = 0, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a19c94f62be3ecad6f0482d6fe5dcc0d8">autd::gain::OptMethod::EVD</a> = 1, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a71a75a167c33c58bfb561764255c880a">autd::gain::OptMethod::GS</a> = 2, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a6a614aecc45609608ad66ca400cf7e90">autd::gain::OptMethod::GS_PAT</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a33e8270128b994b16da5c9e367bb94cf">autd::gain::OptMethod::NAIVE</a> = 4, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176adfd5b430bc4db2c2836d0227ad9ac0c4">autd::gain::OptMethod::LM</a> = 5
+<br />
+ }</td></tr>
+<tr class="memdesc:a331754fb8512a3e5d0425116e49ea176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimization method for generating multiple foci.  <a href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176">More...</a><br /></td></tr>
+<tr class="separator:a331754fb8512a3e5d0425116e49ea176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

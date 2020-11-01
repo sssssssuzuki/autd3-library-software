@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['num_5ftrans_5fin_5funit_442',['NUM_TRANS_IN_UNIT',['../namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea',1,'autd']]],
-  ['num_5ftrans_5fx_443',['NUM_TRANS_X',['../namespaceautd.html#ad6774eed0e4a9b96e644dbe4b470e795',1,'autd']]],
-  ['num_5ftrans_5fy_444',['NUM_TRANS_Y',['../namespaceautd.html#a8caff93de9170505fcf236e48fc5d602',1,'autd']]]
+  ['k_5fmax_501',['k_max',['../structautd_1_1gain_1_1NLSParams.html#a39a0f98e6c6b32b6ba9b21f5663221aa',1,'autd::gain::NLSParams']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['z_225',['z',['../classautd_1_1__utils_1_1Quaternion.html#a46f5db67e95e39664cced971ee37646a',1,'autd::_utils::Quaternion::z()'],['../classautd_1_1__utils_1_1Vector3.html#aab6014b55874cba5f6f6fb7b203efdd3',1,'autd::_utils::Vector3::z()']]],
-  ['z_5fdirection_226',['z_direction',['../classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf',1,'autd::Geometry']]],
-  ['zero_227',['zero',['../classautd_1_1__utils_1_1Vector3.html#abdf93a321cdb0f426cbf4a9b107b93a1',1,'autd::_utils::Vector3']]]
+  ['y_269',['y',['../classautd_1_1__utils_1_1Quaternion.html#a763b0cac22fdba2b3cc162b996e92fd2',1,'autd::_utils::Quaternion::y()'],['../classautd_1_1__utils_1_1Vector3.html#af37a4641bd2c327fdf160c55b4bc7d2c',1,'autd::_utils::Vector3::y()']]],
+  ['y_5fdirection_270',['y_direction',['../classautd_1_1Geometry.html#ab2c96335d980eb40930ca72edc3ddb58',1,'autd::Geometry']]]
 ];

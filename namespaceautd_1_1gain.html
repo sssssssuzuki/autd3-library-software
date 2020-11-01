@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
   </td>
  </tr>
@@ -69,6 +69,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">autd::gain Namespace Reference</div>  </div>
@@ -83,6 +84,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1CustomGain.html">CustomGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> that can set the phase and amplitude freely.  <a href="classautd_1_1gain_1_1CustomGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1EVDParams.html">EVDParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1FocalPointGain.html">FocalPointGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to produce single focal point.  <a href="classautd_1_1gain_1_1FocalPointGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -92,14 +95,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">GroupedGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to group some gains.  <a href="classautd_1_1gain_1_1GroupedGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1HoloGainSdp.html">HoloGainSdp</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to produce multiple focal points.  <a href="classautd_1_1gain_1_1HoloGainSdp.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1HoloGain.html">HoloGain</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to produce multiple focal points.  <a href="classautd_1_1gain_1_1HoloGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1MatlabGain.html">MatlabGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> created from Matlab mat file.  <a href="classautd_1_1gain_1_1MatlabGain.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1NLSParams.html">NLSParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1PlaneWaveGain.html">PlaneWaveGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to create plane wave.  <a href="classautd_1_1gain_1_1PlaneWaveGain.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structautd_1_1gain_1_1SDPParams.html">SDPParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html">TransducerTestGain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to test a transducer.  <a href="classautd_1_1gain_1_1TransducerTestGain.html#details">More...</a><br /></td></tr>
@@ -109,8 +116,23 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a9987a6e6649d6caf2c883bf0bd7240b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#a9987a6e6649d6caf2c883bf0bd7240b0">NullGain</a> = <a class="el" href="classautd_1_1gain_1_1Gain.html">Gain</a></td></tr>
 <tr class="separator:a9987a6e6649d6caf2c883bf0bd7240b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7a76e44baa2fc4a6e537f197500353f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#ab7a76e44baa2fc4a6e537f197500353f">HoloGain</a> = <a class="el" href="classautd_1_1gain_1_1HoloGainSdp.html">HoloGainSdp</a></td></tr>
-<tr class="separator:ab7a76e44baa2fc4a6e537f197500353f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b76fb76e45c167b00044c0216a9caab"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#a5b76fb76e45c167b00044c0216a9caab">MultiFoci</a> = <a class="el" href="classautd_1_1gain_1_1HoloGain.html">HoloGain</a></td></tr>
+<tr class="separator:a5b76fb76e45c167b00044c0216a9caab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a331754fb8512a3e5d0425116e49ea176"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176">OptMethod</a> { <br />
+&#160;&#160;<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a081ef54584e3dfae6e72ffa694daed91">OptMethod::SDP</a> = 0, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a19c94f62be3ecad6f0482d6fe5dcc0d8">OptMethod::EVD</a> = 1, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a71a75a167c33c58bfb561764255c880a">OptMethod::GS</a> = 2, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a6a614aecc45609608ad66ca400cf7e90">OptMethod::GS_PAT</a> = 3, 
+<br />
+&#160;&#160;<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a33e8270128b994b16da5c9e367bb94cf">OptMethod::NAIVE</a> = 4, 
+<a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176adfd5b430bc4db2c2836d0227ad9ac0c4">OptMethod::LM</a> = 5
+<br />
+ }</td></tr>
+<tr class="memdesc:a331754fb8512a3e5d0425116e49ea176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimization method for generating multiple foci.  <a href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176">More...</a><br /></td></tr>
+<tr class="separator:a331754fb8512a3e5d0425116e49ea176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -118,19 +140,19 @@ Functions</h2></td></tr>
 <tr class="separator:a6a463a9c508494f213c275a94e4e61f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="ab7a76e44baa2fc4a6e537f197500353f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7a76e44baa2fc4a6e537f197500353f">&#9670;&nbsp;</a></span>HoloGain</h2>
+<a id="a5b76fb76e45c167b00044c0216a9caab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b76fb76e45c167b00044c0216a9caab">&#9670;&nbsp;</a></span>MultiFoci</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceautd_1_1gain.html#ab7a76e44baa2fc4a6e537f197500353f">autd::gain::HoloGain</a> = typedef <a class="el" href="classautd_1_1gain_1_1HoloGainSdp.html">HoloGainSdp</a></td>
+          <td class="memname">using <a class="el" href="namespaceautd_1_1gain.html#a5b76fb76e45c167b00044c0216a9caab">autd::gain::MultiFoci</a> = typedef <a class="el" href="classautd_1_1gain_1_1HoloGain.html">HoloGain</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00049">49</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00053">53</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -146,7 +168,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00048">48</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00052">52</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a331754fb8512a3e5d0425116e49ea176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331754fb8512a3e5d0425116e49ea176">&#9670;&nbsp;</a></span>OptMethod</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176">autd::gain::OptMethod</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Optimization method for generating multiple foci. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176a081ef54584e3dfae6e72ffa694daed91"></a>SDP&#160;</td><td class="fielddoc"><p>Inoue, Seki, Yasutoshi Makino, and Hiroyuki Shinoda. "Active touch perception produced by airborne ultrasonic haptic hologram." 2015 IEEE World Haptics Conference (WHC). IEEE, 2015. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176a19c94f62be3ecad6f0482d6fe5dcc0d8"></a>EVD&#160;</td><td class="fielddoc"><p>Long, Benjamin, et al. "Rendering volumetric haptic shapes in mid-air using ultrasound." ACM Transactions on Graphics (TOG) 33.6 (2014): 1-10. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176a71a75a167c33c58bfb561764255c880a"></a>GS&#160;</td><td class="fielddoc"><p>Asier Marzo and Bruce W Drinkwater. Holographic acoustic tweezers.Proceedings of theNational Academy of Sciences, 116(1):84–89, 2019. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176a6a614aecc45609608ad66ca400cf7e90"></a>GS_PAT&#160;</td><td class="fielddoc"><p>Diego Martinez Plasencia et al. "Gs-pat: high-speed multi-point sound-fields for phased arrays of transducers," ACMTrans-actions on Graphics (TOG), 39(4):138–1, 2020. Not yet been implemented with GPU. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176a33e8270128b994b16da5c9e367bb94cf"></a>NAIVE&#160;</td><td class="fielddoc"><p>Naive linear synthesis method. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a331754fb8512a3e5d0425116e49ea176adfd5b430bc4db2c2836d0227ad9ac0c4"></a>LM&#160;</td><td class="fielddoc"><p>K.Levenberg, “A method for the solution of certain non-linear problems in least squares,” Quarterly of applied mathematics, vol.2, no.2, pp.164–168, 1944. D.W.Marquardt, “An algorithm for least-squares estimation of non-linear parameters,” Journal of the society for Industrial and AppliedMathematics, vol.11, no.2, pp.431–441, 1963. K.Madsen, H.Nielsen, and O.Tingleff, “Methods for non-linear least squares problems (2nd ed.),” 2004. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="gain_8hpp_source.html#l00171">171</a> of file <a class="el" href="gain_8hpp_source.html">gain.hpp</a>.</p>
 
 </div>
 </div>

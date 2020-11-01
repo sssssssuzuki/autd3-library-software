@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['modulationptr_464',['ModulationPtr',['../namespaceautd.html#a6a1a17952c10d0cce5d2b11f637ab924',1,'autd']]]
+  ['nullgain_530',['NullGain',['../namespaceautd_1_1gain.html#a9987a6e6649d6caf2c883bf0bd7240b0',1,'autd::gain']]]
 ];

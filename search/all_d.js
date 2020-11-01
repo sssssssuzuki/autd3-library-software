@@ -1,16 +1,13 @@
 var searchData=
 [
-  ['openwith_169',['OpenWith',['../classautd_1_1Controller.html#acbe60c0ebdfb09010ce319a70788fc5a',1,'autd::Controller']]],
-  ['operator_21_3d_170',['operator!=',['../classautd_1_1__utils_1_1Vector3.html#a4b2a874906dac44f90106ace737e5cb3',1,'autd::_utils::Vector3::operator!=()'],['../namespaceautd_1_1__utils.html#a9f7847cf7de06db839c57579f25b00ff',1,'autd::_utils::operator!=()']]],
-  ['operator_2a_171',['operator*',['../classautd_1_1__utils_1_1Vector3.html#a55f5de54017e3c0d36bcd74e873481e2',1,'autd::_utils::Vector3::operator*()'],['../classautd_1_1__utils_1_1Vector3.html#abd8faa9c9054c893301d0c47b545917a',1,'autd::_utils::Vector3::operator*()']]],
-  ['operator_2a_3d_172',['operator*=',['../classautd_1_1__utils_1_1Vector3.html#a1a62616e109aa428004019602a5f1e87',1,'autd::_utils::Vector3']]],
-  ['operator_2b_173',['operator+',['../classautd_1_1__utils_1_1Vector3.html#a5f20f775ae0e460bb6629436d0a7a43b',1,'autd::_utils::Vector3']]],
-  ['operator_2b_3d_174',['operator+=',['../classautd_1_1__utils_1_1Vector3.html#a51d084a1da65ad5eaf15d3677c4a476e',1,'autd::_utils::Vector3']]],
-  ['operator_2d_175',['operator-',['../classautd_1_1__utils_1_1Vector3.html#a7fcc9908da2e66ff593d935589e76e54',1,'autd::_utils::Vector3']]],
-  ['operator_2d_3d_176',['operator-=',['../classautd_1_1__utils_1_1Vector3.html#ae66f76826ddcec57f5ef38ee2cde57a9',1,'autd::_utils::Vector3']]],
-  ['operator_2f_177',['operator/',['../classautd_1_1__utils_1_1Vector3.html#a2bd48ec6115eac7ed96392f09891fba8',1,'autd::_utils::Vector3']]],
-  ['operator_2f_3d_178',['operator/=',['../classautd_1_1__utils_1_1Vector3.html#a353c9378b67983ec1cd1ffa6bdc7a7a8',1,'autd::_utils::Vector3']]],
-  ['operator_3c_3c_179',['operator&lt;&lt;',['../classautd_1_1FirmwareInfo.html#acd0b8364eac231ec3a36093fd9267ea0',1,'autd::FirmwareInfo::operator&lt;&lt;()'],['../classautd_1_1__utils_1_1Vector3.html#a6c5af9507d1dedf3e3a7ebdf2399082b',1,'autd::_utils::Vector3::operator&lt;&lt;()'],['../namespaceautd.html#a29b8a1ccd4c8d6c8c33aa976f99f3578',1,'autd::operator&lt;&lt;()'],['../namespaceautd_1_1__utils.html#ae3de0fc96f815063b85a6110fa5abc88',1,'autd::_utils::operator&lt;&lt;()']]],
-  ['operator_3d_180',['operator=',['../classautd_1_1__utils_1_1Vector3.html#a6342290bf31e798ba4cde412d84a6329',1,'autd::_utils::Vector3']]],
-  ['operator_3d_3d_181',['operator==',['../classautd_1_1__utils_1_1Vector3.html#ac4562634d880c1ad0a4c9343686d58de',1,'autd::_utils::Vector3::operator==()'],['../namespaceautd_1_1__utils.html#ab48c777a7bd625bdfdf1fcc08bf5be2b',1,'autd::_utils::operator==()']]]
+  ['naive_187',['NAIVE',['../namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176a33e8270128b994b16da5c9e367bb94cf',1,'autd::gain']]],
+  ['nlsparams_188',['NLSParams',['../structautd_1_1gain_1_1NLSParams.html',1,'autd::gain']]],
+  ['normalize_5famp_189',['normalize_amp',['../structautd_1_1gain_1_1SDPParams.html#a8fc0034cb3c3d1500eafc4b1b8983a11',1,'autd::gain::SDPParams::normalize_amp()'],['../structautd_1_1gain_1_1EVDParams.html#af762bbac9119a1a64cd1e1db82bdf280',1,'autd::gain::EVDParams::normalize_amp()']]],
+  ['normalized_190',['normalized',['../classautd_1_1__utils_1_1Vector3.html#a284d815bbaa61ae38a468edbd4345c34',1,'autd::_utils::Vector3']]],
+  ['nullgain_191',['NullGain',['../namespaceautd_1_1gain.html#a9987a6e6649d6caf2c883bf0bd7240b0',1,'autd::gain']]],
+  ['num_5ftrans_5fin_5funit_192',['NUM_TRANS_IN_UNIT',['../namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea',1,'autd']]],
+  ['num_5ftrans_5fx_193',['NUM_TRANS_X',['../namespaceautd.html#ad6774eed0e4a9b96e644dbe4b470e795',1,'autd']]],
+  ['num_5ftrans_5fy_194',['NUM_TRANS_Y',['../namespaceautd.html#a8caff93de9170505fcf236e48fc5d602',1,'autd']]],
+  ['numdevices_195',['numDevices',['../classautd_1_1Geometry.html#a3f0832f54f993b8dadafc0ed96b430ef',1,'autd::Geometry']]],
+  ['numtransducers_196',['numTransducers',['../classautd_1_1Geometry.html#a401fb74386e5208858769c03bfc0baa1',1,'autd::Geometry']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.7.0</span>
    </div>
   </td>
  </tr>
@@ -90,7 +90,7 @@ Inheritance diagram for autd::gain::Gain:</div>
 <area shape="rect" href="classautd_1_1gain_1_1CustomGain.html" title="Gain that can set the phase and amplitude freely." alt="" coords="187,56,342,83"/>
 <area shape="rect" href="classautd_1_1gain_1_1FocalPointGain.html" title="Gain to produce single focal point." alt="" coords="179,107,351,133"/>
 <area shape="rect" href="classautd_1_1gain_1_1GroupedGain.html" title="Gain to group some gains." alt="" coords="185,157,344,184"/>
-<area shape="rect" href="classautd_1_1gain_1_1HoloGainSdp.html" title="Gain to produce multiple focal points." alt="" coords="185,208,345,235"/>
+<area shape="rect" href="classautd_1_1gain_1_1HoloGain.html" title="Gain to produce multiple focal points." alt="" coords="196,208,333,235"/>
 <area shape="rect" href="classautd_1_1gain_1_1MatlabGain.html" title="Gain created from Matlab mat file." alt="" coords="190,259,339,285"/>
 <area shape="rect" href="classautd_1_1gain_1_1PlaneWaveGain.html" title="Gain to create plane wave." alt="" coords="177,309,353,336"/>
 <area shape="rect" href="classautd_1_1gain_1_1TransducerTestGain.html" title="Gain to test a transducer." alt="" coords="164,360,365,387"/>
@@ -102,9 +102,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6266b11c927140241d5261b4459cd9cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a6266b11c927140241d5261b4459cd9cf">Build</a> ()</td></tr>
 <tr class="memdesc:a6266b11c927140241d5261b4459cd9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcurate amplitude and phase of each transducer.  <a href="classautd_1_1gain_1_1Gain.html#a6266b11c927140241d5261b4459cd9cf">More...</a><br /></td></tr>
 <tr class="separator:a6266b11c927140241d5261b4459cd9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540939523c06a30f85201c0d57a76dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">SetGeometry</a> (const <a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> &amp;geometry) noexcept</td></tr>
+<tr class="memitem:a540939523c06a30f85201c0d57a76dcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">SetGeometry</a> (const <a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> &amp;<a class="el" href="classautd_1_1gain_1_1Gain.html#a6af24af7de4e3d1d92c14e8bbaf1a070">geometry</a>) noexcept</td></tr>
 <tr class="memdesc:a540939523c06a30f85201c0d57a76dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set AUTD <a class="el" href="classautd_1_1Geometry.html" title="AUTD Geometry.">Geometry</a> which is required to build gain.  <a href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">More...</a><br /></td></tr>
 <tr class="separator:a540939523c06a30f85201c0d57a76dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af24af7de4e3d1d92c14e8bbaf1a070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a6af24af7de4e3d1d92c14e8bbaf1a070">geometry</a> () noexcept</td></tr>
+<tr class="memdesc:a6af24af7de4e3d1d92c14e8bbaf1a070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get AUTD <a class="el" href="classautd_1_1Geometry.html" title="AUTD Geometry.">Geometry</a>.  <a href="classautd_1_1gain_1_1Gain.html#a6af24af7de4e3d1d92c14e8bbaf1a070">More...</a><br /></td></tr>
+<tr class="separator:a6af24af7de4e3d1d92c14e8bbaf1a070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7921e5576c2154f50189d2df9a246d3b"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; uint16_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a7921e5576c2154f50189d2df9a246d3b">data</a> ()</td></tr>
 <tr class="memdesc:a7921e5576c2154f50189d2df9a246d3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter function for the data of amplitude and phase of each transducers.  <a href="classautd_1_1gain_1_1Gain.html#a7921e5576c2154f50189d2df9a246d3b">More...</a><br /></td></tr>
 <tr class="separator:a7921e5576c2154f50189d2df9a246d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +183,7 @@ Friends</h2></td></tr>
 
 <p>Calcurate amplitude and phase of each transducer. </p>
 
-<p>Reimplemented in <a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html#acba267c5f33b5f1e8a2c65bdf68574a2">autd::gain::TransducerTestGain</a>, <a class="el" href="classautd_1_1gain_1_1MatlabGain.html#afde7b14ca4261a568824802d7b571819">autd::gain::MatlabGain</a>, <a class="el" href="classautd_1_1gain_1_1HoloGainSdp.html#a8a8a513b041de7f5bf164e33b031c82c">autd::gain::HoloGainSdp</a>, <a class="el" href="classautd_1_1gain_1_1GroupedGain.html#ae82b27e0f8a767a1323c85ddebf7c395">autd::gain::GroupedGain</a>, <a class="el" href="classautd_1_1gain_1_1CustomGain.html#a797233f125f56f043ca5c4f24bd19ae0">autd::gain::CustomGain</a>, <a class="el" href="classautd_1_1gain_1_1BesselBeamGain.html#ac86fbc951f915eaab3817d9c481187a1">autd::gain::BesselBeamGain</a>, <a class="el" href="classautd_1_1gain_1_1FocalPointGain.html#ab8433901e5dbb2c7a96b9c73d8b8a8be">autd::gain::FocalPointGain</a>, and <a class="el" href="classautd_1_1gain_1_1PlaneWaveGain.html#a5bc1d27eaac36e5c33f3bda3bedd0b35">autd::gain::PlaneWaveGain</a>.</p>
+<p>Reimplemented in <a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html#acba267c5f33b5f1e8a2c65bdf68574a2">autd::gain::TransducerTestGain</a>, <a class="el" href="classautd_1_1gain_1_1MatlabGain.html#afde7b14ca4261a568824802d7b571819">autd::gain::MatlabGain</a>, <a class="el" href="classautd_1_1gain_1_1HoloGain.html#ac0e2e561dfc31bc7ac74373c40cbc007">autd::gain::HoloGain</a>, <a class="el" href="classautd_1_1gain_1_1GroupedGain.html#ae82b27e0f8a767a1323c85ddebf7c395">autd::gain::GroupedGain</a>, <a class="el" href="classautd_1_1gain_1_1CustomGain.html#a797233f125f56f043ca5c4f24bd19ae0">autd::gain::CustomGain</a>, <a class="el" href="classautd_1_1gain_1_1BesselBeamGain.html#ac86fbc951f915eaab3817d9c481187a1">autd::gain::BesselBeamGain</a>, <a class="el" href="classautd_1_1gain_1_1FocalPointGain.html#ab8433901e5dbb2c7a96b9c73d8b8a8be">autd::gain::FocalPointGain</a>, and <a class="el" href="classautd_1_1gain_1_1PlaneWaveGain.html#a5bc1d27eaac36e5c33f3bda3bedd0b35">autd::gain::PlaneWaveGain</a>.</p>
 
 </div>
 </div>
@@ -228,6 +231,33 @@ Friends</h2></td></tr>
 
 <p>Getter function for the data of amplitude and phase of each transducers. </p>
 <p>Each data is 16 bit unsigned integer, where MSB represents amplitude and LSB represents phase </p>
+
+</div>
+</div>
+<a id="a6af24af7de4e3d1d92c14e8bbaf1a070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6af24af7de4e3d1d92c14e8bbaf1a070">&#9670;&nbsp;</a></span>geometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> autd::gain::Gain::geometry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get AUTD <a class="el" href="classautd_1_1Geometry.html" title="AUTD Geometry.">Geometry</a>. </p>
 
 </div>
 </div>

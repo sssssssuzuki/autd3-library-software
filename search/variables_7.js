@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['ultrasound_5ffrequency_449',['ULTRASOUND_FREQUENCY',['../namespaceautd.html#add3d98c8c808313d610177de1b34439c',1,'autd']]],
-  ['ultrasound_5fwavelength_450',['ULTRASOUND_WAVELENGTH',['../namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1',1,'autd']]]
+  ['point_5fseq_5fbase_5ffreq_507',['POINT_SEQ_BASE_FREQ',['../namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588',1,'autd']]],
+  ['point_5fseq_5fbuffer_5fsize_5fmax_508',['POINT_SEQ_BUFFER_SIZE_MAX',['../namespaceautd.html#a37c491d3aec2472bf5109295388ce89a',1,'autd']]],
+  ['point_5fseq_5fclk_5fidx_5fmax_509',['POINT_SEQ_CLK_IDX_MAX',['../namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b',1,'autd']]]
 ];

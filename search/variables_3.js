@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mod_5fbuf_5fsize_440',['MOD_BUF_SIZE',['../namespaceautd.html#a825fb105754c76da4b607b9be54708fc',1,'autd']]],
-  ['mod_5fsampling_5ffreq_441',['MOD_SAMPLING_FREQ',['../namespaceautd.html#ac7d89b09b8745855d33e51d974f84a73',1,'autd']]]
+  ['fixed_5fnum_5funit_499',['FIXED_NUM_UNIT',['../namespaceautd.html#ad28ab4e896509b1dae69dcc4009e335d',1,'autd']]],
+  ['fpga_5fclock_500',['FPGA_CLOCK',['../namespaceautd.html#a2590369033b0824463ac61d6162ab528',1,'autd']]]
 ];

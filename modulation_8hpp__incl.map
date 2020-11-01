@@ -1,8 +1,10 @@
 <map id="include/modulation.hpp" name="include/modulation.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="83,5,238,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="117,5,271,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,155,73,181"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,155,152,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="253,155,311,181"/>
-<area shape="rect" id="node5" href="$core_8hpp.html" title=" " alt="" coords="163,80,233,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="176,155,228,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="173,155,228,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="257,155,315,181"/>
+<area shape="rect" id="node5" href="$configuration_8hpp.html" title=" " alt="" coords="232,80,351,107"/>
+<area shape="rect" id="node7" href="$core_8hpp.html" title=" " alt="" coords="85,80,156,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="339,155,411,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="97,155,149,181"/>
 </map>

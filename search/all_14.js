@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['vector3_217',['Vector3',['../classautd_1_1__utils_1_1Vector3.html',1,'autd::_utils::Vector3'],['../classautd_1_1__utils_1_1Vector3.html#afcd6dbe1836ccd7570d78ccc964ba9d5',1,'autd::_utils::Vector3::Vector3() noexcept=default'],['../classautd_1_1__utils_1_1Vector3.html#a6fc601e45b33edfb0b7ad8136e3db8fb',1,'autd::_utils::Vector3::Vector3(double x, double y, double z) noexcept'],['../classautd_1_1__utils_1_1Vector3.html#a962a92da6825b843712b124fee9cc6b7',1,'autd::_utils::Vector3::Vector3(const Vector3 &amp;v) noexcept=default']]],
-  ['vector3_2ehpp_218',['vector3.hpp',['../vector3_8hpp.html',1,'']]]
+  ['ultrasound_5ffrequency_255',['ULTRASOUND_FREQUENCY',['../namespaceautd.html#add3d98c8c808313d610177de1b34439c',1,'autd']]],
+  ['ultrasound_5fwavelength_256',['ULTRASOUND_WAVELENGTH',['../namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1',1,'autd']]],
+  ['unit_5fx_257',['unit_x',['../classautd_1_1__utils_1_1Vector3.html#a1628191ab5bafc9133a68a4c61d7259d',1,'autd::_utils::Vector3']]],
+  ['unit_5fy_258',['unit_y',['../classautd_1_1__utils_1_1Vector3.html#aa678755e9f0ca34b82cc744b387b38e9',1,'autd::_utils::Vector3']]],
+  ['unit_5fz_259',['unit_z',['../classautd_1_1__utils_1_1Vector3.html#a655260a468f00c03e3ebb83b2f818d74',1,'autd::_utils::Vector3']]]
 ];
