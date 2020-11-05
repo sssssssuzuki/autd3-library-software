@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:abd8f1122a78dbc2b2a9ccce4be38bbc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#aae6c61ef858b46b1b35bc0019ebb7fc6">GainPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html#abd8f1122a78dbc2b2a9ccce4be38bbc2">Create</a> (int transducer_index, int amp, int phase)</td></tr>
-<tr class="memdesc:abd8f1122a78dbc2b2a9ccce4be38bbc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate function.  <a href="classautd_1_1gain_1_1TransducerTestGain.html#abd8f1122a78dbc2b2a9ccce4be38bbc2">More...</a><br /></td></tr>
-<tr class="separator:abd8f1122a78dbc2b2a9ccce4be38bbc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29607d706bf8dd88e0efcfe8888e3427"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#aae6c61ef858b46b1b35bc0019ebb7fc6">GainPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1TransducerTestGain.html#a29607d706bf8dd88e0efcfe8888e3427">Create</a> (int transducer_index, int duty, int phase)</td></tr>
+<tr class="memdesc:a29607d706bf8dd88e0efcfe8888e3427"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate function.  <a href="classautd_1_1gain_1_1TransducerTestGain.html#a29607d706bf8dd88e0efcfe8888e3427">More...</a><br /></td></tr>
+<tr class="separator:a29607d706bf8dd88e0efcfe8888e3427"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classautd_1_1gain_1_1Gain"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classautd_1_1gain_1_1Gain')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td></tr>
 <tr class="memitem:a79a89e5a7b3e57392f69e3e5b33cb56e inherit pub_static_methods_classautd_1_1gain_1_1Gain"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#aae6c61ef858b46b1b35bc0019ebb7fc6">GainPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1gain_1_1Gain.html#a79a89e5a7b3e57392f69e3e5b33cb56e">Create</a> ()</td></tr>
 <tr class="memdesc:a79a89e5a7b3e57392f69e3e5b33cb56e inherit pub_static_methods_classautd_1_1gain_1_1Gain"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate empty gain.  <a href="classautd_1_1gain_1_1Gain.html#a79a89e5a7b3e57392f69e3e5b33cb56e">More...</a><br /></td></tr>
@@ -129,7 +129,7 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classautd_1_1gain_1_1Gain.html" title="Gain controls the amplitude and phase of each transducer in the AUTD.">Gain</a> to test a transducer. </p>
 
-<p class="definition">Definition at line <a class="el" href="gain_8hpp_source.html#l00254">254</a> of file <a class="el" href="gain_8hpp_source.html">gain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gain_8hpp_source.html#l00274">274</a> of file <a class="el" href="gain_8hpp_source.html">gain.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acba267c5f33b5f1e8a2c65bdf68574a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acba267c5f33b5f1e8a2c65bdf68574a2">&#9670;&nbsp;</a></span>Build()</h2>
@@ -160,8 +160,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abd8f1122a78dbc2b2a9ccce4be38bbc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd8f1122a78dbc2b2a9ccce4be38bbc2">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="a29607d706bf8dd88e0efcfe8888e3427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29607d706bf8dd88e0efcfe8888e3427">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,7 +179,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amp</em>, </td>
+          <td class="paramname"><em>duty</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -204,7 +204,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">transducer_index</td><td>index of the transducer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">amp</td><td>amplitude of the transducer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">duty</td><td>duty ratio of driving signal </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">phase</td><td>phase of the phase </td></tr>
   </table>
   </dd>
