@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -75,7 +75,7 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// Created Date: 01/06/2016</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author: Seki Inoue</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// -----</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 01/07/2020</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 27/12/2020</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Modified By: Shun Suzuki (suzuki@hapis.k.u-tokyo.ac.jp)</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// -----</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Copyright (c) 2016-2020 Hapis Lab. All rights reserved.</span></div>
@@ -83,34 +83,55 @@ $(function() {
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceautd_1_1link.html">autd::link</a> {<span class="comment"></span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * @brief Link is the interface to the AUTD device</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classautd_1_1link_1_1Link.html">Link</a> {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keyword">friend</span> AUTDController;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">   28</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">~Link</a>() {}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Open() = 0;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Close() = 0;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> Send(<span class="keywordtype">size_t</span> size, std::unique_ptr&lt;uint8_t[]&gt; buf) = 0;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;uint8_t&gt; Read(uint32_t buffer_len) = 0;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> is_open() = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}  <span class="comment">// namespace autd::link</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceautd.html">autd</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">namespace </span>link {<span class="comment"></span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * @brief Link is the interface to the AUTD device</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html">   22</a></span>&#160;<span class="keyword">class </span><a class="code" href="classautd_1_1link_1_1Link.html">Link</a> {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263">   24</a></span>&#160;  <a class="code" href="classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263">Link</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81">   25</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81">~Link</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d">   26</a></span>&#160;  <a class="code" href="classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d">Link</a>(<span class="keyword">const</span> <a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp; v) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a3fe8c0fea74a3327c727df742fba5000">   27</a></span>&#160;  <a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp; <a class="code" href="classautd_1_1link_1_1Link.html#a3fe8c0fea74a3327c727df742fba5000">operator=</a>(<span class="keyword">const</span> <a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp; obj) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13">   28</a></span>&#160;  <a class="code" href="classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13">Link</a>(<a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp;&amp; obj) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#ae155d23209cd92678192310c03b2ce9a">   29</a></span>&#160;  <a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp; <a class="code" href="classautd_1_1link_1_1Link.html#ae155d23209cd92678192310c03b2ce9a">operator=</a>(<a class="code" href="classautd_1_1link_1_1Link.html">Link</a>&amp;&amp; obj) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#abe21d703d9782ee8a18dbbf991ea51c0">   31</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classautd_1_1link_1_1Link.html#abe21d703d9782ee8a18dbbf991ea51c0">Open</a>() = 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a5b81920db4fc30e13755302fe6c3eedc">   32</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classautd_1_1link_1_1Link.html#a5b81920db4fc30e13755302fe6c3eedc">Close</a>() = 0;<span class="comment"></span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">  /**</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">   * @brief  Send data to devices</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">   * @return return nullopt if no error, otherwise return error code.</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">   */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">   37</a></span>&#160;  <span class="keyword">virtual</span> std::optional&lt;int32_t&gt; <a class="code" href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">Send</a>(<span class="keywordtype">size_t</span> size, std::unique_ptr&lt;uint8_t[]&gt; buf) = 0;<span class="comment"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">  /**</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">   * @brief  Read data from devices</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">   * @return return nullopt if no error, otherwise return error code.</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">   */</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">   42</a></span>&#160;  <span class="keyword">virtual</span> std::optional&lt;int32_t&gt; <a class="code" href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">Read</a>(uint8_t* rx, uint32_t buffer_len) = 0;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classautd_1_1link_1_1Link.html#a270ea5cb8a55003af9e47943dba0aebf">   43</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="classautd_1_1link_1_1Link.html#a270ea5cb8a55003af9e47943dba0aebf">is_open</a>() = 0;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}  <span class="comment">// namespace link</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10">   46</a></span>&#160;<span class="keyword">using</span> <a class="code" href="namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10">LinkPtr</a> = std::unique_ptr&lt;link::Link&gt;;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}  <span class="comment">// namespace autd</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclassautd_1_1link_1_1Link_html_aca1cd3916eea8ac60effb5e45954bbc1"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">autd::link::Link::~Link</a></div><div class="ttdeci">virtual ~Link()</div><div class="ttdef"><b>Definition:</b> <a href="link_8hpp_source.html#l00028">link.hpp:28</a></div></div>
-<div class="ttc" id="anamespaceautd_1_1link_html"><div class="ttname"><a href="namespaceautd_1_1link.html">autd::link</a></div><div class="ttdef"><b>Definition:</b> <a href="core_8hpp_source.html#l00038">core.hpp:38</a></div></div>
-<div class="ttc" id="aclassautd_1_1link_1_1Link_html"><div class="ttname"><a href="classautd_1_1link_1_1Link.html">autd::link::Link</a></div><div class="ttdoc">Link is the interface to the AUTD device.</div><div class="ttdef"><b>Definition:</b> <a href="link_8hpp_source.html#l00024">link.hpp:24</a></div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a5b81920db4fc30e13755302fe6c3eedc"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a5b81920db4fc30e13755302fe6c3eedc">autd::link::Link::Close</a></div><div class="ttdeci">virtual void Close()=0</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a8a6912aef3c8198dce2953f1dcdb4263"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263">autd::link::Link::Link</a></div><div class="ttdeci">Link()=default</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a270ea5cb8a55003af9e47943dba0aebf"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a270ea5cb8a55003af9e47943dba0aebf">autd::link::Link::is_open</a></div><div class="ttdeci">virtual bool is_open()=0</div></div>
+<div class="ttc" id="anamespaceautd_html"><div class="ttname"><a href="namespaceautd.html">autd</a></div><div class="ttdef"><b>Definition:</b> <a href="autd__types_8hpp_source.html#l00024">autd_types.hpp:24</a></div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a8b7852819cd6a229268013a43e775c0d"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d">autd::link::Link::Link</a></div><div class="ttdeci">Link(const Link &amp;v)=delete</div></div>
+<div class="ttc" id="anamespaceautd_html_ac245083bcdbe668a6a5527195aac9f10"><div class="ttname"><a href="namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10">autd::LinkPtr</a></div><div class="ttdeci">std::unique_ptr&lt; link::Link &gt; LinkPtr</div><div class="ttdef"><b>Definition:</b> <a href="link_8hpp_source.html#l00046">link.hpp:46</a></div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a28977f0e554ad6ed4247f5140a055b13"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13">autd::link::Link::Link</a></div><div class="ttdeci">Link(Link &amp;&amp;obj)=delete</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a7c06fde2a7ad5da4458e4cf1cd913bb5"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">autd::link::Link::Send</a></div><div class="ttdeci">virtual std::optional&lt; int32_t &gt; Send(size_t size, std::unique_ptr&lt; uint8_t[]&gt; buf)=0</div><div class="ttdoc">Send data to devices.</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_ae155d23209cd92678192310c03b2ce9a"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#ae155d23209cd92678192310c03b2ce9a">autd::link::Link::operator=</a></div><div class="ttdeci">Link &amp; operator=(Link &amp;&amp;obj)=delete</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html"><div class="ttname"><a href="classautd_1_1link_1_1Link.html">autd::link::Link</a></div><div class="ttdoc">Link is the interface to the AUTD device.</div><div class="ttdef"><b>Definition:</b> <a href="link_8hpp_source.html#l00022">link.hpp:22</a></div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a3fe8c0fea74a3327c727df742fba5000"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a3fe8c0fea74a3327c727df742fba5000">autd::link::Link::operator=</a></div><div class="ttdeci">Link &amp; operator=(const Link &amp;obj)=delete</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a536f4f3f7fc8eac5269d4eaaf9daaf81"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81">autd::link::Link::~Link</a></div><div class="ttdeci">virtual ~Link()=default</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_a9f7f6b5b55baae643363093a396c4de2"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">autd::link::Link::Read</a></div><div class="ttdeci">virtual std::optional&lt; int32_t &gt; Read(uint8_t *rx, uint32_t buffer_len)=0</div><div class="ttdoc">Read data from devices.</div></div>
+<div class="ttc" id="aclassautd_1_1link_1_1Link_html_abe21d703d9782ee8a18dbbf991ea51c0"><div class="ttname"><a href="classautd_1_1link_1_1Link.html#abe21d703d9782ee8a18dbbf991ea51c0">autd::link::Link::Open</a></div><div class="ttdeci">virtual void Open()=0</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20

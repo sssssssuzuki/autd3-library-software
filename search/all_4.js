@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['data_127',['data',['../classautd_1_1gain_1_1Gain.html#a7921e5576c2154f50189d2df9a246d3b',1,'autd::gain::Gain']]],
-  ['deldevice_128',['DelDevice',['../classautd_1_1Geometry.html#a49c6a67e8c731c00244e940be3f95afd',1,'autd::Geometry']]],
-  ['deviceidfordeviceidx_129',['deviceIdForDeviceIdx',['../classautd_1_1Geometry.html#add84dc8b1e9d4a149e7267ffa9c015d4',1,'autd::Geometry']]],
-  ['deviceidfortransidx_130',['deviceIdForTransIdx',['../classautd_1_1Geometry.html#a2ca6efe33e22e7f5163e7cb1dc77b96f',1,'autd::Geometry']]],
-  ['direction_131',['direction',['../classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9',1,'autd::Geometry']]],
-  ['dot_132',['dot',['../classautd_1_1__utils_1_1Vector3.html#a03fb9e6b4c53ba857d95a3b8beb6b519',1,'autd::_utils::Vector3']]]
+  ['data_51',['data',['../classautd_1_1gain_1_1Gain.html#a5ac37297dec20268317cdc8d0bf1598d',1,'autd::gain::Gain']]],
+  ['debug_5flink_2ehpp_52',['debug_link.hpp',['../debug__link_8hpp.html',1,'']]],
+  ['debuglink_53',['DebugLink',['../classautd_1_1link_1_1DebugLink.html',1,'autd::link::DebugLink'],['../classautd_1_1link_1_1DebugLink.html#ac31059aa99588b70e4b2ba438e4f3b67',1,'autd::link::DebugLink::DebugLink(std::ostream &amp;out)'],['../classautd_1_1link_1_1DebugLink.html#a546f0d17cf3ac3ab02b63a91412c8f82',1,'autd::link::DebugLink::DebugLink(const DebugLink &amp;v) noexcept=delete'],['../classautd_1_1link_1_1DebugLink.html#a5b3f264b475ffa48cc743a80ca60d6e8',1,'autd::link::DebugLink::DebugLink(DebugLink &amp;&amp;obj)=delete']]],
+  ['device_5fidx_5ffor_5ftrans_5fidx_54',['device_idx_for_trans_idx',['../classautd_1_1Geometry.html#a34892a0def837adc7f0d9d0a68490063',1,'autd::Geometry']]],
+  ['direction_55',['direction',['../classautd_1_1Geometry.html#ad831cf70cd7b79eb2c47019716542397',1,'autd::Geometry']]]
 ];

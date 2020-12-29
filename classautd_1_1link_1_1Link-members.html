@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,17 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">~Link</a>()</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a5b81920db4fc30e13755302fe6c3eedc">Close</a>()=0</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a270ea5cb8a55003af9e47943dba0aebf">is_open</a>()=0</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263">Link</a>()=default</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d">Link</a>(const Link &amp;v)=delete</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13">Link</a>(Link &amp;&amp;obj)=delete</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#abe21d703d9782ee8a18dbbf991ea51c0">Open</a>()=0</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a3fe8c0fea74a3327c727df742fba5000">operator=</a>(const Link &amp;obj)=delete</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#ae155d23209cd92678192310c03b2ce9a">operator=</a>(Link &amp;&amp;obj)=delete</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">Read</a>(uint8_t *rx, uint32_t buffer_len)=0</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">Send</a>(size_t size, std::unique_ptr&lt; uint8_t[]&gt; buf)=0</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81">~Link</a>()=default</td><td class="entry"><a class="el" href="classautd_1_1link_1_1Link.html">autd::link::Link</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

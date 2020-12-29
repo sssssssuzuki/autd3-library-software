@@ -1,13 +1,6 @@
 <map id="include/geometry.hpp" name="include/geometry.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="58,5,202,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,229,73,256"/>
-<area shape="rect" id="node3" href="$quaternion_8hpp.html" title=" " alt="" coords="77,80,183,107"/>
-<area shape="rect" id="node9" href="$vector3_8hpp.html" title=" " alt="" coords="208,80,297,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="79,155,138,181"/>
-<area shape="rect" id="node5" href="$core_8hpp.html" title=" " alt="" coords="163,155,233,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="97,229,152,256"/>
-<area shape="rect" id="node7" title=" " alt="" coords="176,229,228,256"/>
-<area shape="rect" id="node8" title=" " alt="" coords="253,229,311,256"/>
-<area shape="rect" id="node10" title=" " alt="" coords="354,155,415,181"/>
-<area shape="rect" id="node11" title=" " alt="" coords="258,155,330,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="23,5,167,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,73,107"/>
+<area shape="rect" id="node3" href="$autd__types_8hpp.html" title=" " alt="" coords="98,80,207,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,155,200,181"/>
 </map>

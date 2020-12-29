@@ -1,0 +1,4 @@
+<map id="autd::link::DebugLink" name="autd::link::DebugLink">
+<area shape="rect" id="node1" title="Link for debug." alt="" coords="5,80,147,107"/>
+<area shape="rect" id="node2" href="$classautd_1_1link_1_1Link.html" title="Link is the interface to the AUTD device." alt="" coords="24,5,128,32"/>
+</map>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -68,7 +68,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classautd_1_1Geometry-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">autd::Geometry Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -82,63 +82,101 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1ee00c8f2bbaa98d35fd8fbf1f951309"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a1ee00c8f2bbaa98d35fd8fbf1f951309">~Geometry</a> ()</td></tr>
-<tr class="separator:a1ee00c8f2bbaa98d35fd8fbf1f951309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7af7b26dfb34e6fcc507bb4948914e0a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a7af7b26dfb34e6fcc507bb4948914e0a">AddDevice</a> (<a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> <a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a>, <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> euler_angles, int group=0)=0</td></tr>
-<tr class="memdesc:a7af7b26dfb34e6fcc507bb4948914e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new device with position and rotation. Note that the transform is done with order: Translate -&gt; Rotate.  <a href="classautd_1_1Geometry.html#a7af7b26dfb34e6fcc507bb4948914e0a">More...</a><br /></td></tr>
-<tr class="separator:a7af7b26dfb34e6fcc507bb4948914e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7baf0d4ab9aee027647b681b5d83f44"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#af7baf0d4ab9aee027647b681b5d83f44">AddDeviceQuaternion</a> (<a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> <a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a>, <a class="el" href="classautd_1_1__utils_1_1Quaternion.html">Quaternion</a> quaternion, int group=0)=0</td></tr>
-<tr class="memdesc:af7baf0d4ab9aee027647b681b5d83f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new device with position and rotation. Note that the transform is done with order: Translate -&gt; Rotate.  <a href="classautd_1_1Geometry.html#af7baf0d4ab9aee027647b681b5d83f44">More...</a><br /></td></tr>
-<tr class="separator:af7baf0d4ab9aee027647b681b5d83f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49c6a67e8c731c00244e940be3f95afd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a49c6a67e8c731c00244e940be3f95afd">DelDevice</a> (int device_id)=0</td></tr>
-<tr class="memdesc:a49c6a67e8c731c00244e940be3f95afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove device from the geometry.  <a href="classautd_1_1Geometry.html#a49c6a67e8c731c00244e940be3f95afd">More...</a><br /></td></tr>
-<tr class="separator:a49c6a67e8c731c00244e940be3f95afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f0832f54f993b8dadafc0ed96b430ef"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a3f0832f54f993b8dadafc0ed96b430ef">numDevices</a> () noexcept=0</td></tr>
-<tr class="memdesc:a3f0832f54f993b8dadafc0ed96b430ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of devices.  <a href="classautd_1_1Geometry.html#a3f0832f54f993b8dadafc0ed96b430ef">More...</a><br /></td></tr>
-<tr class="separator:a3f0832f54f993b8dadafc0ed96b430ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401fb74386e5208858769c03bfc0baa1"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a401fb74386e5208858769c03bfc0baa1">numTransducers</a> () noexcept=0</td></tr>
-<tr class="memdesc:a401fb74386e5208858769c03bfc0baa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of transducers.  <a href="classautd_1_1Geometry.html#a401fb74386e5208858769c03bfc0baa1">More...</a><br /></td></tr>
-<tr class="separator:a401fb74386e5208858769c03bfc0baa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5764b7a8365413f9a32468c6fb1d6374"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a5764b7a8365413f9a32468c6fb1d6374">GroupIDForDeviceID</a> (int device_iD)=0</td></tr>
-<tr class="memdesc:a5764b7a8365413f9a32468c6fb1d6374"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert device ID into group ID.  <a href="classautd_1_1Geometry.html#a5764b7a8365413f9a32468c6fb1d6374">More...</a><br /></td></tr>
-<tr class="separator:a5764b7a8365413f9a32468c6fb1d6374"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">position</a> (int transducer_idx)=0</td></tr>
-<tr class="memdesc:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of a transducer specified by id.  <a href="classautd_1_1Geometry.html#a83103b5d5358ea8ef4bbe14ad9a2a2c1">More...</a><br /></td></tr>
-<tr class="separator:a83103b5d5358ea8ef4bbe14ad9a2a2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b3632039c9ff2e1c82445c22c062b8a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">local_position</a> (int device, <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> global_position)=0</td></tr>
-<tr class="memdesc:a7b3632039c9ff2e1c82445c22c062b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a global position to a local position.  <a href="classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a">More...</a><br /></td></tr>
-<tr class="separator:a7b3632039c9ff2e1c82445c22c062b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99bcc2a6086508a20f93870d0461b6c9"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9">direction</a> (int transducer_id)=0</td></tr>
-<tr class="memdesc:a99bcc2a6086508a20f93870d0461b6c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized direction of a transducer specified by id.  <a href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9">More...</a><br /></td></tr>
-<tr class="separator:a99bcc2a6086508a20f93870d0461b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a698f8d913ac9a6a087262cb6410134d5"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a698f8d913ac9a6a087262cb6410134d5">x_direction</a> (int transducer_id)=0</td></tr>
-<tr class="memdesc:a698f8d913ac9a6a087262cb6410134d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized long-axis direction of a device which contains a transducer specified by id.  <a href="classautd_1_1Geometry.html#a698f8d913ac9a6a087262cb6410134d5">More...</a><br /></td></tr>
-<tr class="separator:a698f8d913ac9a6a087262cb6410134d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c96335d980eb40930ca72edc3ddb58"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ab2c96335d980eb40930ca72edc3ddb58">y_direction</a> (int transducer_id)=0</td></tr>
-<tr class="memdesc:ab2c96335d980eb40930ca72edc3ddb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized short-axis direction of a device which contains a transducer specified by id.  <a href="classautd_1_1Geometry.html#ab2c96335d980eb40930ca72edc3ddb58">More...</a><br /></td></tr>
-<tr class="separator:ab2c96335d980eb40930ca72edc3ddb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07a14bd124b7437c90872c51538a28bf"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf">z_direction</a> (int transducer_id)=0</td></tr>
-<tr class="memdesc:a07a14bd124b7437c90872c51538a28bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as the <a class="el" href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9" title="Normalized direction of a transducer specified by id.">direction()</a>  <a href="classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf">More...</a><br /></td></tr>
-<tr class="separator:a07a14bd124b7437c90872c51538a28bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca6efe33e22e7f5163e7cb1dc77b96f"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a2ca6efe33e22e7f5163e7cb1dc77b96f">deviceIdForTransIdx</a> (int transducer_idx)=0</td></tr>
-<tr class="memdesc:a2ca6efe33e22e7f5163e7cb1dc77b96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert transducer index into device ID.  <a href="classautd_1_1Geometry.html#a2ca6efe33e22e7f5163e7cb1dc77b96f">More...</a><br /></td></tr>
-<tr class="separator:a2ca6efe33e22e7f5163e7cb1dc77b96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add84dc8b1e9d4a149e7267ffa9c015d4"><td class="memItemLeft" align="right" valign="top">virtual const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#add84dc8b1e9d4a149e7267ffa9c015d4">deviceIdForDeviceIdx</a> (int device_index)=0</td></tr>
-<tr class="memdesc:add84dc8b1e9d4a149e7267ffa9c015d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert device index into device ID.  <a href="classautd_1_1Geometry.html#add84dc8b1e9d4a149e7267ffa9c015d4">More...</a><br /></td></tr>
-<tr class="separator:add84dc8b1e9d4a149e7267ffa9c015d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affd57009de006c20adbaed71ef71d34b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#affd57009de006c20adbaed71ef71d34b">Geometry</a> ()=default</td></tr>
+<tr class="separator:affd57009de006c20adbaed71ef71d34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10994a7a91da9c2a1b86197351588003"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a10994a7a91da9c2a1b86197351588003">~Geometry</a> ()=default</td></tr>
+<tr class="separator:a10994a7a91da9c2a1b86197351588003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2558e89e4267936864e59f18bd5e51b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ae2558e89e4267936864e59f18bd5e51b">Geometry</a> (const <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;v) noexcept=default</td></tr>
+<tr class="separator:ae2558e89e4267936864e59f18bd5e51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7003bb79218240c4f4e936cb3a4c8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ae7003bb79218240c4f4e936cb3a4c8c3">operator=</a> (const <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;obj)=default</td></tr>
+<tr class="separator:ae7003bb79218240c4f4e936cb3a4c8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0077cdfbb681e478a1f6302d36131e0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a0077cdfbb681e478a1f6302d36131e0e">Geometry</a> (<a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&amp;obj)=default</td></tr>
+<tr class="separator:a0077cdfbb681e478a1f6302d36131e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe00bb5d6ae5a90a0acdc99ecfb94001"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#abe00bb5d6ae5a90a0acdc99ecfb94001">operator=</a> (<a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&amp;obj)=default</td></tr>
+<tr class="separator:abe00bb5d6ae5a90a0acdc99ecfb94001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9ce7995d2d1641c8c3c2a9cb19c72a"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a0b9ce7995d2d1641c8c3c2a9cb19c72a">AddDevice</a> (<a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> <a class="el" href="classautd_1_1Geometry.html#aff4179751f14cf70656ffaddade88fde">position</a>, <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> euler_angles, size_t group=0)=0</td></tr>
+<tr class="memdesc:a0b9ce7995d2d1641c8c3c2a9cb19c72a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new device with position and rotation. Note that the transform is done with order: Translate -&gt; Rotate.  <a href="classautd_1_1Geometry.html#a0b9ce7995d2d1641c8c3c2a9cb19c72a">More...</a><br /></td></tr>
+<tr class="separator:a0b9ce7995d2d1641c8c3c2a9cb19c72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1889d2395deb1b6ce6ae32848845492"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ab1889d2395deb1b6ce6ae32848845492">AddDeviceQuaternion</a> (<a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> <a class="el" href="classautd_1_1Geometry.html#aff4179751f14cf70656ffaddade88fde">position</a>, <a class="el" href="namespaceautd.html#ab355aeed291de48aef91866a5746f85c">Quaternion</a> quaternion, size_t group=0)=0</td></tr>
+<tr class="memdesc:ab1889d2395deb1b6ce6ae32848845492"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new device with position and rotation. Note that the transform is done with order: Translate -&gt; Rotate.  <a href="classautd_1_1Geometry.html#ab1889d2395deb1b6ce6ae32848845492">More...</a><br /></td></tr>
+<tr class="separator:ab1889d2395deb1b6ce6ae32848845492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a123faec0d875f63e6936927f320f423b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a123faec0d875f63e6936927f320f423b">wavelength</a> () noexcept=0</td></tr>
+<tr class="memdesc:a123faec0d875f63e6936927f320f423b"><td class="mdescLeft">&#160;</td><td class="mdescRight">ultrasound wavelength  <a href="classautd_1_1Geometry.html#a123faec0d875f63e6936927f320f423b">More...</a><br /></td></tr>
+<tr class="separator:a123faec0d875f63e6936927f320f423b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f7902e9c1c923e8a38e88297db9e83"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a18f7902e9c1c923e8a38e88297db9e83">set_wavelength</a> (<a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> <a class="el" href="classautd_1_1Geometry.html#a123faec0d875f63e6936927f320f423b">wavelength</a>) noexcept=0</td></tr>
+<tr class="memdesc:a18f7902e9c1c923e8a38e88297db9e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">set ultrasound wavelength  <a href="classautd_1_1Geometry.html#a18f7902e9c1c923e8a38e88297db9e83">More...</a><br /></td></tr>
+<tr class="separator:a18f7902e9c1c923e8a38e88297db9e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5cd30e80fe533f11fe49ee24e9ebde"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#aea5cd30e80fe533f11fe49ee24e9ebde">num_devices</a> () noexcept=0</td></tr>
+<tr class="memdesc:aea5cd30e80fe533f11fe49ee24e9ebde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of devices.  <a href="classautd_1_1Geometry.html#aea5cd30e80fe533f11fe49ee24e9ebde">More...</a><br /></td></tr>
+<tr class="separator:aea5cd30e80fe533f11fe49ee24e9ebde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7109ef450b42012b1ddab0c30b2d177f"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a7109ef450b42012b1ddab0c30b2d177f">num_transducers</a> () noexcept=0</td></tr>
+<tr class="memdesc:a7109ef450b42012b1ddab0c30b2d177f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of transducers.  <a href="classautd_1_1Geometry.html#a7109ef450b42012b1ddab0c30b2d177f">More...</a><br /></td></tr>
+<tr class="separator:a7109ef450b42012b1ddab0c30b2d177f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e722178d8c32f5e324f5e618774571"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a12e722178d8c32f5e324f5e618774571">group_id_for_device_idx</a> (size_t device_idx)=0</td></tr>
+<tr class="memdesc:a12e722178d8c32f5e324f5e618774571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert device ID into group ID.  <a href="classautd_1_1Geometry.html#a12e722178d8c32f5e324f5e618774571">More...</a><br /></td></tr>
+<tr class="separator:a12e722178d8c32f5e324f5e618774571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4179751f14cf70656ffaddade88fde"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#aff4179751f14cf70656ffaddade88fde">position</a> (size_t global_transducer_idx)=0</td></tr>
+<tr class="memdesc:aff4179751f14cf70656ffaddade88fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of a transducer specified by id.  <a href="classautd_1_1Geometry.html#aff4179751f14cf70656ffaddade88fde">More...</a><br /></td></tr>
+<tr class="separator:aff4179751f14cf70656ffaddade88fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6fd622efc740c66d1139b60bf800a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#adf6fd622efc740c66d1139b60bf800a5">position</a> (size_t device_idx, size_t local_transducer_idx)=0</td></tr>
+<tr class="memdesc:adf6fd622efc740c66d1139b60bf800a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position of a transducer specified by id.  <a href="classautd_1_1Geometry.html#adf6fd622efc740c66d1139b60bf800a5">More...</a><br /></td></tr>
+<tr class="separator:adf6fd622efc740c66d1139b60bf800a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ed6c07c6a78ea961e958a1137ecfaf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#aa5ed6c07c6a78ea961e958a1137ecfaf">local_position</a> (size_t device_idx, <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> global_position)=0</td></tr>
+<tr class="memdesc:aa5ed6c07c6a78ea961e958a1137ecfaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a global position to a local position.  <a href="classautd_1_1Geometry.html#aa5ed6c07c6a78ea961e958a1137ecfaf">More...</a><br /></td></tr>
+<tr class="separator:aa5ed6c07c6a78ea961e958a1137ecfaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad831cf70cd7b79eb2c47019716542397"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ad831cf70cd7b79eb2c47019716542397">direction</a> (size_t device_idx)=0</td></tr>
+<tr class="memdesc:ad831cf70cd7b79eb2c47019716542397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized direction of a device.  <a href="classautd_1_1Geometry.html#ad831cf70cd7b79eb2c47019716542397">More...</a><br /></td></tr>
+<tr class="separator:ad831cf70cd7b79eb2c47019716542397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801d5bfc1d475b3f48cffede5d7bf821"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a801d5bfc1d475b3f48cffede5d7bf821">x_direction</a> (size_t device_idx)=0</td></tr>
+<tr class="memdesc:a801d5bfc1d475b3f48cffede5d7bf821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized long-axis direction of a device.  <a href="classautd_1_1Geometry.html#a801d5bfc1d475b3f48cffede5d7bf821">More...</a><br /></td></tr>
+<tr class="separator:a801d5bfc1d475b3f48cffede5d7bf821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abff5b70c4ba5756a7f68be2a9d197cb0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#abff5b70c4ba5756a7f68be2a9d197cb0">y_direction</a> (size_t device_idx)=0</td></tr>
+<tr class="memdesc:abff5b70c4ba5756a7f68be2a9d197cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalized short-axis direction of a device.  <a href="classautd_1_1Geometry.html#abff5b70c4ba5756a7f68be2a9d197cb0">More...</a><br /></td></tr>
+<tr class="separator:abff5b70c4ba5756a7f68be2a9d197cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17dba69c1ca4e3842446e58a9fc7fa18"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a17dba69c1ca4e3842446e58a9fc7fa18">z_direction</a> (size_t device_idx)=0</td></tr>
+<tr class="memdesc:a17dba69c1ca4e3842446e58a9fc7fa18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as the <a class="el" href="classautd_1_1Geometry.html#ad831cf70cd7b79eb2c47019716542397" title="Normalized direction of a device.">direction()</a>  <a href="classautd_1_1Geometry.html#a17dba69c1ca4e3842446e58a9fc7fa18">More...</a><br /></td></tr>
+<tr class="separator:a17dba69c1ca4e3842446e58a9fc7fa18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34892a0def837adc7f0d9d0a68490063"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#a34892a0def837adc7f0d9d0a68490063">device_idx_for_trans_idx</a> (size_t transducer_idx)=0</td></tr>
+<tr class="memdesc:a34892a0def837adc7f0d9d0a68490063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert transducer index into device ID.  <a href="classautd_1_1Geometry.html#a34892a0def837adc7f0d9d0a68490063">More...</a><br /></td></tr>
+<tr class="separator:a34892a0def837adc7f0d9d0a68490063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ae97fa9485194ad10ddebcf842dc8738e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#ae97fa9485194ad10ddebcf842dc8738e">AUTDController</a></td></tr>
-<tr class="separator:ae97fa9485194ad10ddebcf842dc8738e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aa948c4c550f7713abb7b53cfccaa562f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1Geometry.html#aa948c4c550f7713abb7b53cfccaa562f">Create</a> ()</td></tr>
+<tr class="separator:aa948c4c550f7713abb7b53cfccaa562f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>AUTD <a class="el" href="classautd_1_1Geometry.html" title="AUTD Geometry.">Geometry</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00025">25</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00026">26</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1ee00c8f2bbaa98d35fd8fbf1f951309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee00c8f2bbaa98d35fd8fbf1f951309">&#9670;&nbsp;</a></span>~Geometry()</h2>
+<a id="affd57009de006c20adbaed71ef71d34b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affd57009de006c20adbaed71ef71d34b">&#9670;&nbsp;</a></span>Geometry() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autd::Geometry::Geometry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10994a7a91da9c2a1b86197351588003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10994a7a91da9c2a1b86197351588003">&#9670;&nbsp;</a></span>~Geometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,18 +193,15 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00029">29</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7af7b26dfb34e6fcc507bb4948914e0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7af7b26dfb34e6fcc507bb4948914e0a">&#9670;&nbsp;</a></span>AddDevice()</h2>
+<a id="ae2558e89e4267936864e59f18bd5e51b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2558e89e4267936864e59f18bd5e51b">&#9670;&nbsp;</a></span>Geometry() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,21 +210,74 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int autd::Geometry::AddDevice </td>
+          <td class="memname">autd::Geometry::Geometry </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0077cdfbb681e478a1f6302d36131e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0077cdfbb681e478a1f6302d36131e0e">&#9670;&nbsp;</a></span>Geometry() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autd::Geometry::Geometry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0b9ce7995d2d1641c8c3c2a9cb19c72a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9ce7995d2d1641c8c3c2a9cb19c72a">&#9670;&nbsp;</a></span>AddDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t autd::Geometry::AddDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td>
           <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td>
           <td class="paramname"><em>euler_angles</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>group</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -218,8 +306,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="af7baf0d4ab9aee027647b681b5d83f44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7baf0d4ab9aee027647b681b5d83f44">&#9670;&nbsp;</a></span>AddDeviceQuaternion()</h2>
+<a id="ab1889d2395deb1b6ce6ae32848845492"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1889d2395deb1b6ce6ae32848845492">&#9670;&nbsp;</a></span>AddDeviceQuaternion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,21 +316,21 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int autd::Geometry::AddDeviceQuaternion </td>
+          <td class="memname">virtual size_t autd::Geometry::AddDeviceQuaternion </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td>
           <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Quaternion.html">Quaternion</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#ab355aeed291de48aef91866a5746f85c">Quaternion</a>&#160;</td>
           <td class="paramname"><em>quaternion</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>group</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
@@ -271,8 +359,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a49c6a67e8c731c00244e940be3f95afd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49c6a67e8c731c00244e940be3f95afd">&#9670;&nbsp;</a></span>DelDevice()</h2>
+<a id="aa948c4c550f7713abb7b53cfccaa562f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa948c4c550f7713abb7b53cfccaa562f">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,26 +369,23 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void autd::Geometry::DelDevice </td>
+          <td class="memname">static <a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> autd::Geometry::Create </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>device_id</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Remove device from the geometry. </p>
-
 </div>
 </div>
-<a id="add84dc8b1e9d4a149e7267ffa9c015d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add84dc8b1e9d4a149e7267ffa9c015d4">&#9670;&nbsp;</a></span>deviceIdForDeviceIdx()</h2>
+<a id="a34892a0def837adc7f0d9d0a68490063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34892a0def837adc7f0d9d0a68490063">&#9670;&nbsp;</a></span>device_idx_for_trans_idx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,37 +394,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const int autd::Geometry::deviceIdForDeviceIdx </td>
+          <td class="memname">virtual size_t autd::Geometry::device_idx_for_trans_idx </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>device_index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert device index into device ID. </p>
-
-</div>
-</div>
-<a id="a2ca6efe33e22e7f5163e7cb1dc77b96f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca6efe33e22e7f5163e7cb1dc77b96f">&#9670;&nbsp;</a></span>deviceIdForTransIdx()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const int autd::Geometry::deviceIdForTransIdx </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>transducer_idx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -355,8 +412,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a99bcc2a6086508a20f93870d0461b6c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99bcc2a6086508a20f93870d0461b6c9">&#9670;&nbsp;</a></span>direction()</h2>
+<a id="ad831cf70cd7b79eb2c47019716542397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad831cf70cd7b79eb2c47019716542397">&#9670;&nbsp;</a></span>direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,10 +422,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::direction </td>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::direction </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>transducer_id</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -379,12 +436,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Normalized direction of a transducer specified by id. </p>
+<p>Normalized direction of a device. </p>
 
 </div>
 </div>
-<a id="a5764b7a8365413f9a32468c6fb1d6374"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5764b7a8365413f9a32468c6fb1d6374">&#9670;&nbsp;</a></span>GroupIDForDeviceID()</h2>
+<a id="a12e722178d8c32f5e324f5e618774571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12e722178d8c32f5e324f5e618774571">&#9670;&nbsp;</a></span>group_id_for_device_idx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,10 +450,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int autd::Geometry::GroupIDForDeviceID </td>
+          <td class="memname">virtual size_t autd::Geometry::group_id_for_device_idx </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>device_iD</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -411,8 +468,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b3632039c9ff2e1c82445c22c062b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b3632039c9ff2e1c82445c22c062b8a">&#9670;&nbsp;</a></span>local_position()</h2>
+<a id="aa5ed6c07c6a78ea961e958a1137ecfaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ed6c07c6a78ea961e958a1137ecfaf">&#9670;&nbsp;</a></span>local_position()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,15 +478,15 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::local_position </td>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::local_position </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>device</em>, </td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a>&#160;</td>
           <td class="paramname"><em>global_position</em>&#160;</td>
         </tr>
         <tr>
@@ -449,8 +506,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a3f0832f54f993b8dadafc0ed96b430ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f0832f54f993b8dadafc0ed96b430ef">&#9670;&nbsp;</a></span>numDevices()</h2>
+<a id="aea5cd30e80fe533f11fe49ee24e9ebde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5cd30e80fe533f11fe49ee24e9ebde">&#9670;&nbsp;</a></span>num_devices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -459,7 +516,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const int autd::Geometry::numDevices </td>
+          <td class="memname">virtual size_t autd::Geometry::num_devices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -476,8 +533,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a401fb74386e5208858769c03bfc0baa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a401fb74386e5208858769c03bfc0baa1">&#9670;&nbsp;</a></span>numTransducers()</h2>
+<a id="a7109ef450b42012b1ddab0c30b2d177f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7109ef450b42012b1ddab0c30b2d177f">&#9670;&nbsp;</a></span>num_transducers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +543,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const int autd::Geometry::numTransducers </td>
+          <td class="memname">virtual size_t autd::Geometry::num_transducers </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -503,8 +560,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a83103b5d5358ea8ef4bbe14ad9a2a2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83103b5d5358ea8ef4bbe14ad9a2a2c1">&#9670;&nbsp;</a></span>position()</h2>
+<a id="ae7003bb79218240c4f4e936cb3a4c8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7003bb79218240c4f4e936cb3a4c8c3">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,10 +570,100 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::position </td>
+          <td class="memname"><a class="el" href="classautd_1_1Geometry.html">Geometry</a>&amp; autd::Geometry::operator= </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>transducer_idx</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe00bb5d6ae5a90a0acdc99ecfb94001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe00bb5d6ae5a90a0acdc99ecfb94001">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classautd_1_1Geometry.html">Geometry</a>&amp; autd::Geometry::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classautd_1_1Geometry.html">Geometry</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf6fd622efc740c66d1139b60bf800a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6fd622efc740c66d1139b60bf800a5">&#9670;&nbsp;</a></span>position() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>local_transducer_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Position of a transducer specified by id. </p>
+
+</div>
+</div>
+<a id="aff4179751f14cf70656ffaddade88fde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff4179751f14cf70656ffaddade88fde">&#9670;&nbsp;</a></span>position() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::position </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>global_transducer_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -531,8 +678,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a698f8d913ac9a6a087262cb6410134d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a698f8d913ac9a6a087262cb6410134d5">&#9670;&nbsp;</a></span>x_direction()</h2>
+<a id="a18f7902e9c1c923e8a38e88297db9e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f7902e9c1c923e8a38e88297db9e83">&#9670;&nbsp;</a></span>set_wavelength()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,10 +688,65 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::x_direction </td>
+          <td class="memname">virtual void autd::Geometry::set_wavelength </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>transducer_id</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td>
+          <td class="paramname"><em>wavelength</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set ultrasound wavelength </p>
+
+</div>
+</div>
+<a id="a123faec0d875f63e6936927f320f423b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a123faec0d875f63e6936927f320f423b">&#9670;&nbsp;</a></span>wavelength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::Geometry::wavelength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ultrasound wavelength </p>
+
+</div>
+</div>
+<a id="a801d5bfc1d475b3f48cffede5d7bf821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801d5bfc1d475b3f48cffede5d7bf821">&#9670;&nbsp;</a></span>x_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::x_direction </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -555,12 +757,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Normalized long-axis direction of a device which contains a transducer specified by id. </p>
+<p>Normalized long-axis direction of a device. </p>
 
 </div>
 </div>
-<a id="ab2c96335d980eb40930ca72edc3ddb58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2c96335d980eb40930ca72edc3ddb58">&#9670;&nbsp;</a></span>y_direction()</h2>
+<a id="abff5b70c4ba5756a7f68be2a9d197cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff5b70c4ba5756a7f68be2a9d197cb0">&#9670;&nbsp;</a></span>y_direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,10 +771,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::y_direction </td>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::y_direction </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>transducer_id</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -583,12 +785,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Normalized short-axis direction of a device which contains a transducer specified by id. </p>
+<p>Normalized short-axis direction of a device. </p>
 
 </div>
 </div>
-<a id="a07a14bd124b7437c90872c51538a28bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07a14bd124b7437c90872c51538a28bf">&#9670;&nbsp;</a></span>z_direction()</h2>
+<a id="a17dba69c1ca4e3842446e58a9fc7fa18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17dba69c1ca4e3842446e58a9fc7fa18">&#9670;&nbsp;</a></span>z_direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -597,10 +799,10 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual const <a class="el" href="classautd_1_1__utils_1_1Vector3.html">Vector3</a> autd::Geometry::z_direction </td>
+          <td class="memname">virtual <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> autd::Geometry::z_direction </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>transducer_id</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>device_idx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -611,32 +813,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Same as the <a class="el" href="classautd_1_1Geometry.html#a99bcc2a6086508a20f93870d0461b6c9" title="Normalized direction of a transducer specified by id.">direction()</a> </p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ae97fa9485194ad10ddebcf842dc8738e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae97fa9485194ad10ddebcf842dc8738e">&#9670;&nbsp;</a></span>AUTDController</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class AUTDController</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00026">26</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Same as the <a class="el" href="classautd_1_1Geometry.html#ad831cf70cd7b79eb2c47019716542397" title="Normalized direction of a device.">direction()</a> </p>
 
 </div>
 </div>

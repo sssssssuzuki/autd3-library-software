@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -83,26 +83,74 @@ Inheritance diagram for autd::link::Link:</div>
 <div class="dyncontent">
 <div class="center"><img src="classautd_1_1link_1_1Link__inherit__graph.png" border="0" usemap="#aautd_1_1link_1_1Link_inherit__map" alt="Inheritance graph"/></div>
 <map name="autd_1_1link_1_1Link_inherit__map" id="aautd_1_1link_1_1Link_inherit__map">
-<area shape="rect" title="Link is the interface to the AUTD device." alt="" coords="5,81,109,108"/>
-<area shape="rect" href="classautd_1_1link_1_1EmulatorLink.html" title="Experimental: Link to connect with Emulator" alt="" coords="175,5,330,32"/>
-<area shape="rect" href="classautd_1_1link_1_1LocalTwinCATLink.html" title="TwinCATLink using local TwinCAT server." alt="" coords="157,56,348,83"/>
-<area shape="rect" href="classautd_1_1link_1_1SOEMLink.html" title="Link using SOEM" alt="" coords="181,107,324,133"/>
-<area shape="rect" href="classautd_1_1link_1_1TwinCATLink.html" title="TwinCATLink using remote TwinCAT server." alt="" coords="173,157,332,184"/>
+<area shape="rect" title="Link is the interface to the AUTD device." alt="" coords="5,107,109,133"/>
+<area shape="rect" href="classautd_1_1link_1_1DebugLink.html" title="Link for debug." alt="" coords="182,5,323,32"/>
+<area shape="rect" href="classautd_1_1link_1_1EmulatorLink.html" title="Experimental: Link to connect with Emulator" alt="" coords="175,56,330,83"/>
+<area shape="rect" href="classautd_1_1link_1_1LocalTwinCATLink.html" title="TwinCATLink using local TwinCAT server." alt="" coords="157,107,348,133"/>
+<area shape="rect" href="classautd_1_1link_1_1SOEMLink.html" title="Link using SOEM" alt="" coords="181,157,324,184"/>
+<area shape="rect" href="classautd_1_1link_1_1TwinCATLink.html" title="TwinCATLink using remote TwinCAT server." alt="" coords="173,208,332,235"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca1cd3916eea8ac60effb5e45954bbc1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#aca1cd3916eea8ac60effb5e45954bbc1">~Link</a> ()</td></tr>
-<tr class="separator:aca1cd3916eea8ac60effb5e45954bbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6912aef3c8198dce2953f1dcdb4263"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263">Link</a> ()=default</td></tr>
+<tr class="separator:a8a6912aef3c8198dce2953f1dcdb4263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536f4f3f7fc8eac5269d4eaaf9daaf81"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81">~Link</a> ()=default</td></tr>
+<tr class="separator:a536f4f3f7fc8eac5269d4eaaf9daaf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7852819cd6a229268013a43e775c0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d">Link</a> (const <a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;v)=delete</td></tr>
+<tr class="separator:a8b7852819cd6a229268013a43e775c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe8c0fea74a3327c727df742fba5000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a3fe8c0fea74a3327c727df742fba5000">operator=</a> (const <a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;obj)=delete</td></tr>
+<tr class="separator:a3fe8c0fea74a3327c727df742fba5000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28977f0e554ad6ed4247f5140a055b13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13">Link</a> (<a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&amp;obj)=delete</td></tr>
+<tr class="separator:a28977f0e554ad6ed4247f5140a055b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae155d23209cd92678192310c03b2ce9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#ae155d23209cd92678192310c03b2ce9a">operator=</a> (<a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&amp;obj)=delete</td></tr>
+<tr class="separator:ae155d23209cd92678192310c03b2ce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe21d703d9782ee8a18dbbf991ea51c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#abe21d703d9782ee8a18dbbf991ea51c0">Open</a> ()=0</td></tr>
+<tr class="separator:abe21d703d9782ee8a18dbbf991ea51c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b81920db4fc30e13755302fe6c3eedc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a5b81920db4fc30e13755302fe6c3eedc">Close</a> ()=0</td></tr>
+<tr class="separator:a5b81920db4fc30e13755302fe6c3eedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c06fde2a7ad5da4458e4cf1cd913bb5"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">Send</a> (size_t size, std::unique_ptr&lt; uint8_t[]&gt; buf)=0</td></tr>
+<tr class="memdesc:a7c06fde2a7ad5da4458e4cf1cd913bb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data to devices.  <a href="classautd_1_1link_1_1Link.html#a7c06fde2a7ad5da4458e4cf1cd913bb5">More...</a><br /></td></tr>
+<tr class="separator:a7c06fde2a7ad5da4458e4cf1cd913bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7f6b5b55baae643363093a396c4de2"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; int32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">Read</a> (uint8_t *rx, uint32_t buffer_len)=0</td></tr>
+<tr class="memdesc:a9f7f6b5b55baae643363093a396c4de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read data from devices.  <a href="classautd_1_1link_1_1Link.html#a9f7f6b5b55baae643363093a396c4de2">More...</a><br /></td></tr>
+<tr class="separator:a9f7f6b5b55baae643363093a396c4de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270ea5cb8a55003af9e47943dba0aebf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classautd_1_1link_1_1Link.html#a270ea5cb8a55003af9e47943dba0aebf">is_open</a> ()=0</td></tr>
+<tr class="separator:a270ea5cb8a55003af9e47943dba0aebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classautd_1_1link_1_1Link.html" title="Link is the interface to the AUTD device.">Link</a> is the interface to the AUTD device. </p>
 
-<p class="definition">Definition at line <a class="el" href="link_8hpp_source.html#l00024">24</a> of file <a class="el" href="link_8hpp_source.html">link.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="link_8hpp_source.html#l00022">22</a> of file <a class="el" href="link_8hpp_source.html">link.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aca1cd3916eea8ac60effb5e45954bbc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca1cd3916eea8ac60effb5e45954bbc1">&#9670;&nbsp;</a></span>~Link()</h2>
+<a id="a8a6912aef3c8198dce2953f1dcdb4263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a6912aef3c8198dce2953f1dcdb4263">&#9670;&nbsp;</a></span>Link() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autd::link::Link::Link </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a536f4f3f7fc8eac5269d4eaaf9daaf81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a536f4f3f7fc8eac5269d4eaaf9daaf81">&#9670;&nbsp;</a></span>~Link()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -119,12 +167,278 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="link_8hpp_source.html#l00028">28</a> of file <a class="el" href="link_8hpp_source.html">link.hpp</a>.</p>
+</div>
+</div>
+<a id="a8b7852819cd6a229268013a43e775c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7852819cd6a229268013a43e775c0d">&#9670;&nbsp;</a></span>Link() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autd::link::Link::Link </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28977f0e554ad6ed4247f5140a055b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28977f0e554ad6ed4247f5140a055b13">&#9670;&nbsp;</a></span>Link() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autd::link::Link::Link </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5b81920db4fc30e13755302fe6c3eedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b81920db4fc30e13755302fe6c3eedc">&#9670;&nbsp;</a></span>Close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void autd::link::Link::Close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#aeba7bb121d621c404f2223c60c82e780">autd::link::LocalTwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#a7d8d8d923dc3c584db3e249a8a30b43c">autd::link::TwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#ae37587998ca2137dcb114fa575226cf8">autd::link::SOEMLink</a>, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#a91d5c756ec46c3916604f887ae970135">autd::link::EmulatorLink</a>, and <a class="el" href="classautd_1_1link_1_1DebugLink.html#ab761b389b22c2085b5656f71b10ccd0a">autd::link::DebugLink</a>.</p>
+
+</div>
+</div>
+<a id="a270ea5cb8a55003af9e47943dba0aebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270ea5cb8a55003af9e47943dba0aebf">&#9670;&nbsp;</a></span>is_open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool autd::link::Link::is_open </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#ad3686688a8cf1d523d79d4a30950fc2e">autd::link::LocalTwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#a6594b71ba5a85e8a721d4ed2c227510f">autd::link::TwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#ac2f4fded617135b671872c2bcdc0c9bf">autd::link::SOEMLink</a>, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#ade93979026041f52277b8ab0787185e5">autd::link::EmulatorLink</a>, and <a class="el" href="classautd_1_1link_1_1DebugLink.html#a7f2a5bf2d7944f85ebe51cf5836222f4">autd::link::DebugLink</a>.</p>
+
+</div>
+</div>
+<a id="abe21d703d9782ee8a18dbbf991ea51c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe21d703d9782ee8a18dbbf991ea51c0">&#9670;&nbsp;</a></span>Open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void autd::link::Link::Open </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#a3c591d25ca1df2493068cfd174f0f7c8">autd::link::LocalTwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#ae12a9848ad9951e8724bd71cd21e8606">autd::link::TwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#ac3674dad2820ef3250e3afd554da937d">autd::link::SOEMLink</a>, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#a091897df2284d07c37d6cd4e5fddc93e">autd::link::EmulatorLink</a>, and <a class="el" href="classautd_1_1link_1_1DebugLink.html#a1883eff346149dda57a7c171c8d9d42a">autd::link::DebugLink</a>.</p>
+
+</div>
+</div>
+<a id="a3fe8c0fea74a3327c727df742fba5000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe8c0fea74a3327c727df742fba5000">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a>&amp; autd::link::Link::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae155d23209cd92678192310c03b2ce9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae155d23209cd92678192310c03b2ce9a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a>&amp; autd::link::Link::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classautd_1_1link_1_1Link.html">Link</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f7f6b5b55baae643363093a396c4de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f7f6b5b55baae643363093a396c4de2">&#9670;&nbsp;</a></span>Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::optional&lt;int32_t&gt; autd::link::Link::Read </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>rx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>buffer_len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read data from devices. </p>
+<dl class="section return"><dt>Returns</dt><dd>return nullopt if no error, otherwise return error code. </dd></dl>
+
+<p>Implemented in <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#a78569d2a692ae36373725c7905e092f3">autd::link::LocalTwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#a658029e413cd6760b1de7c1cf3974fcc">autd::link::TwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#a99a7dfb8b2a0afcf3a7468aed24941c5">autd::link::SOEMLink</a>, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#a4d0946d19007364f38480876da775a8e">autd::link::EmulatorLink</a>, and <a class="el" href="classautd_1_1link_1_1DebugLink.html#ad17ce071a35d36c393c6aaf83add6365">autd::link::DebugLink</a>.</p>
+
+</div>
+</div>
+<a id="a7c06fde2a7ad5da4458e4cf1cd913bb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c06fde2a7ad5da4458e4cf1cd913bb5">&#9670;&nbsp;</a></span>Send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::optional&lt;int32_t&gt; autd::link::Link::Send </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::unique_ptr&lt; uint8_t[]&gt;&#160;</td>
+          <td class="paramname"><em>buf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send data to devices. </p>
+<dl class="section return"><dt>Returns</dt><dd>return nullopt if no error, otherwise return error code. </dd></dl>
+
+<p>Implemented in <a class="el" href="classautd_1_1link_1_1LocalTwinCATLink.html#ada146493bb878d4c800de9df273453ae">autd::link::LocalTwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1TwinCATLink.html#abff86766a2b2a14cb0cb4b04f4484ce4">autd::link::TwinCATLink</a>, <a class="el" href="classautd_1_1link_1_1SOEMLink.html#a6f94511ebfe8a87b962e57b2f555f235">autd::link::SOEMLink</a>, <a class="el" href="classautd_1_1link_1_1EmulatorLink.html#aacdff3a79ae435883f275c83304d5ffd">autd::link::EmulatorLink</a>, and <a class="el" href="classautd_1_1link_1_1DebugLink.html#a87e40caeabc6aa79264938e85906e66a">autd::link::DebugLink</a>.</p>
 
 </div>
 </div>

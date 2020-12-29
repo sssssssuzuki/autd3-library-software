@@ -1,24 +1,26 @@
 <map id="include/autd3.hpp" name="include/autd3.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="425,5,548,32"/>
-<area shape="rect" id="node2" href="$consts_8hpp.html" title=" " alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node4" href="$configuration_8hpp.html" title=" " alt="" coords="435,379,554,405"/>
-<area shape="rect" id="node8" href="$controller_8hpp.html" title=" " alt="" coords="568,80,667,107"/>
-<area shape="rect" id="node11" href="$gain_8hpp.html" title=" " alt="" coords="861,155,931,181"/>
-<area shape="rect" id="node16" href="$geometry_8hpp.html" title=" " alt="" coords="1137,229,1236,256"/>
-<area shape="rect" id="node17" href="$quaternion_8hpp.html" title=" " alt="" coords="797,304,904,331"/>
-<area shape="rect" id="node19" href="$vector3_8hpp.html" title=" " alt="" coords="958,304,1047,331"/>
-<area shape="rect" id="node20" href="$modulation_8hpp.html" title=" " alt="" coords="445,304,555,331"/>
-<area shape="rect" id="node21" href="$firmware__version_8hpp.html" title=" " alt="" coords="267,379,411,405"/>
-<area shape="rect" id="node22" href="$sequence_8hpp.html" title=" " alt="" coords="217,304,319,331"/>
-<area shape="rect" id="node3" title=" " alt="" coords="18,155,78,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="459,453,531,480"/>
-<area shape="rect" id="node6" title=" " alt="" coords="590,453,645,480"/>
-<area shape="rect" id="node7" title=" " alt="" coords="200,453,259,480"/>
-<area shape="rect" id="node9" title=" " alt="" coords="1153,453,1221,480"/>
-<area shape="rect" id="node10" title=" " alt="" coords="778,453,830,480"/>
-<area shape="rect" id="node12" title=" " alt="" coords="1065,379,1127,405"/>
-<area shape="rect" id="node13" title=" " alt="" coords="934,229,981,256"/>
-<area shape="rect" id="node14" title=" " alt="" coords="1005,229,1062,256"/>
-<area shape="rect" id="node15" href="$core_8hpp.html" title=" " alt="" coords="731,379,802,405"/>
-<area shape="rect" id="node18" title=" " alt="" coords="928,379,987,405"/>
+<area shape="rect" id="node1" title=" " alt="" coords="735,5,857,32"/>
+<area shape="rect" id="node2" href="$autd__types_8hpp.html" title=" " alt="" coords="665,304,775,331"/>
+<area shape="rect" id="node4" href="$configuration_8hpp.html" title=" " alt="" coords="1282,229,1401,256"/>
+<area shape="rect" id="node5" href="$consts_8hpp.html" title=" " alt="" coords="33,229,119,256"/>
+<area shape="rect" id="node8" href="$controller_8hpp.html" title=" " alt="" coords="931,80,1029,107"/>
+<area shape="rect" id="node11" href="$firmware__version_8hpp.html" title=" " alt="" coords="431,155,575,181"/>
+<area shape="rect" id="node14" href="$gain_8hpp.html" title=" " alt="" coords="662,155,733,181"/>
+<area shape="rect" id="node20" href="$geometry_8hpp.html" title=" " alt="" coords="924,229,1023,256"/>
+<area shape="rect" id="node23" href="$modulation_8hpp.html" title=" " alt="" coords="833,155,943,181"/>
+<area shape="rect" id="node24" href="$sequence_8hpp.html" title=" " alt="" coords="1074,155,1177,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="673,379,767,405"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,304,67,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="91,304,141,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1118,304,1186,331"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1097,229,1156,256"/>
+<area shape="rect" id="node21" href="$link_8hpp.html" title=" " alt="" coords="1425,155,1492,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="193,229,265,256"/>
+<area shape="rect" id="node13" title=" " alt="" coords="371,229,426,256"/>
+<area shape="rect" id="node15" title=" " alt="" coords="450,229,515,256"/>
+<area shape="rect" id="node16" title=" " alt="" coords="591,229,649,256"/>
+<area shape="rect" id="node17" title=" " alt="" coords="674,229,721,256"/>
+<area shape="rect" id="node18" title=" " alt="" coords="290,229,347,256"/>
+<area shape="rect" id="node19" title=" " alt="" coords="797,229,849,256"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1425,229,1492,256"/>
 </map>

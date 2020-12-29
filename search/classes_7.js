@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['matlabgain_296',['MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html',1,'autd::gain']]],
-  ['modulation_297',['Modulation',['../classautd_1_1modulation_1_1Modulation.html',1,'autd::modulation']]]
+  ['link_207',['Link',['../classautd_1_1link_1_1Link.html',1,'autd::link']]],
+  ['localtwincatlink_208',['LocalTwinCATLink',['../classautd_1_1link_1_1LocalTwinCATLink.html',1,'autd::link']]]
 ];

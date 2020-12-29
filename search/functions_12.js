@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['w_479',['w',['../classautd_1_1__utils_1_1Quaternion.html#ad0e882adaef9070d80bcdf2609537bab',1,'autd::_utils::Quaternion']]]
+  ['x_5fdirection_331',['x_direction',['../classautd_1_1Geometry.html#a801d5bfc1d475b3f48cffede5d7bf821',1,'autd::Geometry']]]
 ];

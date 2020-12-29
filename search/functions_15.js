@@ -1,6 +1,21 @@
 var searchData=
 [
-  ['z_484',['z',['../classautd_1_1__utils_1_1Quaternion.html#a46f5db67e95e39664cced971ee37646a',1,'autd::_utils::Quaternion::z()'],['../classautd_1_1__utils_1_1Vector3.html#aab6014b55874cba5f6f6fb7b203efdd3',1,'autd::_utils::Vector3::z()']]],
-  ['z_5fdirection_485',['z_direction',['../classautd_1_1Geometry.html#a07a14bd124b7437c90872c51538a28bf',1,'autd::Geometry']]],
-  ['zero_486',['zero',['../classautd_1_1__utils_1_1Vector3.html#abdf93a321cdb0f426cbf4a9b107b93a1',1,'autd::_utils::Vector3']]]
+  ['_7ebesselbeamgain_334',['~BesselBeamGain',['../classautd_1_1gain_1_1BesselBeamGain.html#ac05dd9c7d98dc0581452bc7f80d119c8',1,'autd::gain::BesselBeamGain']]],
+  ['_7econtroller_335',['~Controller',['../classautd_1_1Controller.html#aa78db1e33973954f0f64f4606f77e9cc',1,'autd::Controller']]],
+  ['_7ecustomgain_336',['~CustomGain',['../classautd_1_1gain_1_1CustomGain.html#a4c8f867ce5749f7b919df5ebf9be0898',1,'autd::gain::CustomGain']]],
+  ['_7edebuglink_337',['~DebugLink',['../classautd_1_1link_1_1DebugLink.html#a965cb24cf1463b7a4f541de7ebd02ff2',1,'autd::link::DebugLink']]],
+  ['_7eemulatorlink_338',['~EmulatorLink',['../classautd_1_1link_1_1EmulatorLink.html#ac94995e1a9405c6e293a243849f364af',1,'autd::link::EmulatorLink']]],
+  ['_7efocalpointgain_339',['~FocalPointGain',['../classautd_1_1gain_1_1FocalPointGain.html#ab02bdf77785a78998033e9ae877ae4fd',1,'autd::gain::FocalPointGain']]],
+  ['_7egain_340',['~Gain',['../classautd_1_1gain_1_1Gain.html#aa465f15249f48782618424cb841b5beb',1,'autd::gain::Gain']]],
+  ['_7egeometry_341',['~Geometry',['../classautd_1_1Geometry.html#a10994a7a91da9c2a1b86197351588003',1,'autd::Geometry']]],
+  ['_7egroupedgain_342',['~GroupedGain',['../classautd_1_1gain_1_1GroupedGain.html#a23c19f55118f9fdfe15fdbbd344ebb28',1,'autd::gain::GroupedGain']]],
+  ['_7ehologain_343',['~HoloGain',['../classautd_1_1gain_1_1HoloGain.html#a7e2804c887191ecb0fd0bbab62bf1c80',1,'autd::gain::HoloGain']]],
+  ['_7elink_344',['~Link',['../classautd_1_1link_1_1Link.html#a536f4f3f7fc8eac5269d4eaaf9daaf81',1,'autd::link::Link']]],
+  ['_7elocaltwincatlink_345',['~LocalTwinCATLink',['../classautd_1_1link_1_1LocalTwinCATLink.html#a6feb1cd2174b9909be3397ff4c83cba2',1,'autd::link::LocalTwinCATLink']]],
+  ['_7ematlabgain_346',['~MatlabGain',['../classautd_1_1gain_1_1MatlabGain.html#a957d9b2434c0e2d183b223accb6f7729',1,'autd::gain::MatlabGain']]],
+  ['_7emodulation_347',['~Modulation',['../classautd_1_1modulation_1_1Modulation.html#af2bedf724a3d221c55f5d168a751d482',1,'autd::modulation::Modulation']]],
+  ['_7eplanewavegain_348',['~PlaneWaveGain',['../classautd_1_1gain_1_1PlaneWaveGain.html#ace1aa969e5d4ef57ec597f375d718a7c',1,'autd::gain::PlaneWaveGain']]],
+  ['_7esoemlink_349',['~SOEMLink',['../classautd_1_1link_1_1SOEMLink.html#ab7c7735fc01b6b8203d68de0a9395910',1,'autd::link::SOEMLink']]],
+  ['_7etransducertestgain_350',['~TransducerTestGain',['../classautd_1_1gain_1_1TransducerTestGain.html#ace582073411f0d0b8b2b0c4892830e2f',1,'autd::gain::TransducerTestGain']]],
+  ['_7etwincatlink_351',['~TwinCATLink',['../classautd_1_1link_1_1TwinCATLink.html#ab85f672148909a5f92b185601e56d5cc',1,'autd::link::TwinCATLink']]]
 ];

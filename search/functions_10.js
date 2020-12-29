@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unit_5fx_475',['unit_x',['../classautd_1_1__utils_1_1Vector3.html#a1628191ab5bafc9133a68a4c61d7259d',1,'autd::_utils::Vector3']]],
-  ['unit_5fy_476',['unit_y',['../classautd_1_1__utils_1_1Vector3.html#aa678755e9f0ca34b82cc744b387b38e9',1,'autd::_utils::Vector3']]],
-  ['unit_5fz_477',['unit_z',['../classautd_1_1__utils_1_1Vector3.html#a655260a468f00c03e3ebb83b2f818d74',1,'autd::_utils::Vector3']]]
+  ['tofloat_326',['ToFloat',['../namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99',1,'autd']]],
+  ['transducertestgain_327',['TransducerTestGain',['../classautd_1_1gain_1_1TransducerTestGain.html#a905540f4772737a5e1691a880234e31b',1,'autd::gain::TransducerTestGain::TransducerTestGain(const size_t transducer_index, const uint8_t duty, const uint8_t phase)'],['../classautd_1_1gain_1_1TransducerTestGain.html#aba04518761b55288199e9ccca219e862',1,'autd::gain::TransducerTestGain::TransducerTestGain(const TransducerTestGain &amp;v) noexcept=default'],['../classautd_1_1gain_1_1TransducerTestGain.html#af64588a55ebbb626bbcfc95465e14c48',1,'autd::gain::TransducerTestGain::TransducerTestGain(TransducerTestGain &amp;&amp;obj)=default']]],
+  ['twincatlink_328',['TwinCATLink',['../classautd_1_1link_1_1TwinCATLink.html#a1612044bf4829f55122e5504a2231500',1,'autd::link::TwinCATLink::TwinCATLink()=default'],['../classautd_1_1link_1_1TwinCATLink.html#a27e1b69790c6c3287f4137a50a5f9bc9',1,'autd::link::TwinCATLink::TwinCATLink(const TwinCATLink &amp;v) noexcept=delete'],['../classautd_1_1link_1_1TwinCATLink.html#a8908b8f6de2391cd71deb7df0ef16846',1,'autd::link::TwinCATLink::TwinCATLink(TwinCATLink &amp;&amp;obj)=delete']]]
 ];

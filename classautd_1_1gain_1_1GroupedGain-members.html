@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -74,12 +74,23 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#ae82b27e0f8a767a1323c85ddebf7c395">Build</a>() override</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a9f879e898963b232c57841c6630202f8">Create</a>(std::map&lt; int, GainPtr &gt; gainmap)</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#ab5a578f0deecfe2d21b603c5fa0cd30d">Create</a>(const std::map&lt; size_t, GainPtr &gt; &amp;gain_map)</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a79a89e5a7b3e57392f69e3e5b33cb56e">autd::gain::Gain::Create</a>()</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a7921e5576c2154f50189d2df9a246d3b">data</a>()</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a5ac37297dec20268317cdc8d0bf1598d">data</a>()</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#aea4572ac44fd64f341db64d669151ba1">Gain</a>() noexcept</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a6af24af7de4e3d1d92c14e8bbaf1a070">geometry</a>() noexcept</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">SetGeometry</a>(const GeometryPtr &amp;geometry) noexcept</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a4ae2644d88e118be452e743dc51be0ae">Gain</a>(const Gain &amp;v) noexcept=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a464732bfaee6bb63b24d5ab96f4e1602">Gain</a>(Gain &amp;&amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#ac14b5f5211079c7391554988aaf3ed62">geometry</a>() const noexcept</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a20d576d2ee7ce5b64f14df2f9661ab12">GroupedGain</a>(std::map&lt; size_t, GainPtr &gt; gain_map)</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a6a08bd3048ea922b2145cff922cb2464">GroupedGain</a>(const GroupedGain &amp;v) noexcept=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a2ce545cc90bb975315801800d714fe2b">GroupedGain</a>(GroupedGain &amp;&amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a5ceb27aa733532e643d2de9c2257f376">operator=</a>(const GroupedGain &amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a73d6e03c1ff398ee82f4394cc37574d2">operator=</a>(GroupedGain &amp;&amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a45b38c83949f6b59d9231d7090d47df2">autd::gain::Gain::operator=</a>(const Gain &amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a85f2c40edfe18c676ba1a3cedd3aaaf6">autd::gain::Gain::operator=</a>(Gain &amp;&amp;obj)=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#a540939523c06a30f85201c0d57a76dcc">SetGeometry</a>(const GeometryPtr &amp;geometry) noexcept</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html#aa465f15249f48782618424cb841b5beb">~Gain</a>()=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1Gain.html">autd::gain::Gain</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html#a23c19f55118f9fdfe15fdbbd344ebb28">~GroupedGain</a>() override=default</td><td class="entry"><a class="el" href="classautd_1_1gain_1_1GroupedGain.html">autd::gain::GroupedGain</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -76,10 +76,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceautd_1_1__internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1__internal.html">_internal</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceautd_1_1__utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1__utils.html">_utils</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceautd_1_1gain"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1gain.html">gain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceautd_1_1link"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd_1_1link.html">link</a></td></tr>
@@ -106,20 +102,26 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a0fd097d98e15eb4e6846d3f205acbcf7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> = float</td></tr>
+<tr class="separator:a0fd097d98e15eb4e6846d3f205acbcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd6947493884506b22408edfb55c19f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">Vector3</a> = Eigen::Matrix&lt; <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>, 3, 1 &gt;</td></tr>
+<tr class="separator:a7bd6947493884506b22408edfb55c19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab355aeed291de48aef91866a5746f85c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab355aeed291de48aef91866a5746f85c">Quaternion</a> = Eigen::Quaternion&lt; <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> &gt;</td></tr>
+<tr class="separator:ab355aeed291de48aef91866a5746f85c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab327e6b9aa1f7390b9402c67b2230b55"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab327e6b9aa1f7390b9402c67b2230b55">AUTDDataArray</a> = std::array&lt; uint16_t, <a class="el" href="namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea">NUM_TRANS_IN_UNIT</a> &gt;</td></tr>
+<tr class="separator:ab327e6b9aa1f7390b9402c67b2230b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae058d41582424363a09aab3d67327321"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ae058d41582424363a09aab3d67327321">ControllerPtr</a> = std::unique_ptr&lt; <a class="el" href="classautd_1_1Controller.html">Controller</a> &gt;</td></tr>
+<tr class="separator:ae058d41582424363a09aab3d67327321"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6c61ef858b46b1b35bc0019ebb7fc6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#aae6c61ef858b46b1b35bc0019ebb7fc6">GainPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1gain_1_1Gain.html">gain::Gain</a> &gt;</td></tr>
 <tr class="separator:aae6c61ef858b46b1b35bc0019ebb7fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb23fa0532da3d9178c03045c7e42896"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#acb23fa0532da3d9178c03045c7e42896">LinkPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1link_1_1Link.html">link::Link</a> &gt;</td></tr>
-<tr class="separator:acb23fa0532da3d9178c03045c7e42896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f204c50566179387e9f911f7781dbb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &gt;</td></tr>
+<tr class="separator:a2f204c50566179387e9f911f7781dbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac245083bcdbe668a6a5527195aac9f10"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10">LinkPtr</a> = std::unique_ptr&lt; <a class="el" href="classautd_1_1link_1_1Link.html">link::Link</a> &gt;</td></tr>
+<tr class="separator:ac245083bcdbe668a6a5527195aac9f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a1a17952c10d0cce5d2b11f637ab924"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6a1a17952c10d0cce5d2b11f637ab924">ModulationPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1modulation_1_1Modulation.html">modulation::Modulation</a> &gt;</td></tr>
 <tr class="separator:a6a1a17952c10d0cce5d2b11f637ab924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4090d5d851ee1dc3e378012600c1fd04"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a4090d5d851ee1dc3e378012600c1fd04">SequencePtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1sequence_1_1PointSequence.html">sequence::PointSequence</a> &gt;</td></tr>
 <tr class="separator:a4090d5d851ee1dc3e378012600c1fd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41ca445e4ceb29ec29a5efa7d1ae869"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">ControllerPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1Controller.html">Controller</a> &gt;</td></tr>
-<tr class="separator:ad41ca445e4ceb29ec29a5efa7d1ae869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5518e2af5efb606ab313ee89dbdb99"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6a5518e2af5efb606ab313ee89dbdb99">FirmwareInfoList</a> = std::vector&lt; <a class="el" href="classautd_1_1FirmwareInfo.html">FirmwareInfo</a> &gt;</td></tr>
-<tr class="separator:a6a5518e2af5efb606ab313ee89dbdb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f204c50566179387e9f911f7781dbb6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2f204c50566179387e9f911f7781dbb6">GeometryPtr</a> = std::shared_ptr&lt; <a class="el" href="classautd_1_1Geometry.html">Geometry</a> &gt;</td></tr>
-<tr class="separator:a2f204c50566179387e9f911f7781dbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -150,17 +152,14 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a65194ed282b017ac98a282bfdd2439a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7a7871346b780dde61511ce3ecfd5c7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7">AUTD_VERSION</a> { <a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7a0c6182ce4549b5b162d717e828bc89d2">AUTD_VERSION::V_0_1</a> = 0, 
-<a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7a8a740d8f4d105d59c98ba6e671e7d0d5">AUTD_VERSION::V_0_6</a> = 1, 
-<a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7aefa329ad88750f6e336a8ffa7da24ca1">AUTD_VERSION::V_0_7</a> = 2
- }</td></tr>
-<tr class="separator:ac7a7871346b780dde61511ce3ecfd5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a535e962b93e99cda683b09003b7efc49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a535e962b93e99cda683b09003b7efc49"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a535e962b93e99cda683b09003b7efc49">IS_MISSING_TRANSDUCER</a> (T X, T Y)</td></tr>
-<tr class="separator:a535e962b93e99cda683b09003b7efc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6044c746c1a16ab1f29a162a89f0cf99"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a> (const double f)</td></tr>
+<tr class="separator:a6044c746c1a16ab1f29a162a89f0cf99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab6f4d483d1cb177f9955f7db8aaff155">IsMissingTransducer</a> (T x, T y)</td></tr>
+<tr class="separator:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b8a1ccd4c8d6c8c33aa976f99f3578"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a29b8a1ccd4c8d6c8c33aa976f99f3578">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classautd_1_1FirmwareInfo.html">FirmwareInfo</a> &amp;obj)</td></tr>
 <tr class="separator:a29b8a1ccd4c8d6c8c33aa976f99f3578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -172,57 +171,71 @@ Variables</h2></td></tr>
 <tr class="separator:ad6774eed0e4a9b96e644dbe4b470e795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8caff93de9170505fcf236e48fc5d602"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a8caff93de9170505fcf236e48fc5d602">NUM_TRANS_Y</a> = 14</td></tr>
 <tr class="separator:a8caff93de9170505fcf236e48fc5d602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682044665c146ab76d94e776224d8de0"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a682044665c146ab76d94e776224d8de0">TRANS_SIZE_MM</a> = 10.18</td></tr>
-<tr class="separator:a682044665c146ab76d94e776224d8de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f6e2d9e43dabab468072d6a8934b6c9"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2f6e2d9e43dabab468072d6a8934b6c9">AUTD_WIDTH</a> = 192.0</td></tr>
-<tr class="separator:a2f6e2d9e43dabab468072d6a8934b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037a3a6161f9fefda67f3268d690b997"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a037a3a6161f9fefda67f3268d690b997">AUTD_HEIGHT</a> = 151.4</td></tr>
-<tr class="separator:a037a3a6161f9fefda67f3268d690b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a64bb85f1759deaf21c027a644a2b7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad5a64bb85f1759deaf21c027a644a2b7">TRANS_SIZE_MM</a> = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(10.16)</td></tr>
+<tr class="separator:ad5a64bb85f1759deaf21c027a644a2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39de4a36f496ed80d7d6b8fd77c9fce2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a39de4a36f496ed80d7d6b8fd77c9fce2">AUTD_WIDTH</a> = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(192.0)</td></tr>
+<tr class="separator:a39de4a36f496ed80d7d6b8fd77c9fce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71790a71f908a35af60e4820855eb87a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a71790a71f908a35af60e4820855eb87a">AUTD_HEIGHT</a> = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(151.4)</td></tr>
+<tr class="separator:a71790a71f908a35af60e4820855eb87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4972c8f49f2a9ea129ee12aac5804c34"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a4972c8f49f2a9ea129ee12aac5804c34">PI</a> = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(M_PI)</td></tr>
+<tr class="separator:a4972c8f49f2a9ea129ee12aac5804c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2590369033b0824463ac61d6162ab528"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2590369033b0824463ac61d6162ab528">FPGA_CLOCK</a> = 25600000</td></tr>
 <tr class="separator:a2590369033b0824463ac61d6162ab528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add3d98c8c808313d610177de1b34439c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#add3d98c8c808313d610177de1b34439c">ULTRASOUND_FREQUENCY</a> = 40000</td></tr>
 <tr class="separator:add3d98c8c808313d610177de1b34439c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82a93877b9cb4080c03dfd540a0a6ee1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1">ULTRASOUND_WAVELENGTH</a> = 8.5</td></tr>
-<tr class="separator:a82a93877b9cb4080c03dfd540a0a6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c491d3aec2472bf5109295388ce89a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a37c491d3aec2472bf5109295388ce89a">POINT_SEQ_BUFFER_SIZE_MAX</a> = 40000</td></tr>
 <tr class="separator:a37c491d3aec2472bf5109295388ce89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8328a50ea98ad6ad7347ff45e8464b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b">POINT_SEQ_CLK_IDX_MAX</a> = 40000</td></tr>
 <tr class="separator:acd8328a50ea98ad6ad7347ff45e8464b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07ccf15669a8c1d37a74da2e756f588"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588">POINT_SEQ_BASE_FREQ</a> = 40000.0</td></tr>
-<tr class="separator:ab07ccf15669a8c1d37a74da2e756f588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad28ab4e896509b1dae69dcc4009e335d"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad28ab4e896509b1dae69dcc4009e335d">FIXED_NUM_UNIT</a> = <a class="el" href="namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1">ULTRASOUND_WAVELENGTH</a> / 256.0</td></tr>
-<tr class="separator:ad28ab4e896509b1dae69dcc4009e335d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be2501223447430a8ad5e815b56b38e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a7be2501223447430a8ad5e815b56b38e">POINT_SEQ_BASE_FREQ</a> = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(40000.0)</td></tr>
+<tr class="separator:a7be2501223447430a8ad5e815b56b38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="ad41ca445e4ceb29ec29a5efa7d1ae869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad41ca445e4ceb29ec29a5efa7d1ae869">&#9670;&nbsp;</a></span>ControllerPtr</h2>
+<a id="ab327e6b9aa1f7390b9402c67b2230b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab327e6b9aa1f7390b9402c67b2230b55">&#9670;&nbsp;</a></span>AUTDDataArray</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceautd.html#ad41ca445e4ceb29ec29a5efa7d1ae869">autd::ControllerPtr</a> = typedef std::shared_ptr&lt;<a class="el" href="classautd_1_1Controller.html">Controller</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceautd.html#ab327e6b9aa1f7390b9402c67b2230b55">autd::AUTDDataArray</a> = typedef std::array&lt;uint16_t, <a class="el" href="namespaceautd.html#a8e861f65643865270f7fe8610a3bd1ea">NUM_TRANS_IN_UNIT</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00075">75</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00044">44</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a6a5518e2af5efb606ab313ee89dbdb99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a5518e2af5efb606ab313ee89dbdb99">&#9670;&nbsp;</a></span>FirmwareInfoList</h2>
+<a id="ae058d41582424363a09aab3d67327321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae058d41582424363a09aab3d67327321">&#9670;&nbsp;</a></span>ControllerPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceautd.html#a6a5518e2af5efb606ab313ee89dbdb99">autd::FirmwareInfoList</a> = typedef std::vector&lt;<a class="el" href="classautd_1_1FirmwareInfo.html">FirmwareInfo</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceautd.html#ae058d41582424363a09aab3d67327321">autd::ControllerPtr</a> = typedef std::unique_ptr&lt;<a class="el" href="classautd_1_1Controller.html">Controller</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00076">76</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00029">29</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0fd097d98e15eb4e6846d3f205acbcf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fd097d98e15eb4e6846d3f205acbcf7">&#9670;&nbsp;</a></span>Float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">autd::Float</a> = typedef float</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="autd__types_8hpp_source.html#l00029">29</a> of file <a class="el" href="autd__types_8hpp_source.html">autd_types.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,7 +251,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00071">71</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gain_8hpp_source.html#l00031">31</a> of file <a class="el" href="gain_8hpp_source.html">gain.hpp</a>.</p>
 
 </div>
 </div>
@@ -254,23 +267,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00020">20</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="geometry_8hpp_source.html#l00021">21</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
-<a id="acb23fa0532da3d9178c03045c7e42896"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb23fa0532da3d9178c03045c7e42896">&#9670;&nbsp;</a></span>LinkPtr</h2>
+<a id="ac245083bcdbe668a6a5527195aac9f10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac245083bcdbe668a6a5527195aac9f10">&#9670;&nbsp;</a></span>LinkPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceautd.html#acb23fa0532da3d9178c03045c7e42896">autd::LinkPtr</a> = typedef std::shared_ptr&lt;<a class="el" href="classautd_1_1link_1_1Link.html">link::Link</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10">autd::LinkPtr</a> = typedef std::unique_ptr&lt;<a class="el" href="classautd_1_1link_1_1Link.html">link::Link</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00072">72</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="link_8hpp_source.html#l00046">46</a> of file <a class="el" href="link_8hpp_source.html">link.hpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +299,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00073">73</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="modulation_8hpp_source.html#l00028">28</a> of file <a class="el" href="modulation_8hpp_source.html">modulation.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab355aeed291de48aef91866a5746f85c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab355aeed291de48aef91866a5746f85c">&#9670;&nbsp;</a></span>Quaternion</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceautd.html#ab355aeed291de48aef91866a5746f85c">autd::Quaternion</a> = typedef Eigen::Quaternion&lt;<a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="autd__types_8hpp_source.html#l00034">34</a> of file <a class="el" href="autd__types_8hpp_source.html">autd_types.hpp</a>.</p>
 
 </div>
 </div>
@@ -302,40 +331,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="core_8hpp_source.html#l00074">74</a> of file <a class="el" href="core_8hpp_source.html">core.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="sequence_8hpp_source.html#l00026">26</a> of file <a class="el" href="sequence_8hpp_source.html">sequence.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7bd6947493884506b22408edfb55c19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd6947493884506b22408edfb55c19f">&#9670;&nbsp;</a></span>Vector3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceautd.html#a7bd6947493884506b22408edfb55c19f">autd::Vector3</a> = typedef Eigen::Matrix&lt;<a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a>, 3, 1&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="autd__types_8hpp_source.html#l00033">33</a> of file <a class="el" href="autd__types_8hpp_source.html">autd_types.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac7a7871346b780dde61511ce3ecfd5c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a7871346b780dde61511ce3ecfd5c7">&#9670;&nbsp;</a></span>AUTD_VERSION</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceautd.html#ac7a7871346b780dde61511ce3ecfd5c7">autd::AUTD_VERSION</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac7a7871346b780dde61511ce3ecfd5c7a0c6182ce4549b5b162d717e828bc89d2"></a>V_0_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac7a7871346b780dde61511ce3ecfd5c7a8a740d8f4d105d59c98ba6e671e7d0d5"></a>V_0_6&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac7a7871346b780dde61511ce3ecfd5c7aefa329ad88750f6e336a8ffa7da24ca1"></a>V_0_7&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="controller_8hpp_source.html#l00027">27</a> of file <a class="el" href="controller_8hpp_source.html">controller.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a65194ed282b017ac98a282bfdd2439a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65194ed282b017ac98a282bfdd2439a9">&#9670;&nbsp;</a></span>MOD_BUF_SIZE</h2>
 
@@ -367,7 +383,7 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a65194ed282b017ac98a282bfdd2439a9a4e93e3448480ce3a69f18fcc8f6bb1dc"></a>BUF_32000&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00030">30</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00026">26</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
 
 </div>
 </div>
@@ -400,13 +416,13 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a4b5bb36215128093c7c24a9f38929ea4a9116f60b83bcf1604e820faad13ea198"></a>SMPL_8_KHZ&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00020">20</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00016">16</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a535e962b93e99cda683b09003b7efc49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a535e962b93e99cda683b09003b7efc49">&#9670;&nbsp;</a></span>IS_MISSING_TRANSDUCER()</h2>
+<a id="ab6f4d483d1cb177f9955f7db8aaff155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f4d483d1cb177f9955f7db8aaff155">&#9670;&nbsp;</a></span>IsMissingTransducer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,16 +433,16 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto autd::IS_MISSING_TRANSDUCER </td>
+          <td class="memname">constexpr auto autd::IsMissingTransducer </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>X</em>, </td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>Y</em>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -441,7 +457,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00024">24</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00032">32</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -479,7 +495,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="firmware__version_8hpp_source.html#l00068">68</a> of file <a class="el" href="firmware__version_8hpp_source.html">firmware_version.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="firmware__version_8hpp_source.html#l00063">63</a> of file <a class="el" href="firmware__version_8hpp_source.html">firmware_version.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="firmware__version_8hpp_source.html#l00030">autd::FirmwareInfo::cpu_version()</a>, and <a class="el" href="firmware__version_8hpp_source.html#l00034">autd::FirmwareInfo::fpga_version()</a>.</p>
 <div class="dynheader">
@@ -495,9 +511,37 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a6044c746c1a16ab1f29a162a89f0cf99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6044c746c1a16ab1f29a162a89f0cf99">&#9670;&nbsp;</a></span>ToFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::ToFloat </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="autd__types_8hpp_source.html#l00030">30</a> of file <a class="el" href="autd__types_8hpp_source.html">autd_types.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a037a3a6161f9fefda67f3268d690b997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a037a3a6161f9fefda67f3268d690b997">&#9670;&nbsp;</a></span>AUTD_HEIGHT</h2>
+<a id="a71790a71f908a35af60e4820855eb87a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71790a71f908a35af60e4820855eb87a">&#9670;&nbsp;</a></span>AUTD_HEIGHT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -506,7 +550,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr double autd::AUTD_HEIGHT = 151.4</td>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::AUTD_HEIGHT = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(151.4)</td>
         </tr>
       </table>
   </td>
@@ -516,12 +560,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00022">22</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00027">27</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2f6e2d9e43dabab468072d6a8934b6c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f6e2d9e43dabab468072d6a8934b6c9">&#9670;&nbsp;</a></span>AUTD_WIDTH</h2>
+<a id="a39de4a36f496ed80d7d6b8fd77c9fce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39de4a36f496ed80d7d6b8fd77c9fce2">&#9670;&nbsp;</a></span>AUTD_WIDTH</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +574,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr double autd::AUTD_WIDTH = 192.0</td>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::AUTD_WIDTH = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(192.0)</td>
         </tr>
       </table>
   </td>
@@ -540,31 +584,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00021">21</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad28ab4e896509b1dae69dcc4009e335d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad28ab4e896509b1dae69dcc4009e335d">&#9670;&nbsp;</a></span>FIXED_NUM_UNIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr double autd::FIXED_NUM_UNIT = <a class="el" href="namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1">ULTRASOUND_WAVELENGTH</a> / 256.0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00036">36</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00026">26</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -588,7 +608,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00028">28</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00036">36</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -612,7 +632,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00017">17</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00022">22</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -636,7 +656,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00018">18</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00023">23</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -660,12 +680,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00019">19</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00024">24</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab07ccf15669a8c1d37a74da2e756f588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07ccf15669a8c1d37a74da2e756f588">&#9670;&nbsp;</a></span>POINT_SEQ_BASE_FREQ</h2>
+<a id="a4972c8f49f2a9ea129ee12aac5804c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4972c8f49f2a9ea129ee12aac5804c34">&#9670;&nbsp;</a></span>PI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +694,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr double autd::POINT_SEQ_BASE_FREQ = 40000.0</td>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::PI = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(M_PI)</td>
         </tr>
       </table>
   </td>
@@ -684,7 +704,33 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00035">35</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00029">29</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gain_8hpp_source.html#l00036">autd::gain::AdjustAmp()</a>.</p>
+
+</div>
+</div>
+<a id="a7be2501223447430a8ad5e815b56b38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be2501223447430a8ad5e815b56b38e">&#9670;&nbsp;</a></span>POINT_SEQ_BASE_FREQ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::POINT_SEQ_BASE_FREQ = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(40000.0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00042">42</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,7 +754,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00033">33</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00040">40</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -732,12 +778,12 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00034">34</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00041">41</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a682044665c146ab76d94e776224d8de0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a682044665c146ab76d94e776224d8de0">&#9670;&nbsp;</a></span>TRANS_SIZE_MM</h2>
+<a id="ad5a64bb85f1759deaf21c027a644a2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a64bb85f1759deaf21c027a644a2b7">&#9670;&nbsp;</a></span>TRANS_SIZE_MM</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -746,7 +792,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr double autd::TRANS_SIZE_MM = 10.18</td>
+          <td class="memname">constexpr <a class="el" href="namespaceautd.html#a0fd097d98e15eb4e6846d3f205acbcf7">Float</a> autd::TRANS_SIZE_MM = <a class="el" href="namespaceautd.html#a6044c746c1a16ab1f29a162a89f0cf99">ToFloat</a>(10.16)</td>
         </tr>
       </table>
   </td>
@@ -756,7 +802,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00020">20</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00025">25</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>
@@ -780,31 +826,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00030">30</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a82a93877b9cb4080c03dfd540a0a6ee1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82a93877b9cb4080c03dfd540a0a6ee1">&#9670;&nbsp;</a></span>ULTRASOUND_WAVELENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto autd::ULTRASOUND_WAVELENGTH = 8.5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00031">31</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00038">38</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
 
 </div>
 </div>

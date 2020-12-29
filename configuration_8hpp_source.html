@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -75,7 +75,7 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// Created Date: 30/10/2020</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author: Shun Suzuki</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// -----</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 30/10/2020</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Last Modified: 25/12/2020</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// Modified By: Shun Suzuki (suzuki@hapis.k.u-tokyo.ac.jp)</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// -----</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Copyright (c) 2020 Hapis Lab. All rights reserved.</span></div>
@@ -83,72 +83,69 @@ $(function() {
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespaceautd.html">   18</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceautd.html">autd</a> {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">   20</a></span>&#160;<span class="keyword">enum class</span> <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  SMPL_125_HZ = 125,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  SMPL_250_HZ = 250,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  SMPL_500_HZ = 500,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  SMPL_1_KHZ = 1000,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  SMPL_2_KHZ = 2000,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  SMPL_4_KHZ = 4000,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4a0da39adb3c6324943dfef5ecb240d90b">SMPL_8_KHZ</a> = 8000,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">   30</a></span>&#160;<span class="keyword">enum class</span> <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  BUF_125 = 125,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  BUF_250 = 250,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  BUF_500 = 500,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  BUF_1000 = 1000,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  BUF_2000 = 2000,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  BUF_4000 = 4000,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  BUF_8000 = 8000,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  BUF_16000 = 16000,</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9afefb98f9426393ea72d935aa069c14c5">BUF_32000</a> = 32000,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">/**</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"> * @brief AUTD Configuration</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html">   45</a></span>&#160;<span class="keyword">class </span><a class="code" href="classautd_1_1Configuration.html">Configuration</a> {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">   47</a></span>&#160;  <span class="keyword">static</span> <a class="code" href="classautd_1_1Configuration.html">Configuration</a> <a class="code" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">GetDefaultConfiguration</a>() {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="classautd_1_1Configuration.html">Configuration</a> config;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> config;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#ac2683634eb4b91a758b11900bacdf162">   52</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classautd_1_1Configuration.html#ac2683634eb4b91a758b11900bacdf162">set_mod_sampling_freq</a>(<a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> f) { this-&gt;_mod_sampl_freq = f; }</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a8730ada3045468345e4b92e9d6c735ee">   53</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classautd_1_1Configuration.html#a8730ada3045468345e4b92e9d6c735ee">set_mod_buf_size</a>(<a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> s) { this-&gt;_mod_buf_size = s; }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a7096787263c2e4145061717630c33e33">   55</a></span>&#160;  <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> <a class="code" href="classautd_1_1Configuration.html#a7096787263c2e4145061717630c33e33">mod_sampling_freq</a>() { <span class="keywordflow">return</span> this-&gt;_mod_sampl_freq; }</div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a3adba56bbfb299c144f16652ffe3888a">   56</a></span>&#160;  <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> <a class="code" href="classautd_1_1Configuration.html#a3adba56bbfb299c144f16652ffe3888a">mod_buf_size</a>() { <span class="keywordflow">return</span> this-&gt;_mod_buf_size; }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="classautd_1_1Configuration.html">Configuration</a>() {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    _mod_sampl_freq = MOD_SAMPLING_FREQ::SMPL_4_KHZ;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    _mod_buf_size = MOD_BUF_SIZE::BUF_4000;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  }</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> _mod_sampl_freq;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> _mod_buf_size;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}  <span class="comment">// namespace autd</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceautd.html">autd</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">   16</a></span>&#160;<span class="keyword">enum class</span> <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  SMPL_125_HZ = 125,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  SMPL_250_HZ = 250,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  SMPL_500_HZ = 500,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  SMPL_1_KHZ = 1000,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  SMPL_2_KHZ = 2000,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  SMPL_4_KHZ = 4000,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4a0da39adb3c6324943dfef5ecb240d90b">SMPL_8_KHZ</a> = 8000,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">   26</a></span>&#160;<span class="keyword">enum class</span> <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  BUF_125 = 125,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  BUF_250 = 250,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  BUF_500 = 500,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  BUF_1000 = 1000,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  BUF_2000 = 2000,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  BUF_4000 = 4000,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  BUF_8000 = 8000,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  BUF_16000 = 16000,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9afefb98f9426393ea72d935aa069c14c5">BUF_32000</a> = 32000,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/**</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"> * @brief AUTD Configuration</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="classautd_1_1Configuration.html">Configuration</a> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a45a866632dfc280edd1355803d64059e">   43</a></span>&#160;  <a class="code" href="classautd_1_1Configuration.html#a45a866632dfc280edd1355803d64059e">Configuration</a>() {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    _mod_sampling_freq = MOD_SAMPLING_FREQ::SMPL_4_KHZ;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    _mod_buf_size = MOD_BUF_SIZE::BUF_4000;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">   48</a></span>&#160;  <span class="keyword">static</span> <a class="code" href="classautd_1_1Configuration.html">Configuration</a> <a class="code" href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">GetDefaultConfiguration</a>() {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">const</span> <a class="code" href="classautd_1_1Configuration.html">Configuration</a> config;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">return</span> config;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a20e9a6bd5bbda09d5964d7cdf2ace569">   53</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classautd_1_1Configuration.html#a20e9a6bd5bbda09d5964d7cdf2ace569">set_mod_sampling_freq</a>(<span class="keyword">const</span> <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> f) { this-&gt;_mod_sampling_freq = f; }</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a2f3cbbd15ac1fb9c3c0f206bdeb11960">   54</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classautd_1_1Configuration.html#a2f3cbbd15ac1fb9c3c0f206bdeb11960">set_mod_buf_size</a>(<span class="keyword">const</span> <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> s) { this-&gt;_mod_buf_size = s; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a4e04d697426e10d15eba997146255e13">   56</a></span>&#160;  [[nodiscard]] <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> <a class="code" href="classautd_1_1Configuration.html#a4e04d697426e10d15eba997146255e13">mod_sampling_freq</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> this-&gt;_mod_sampling_freq; }</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classautd_1_1Configuration.html#a7f02ed5e8c1a9dcfbb8e613bd714ddc9">   57</a></span>&#160;  [[nodiscard]] <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> <a class="code" href="classautd_1_1Configuration.html#a7f02ed5e8c1a9dcfbb8e613bd714ddc9">mod_buf_size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> this-&gt;_mod_buf_size; }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">MOD_SAMPLING_FREQ</a> _mod_sampling_freq;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">MOD_BUF_SIZE</a> _mod_buf_size;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}  <span class="comment">// namespace autd</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclassautd_1_1Configuration_html_a3adba56bbfb299c144f16652ffe3888a"><div class="ttname"><a href="classautd_1_1Configuration.html#a3adba56bbfb299c144f16652ffe3888a">autd::Configuration::mod_buf_size</a></div><div class="ttdeci">MOD_BUF_SIZE mod_buf_size()</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00056">configuration.hpp:56</a></div></div>
-<div class="ttc" id="aclassautd_1_1Configuration_html_a7096787263c2e4145061717630c33e33"><div class="ttname"><a href="classautd_1_1Configuration.html#a7096787263c2e4145061717630c33e33">autd::Configuration::mod_sampling_freq</a></div><div class="ttdeci">MOD_SAMPLING_FREQ mod_sampling_freq()</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00055">configuration.hpp:55</a></div></div>
-<div class="ttc" id="anamespaceautd_html_a65194ed282b017ac98a282bfdd2439a9"><div class="ttname"><a href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">autd::MOD_BUF_SIZE</a></div><div class="ttdeci">MOD_BUF_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00030">configuration.hpp:30</a></div></div>
-<div class="ttc" id="anamespaceautd_html"><div class="ttname"><a href="namespaceautd.html">autd</a></div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00018">configuration.hpp:18</a></div></div>
-<div class="ttc" id="aclassautd_1_1Configuration_html"><div class="ttname"><a href="classautd_1_1Configuration.html">autd::Configuration</a></div><div class="ttdoc">AUTD Configuration.</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00045">configuration.hpp:45</a></div></div>
-<div class="ttc" id="aclassautd_1_1Configuration_html_a2f094c23ae03c8cd16d461299a8969bb"><div class="ttname"><a href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">autd::Configuration::GetDefaultConfiguration</a></div><div class="ttdeci">static Configuration GetDefaultConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00047">configuration.hpp:47</a></div></div>
+<div class="ttc" id="anamespaceautd_html_a65194ed282b017ac98a282bfdd2439a9"><div class="ttname"><a href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9">autd::MOD_BUF_SIZE</a></div><div class="ttdeci">MOD_BUF_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00026">configuration.hpp:26</a></div></div>
+<div class="ttc" id="anamespaceautd_html"><div class="ttname"><a href="namespaceautd.html">autd</a></div><div class="ttdef"><b>Definition:</b> <a href="autd__types_8hpp_source.html#l00024">autd_types.hpp:24</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html"><div class="ttname"><a href="classautd_1_1Configuration.html">autd::Configuration</a></div><div class="ttdoc">AUTD Configuration.</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00041">configuration.hpp:41</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a4e04d697426e10d15eba997146255e13"><div class="ttname"><a href="classautd_1_1Configuration.html#a4e04d697426e10d15eba997146255e13">autd::Configuration::mod_sampling_freq</a></div><div class="ttdeci">MOD_SAMPLING_FREQ mod_sampling_freq() const</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00056">configuration.hpp:56</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a45a866632dfc280edd1355803d64059e"><div class="ttname"><a href="classautd_1_1Configuration.html#a45a866632dfc280edd1355803d64059e">autd::Configuration::Configuration</a></div><div class="ttdeci">Configuration()</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00043">configuration.hpp:43</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a2f094c23ae03c8cd16d461299a8969bb"><div class="ttname"><a href="classautd_1_1Configuration.html#a2f094c23ae03c8cd16d461299a8969bb">autd::Configuration::GetDefaultConfiguration</a></div><div class="ttdeci">static Configuration GetDefaultConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00048">configuration.hpp:48</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a65194ed282b017ac98a282bfdd2439a9afefb98f9426393ea72d935aa069c14c5"><div class="ttname"><a href="namespaceautd.html#a65194ed282b017ac98a282bfdd2439a9afefb98f9426393ea72d935aa069c14c5">autd::MOD_BUF_SIZE::BUF_125</a></div><div class="ttdeci">@ BUF_125</div></div>
-<div class="ttc" id="anamespaceautd_html_a4b5bb36215128093c7c24a9f38929ea4"><div class="ttname"><a href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">autd::MOD_SAMPLING_FREQ</a></div><div class="ttdeci">MOD_SAMPLING_FREQ</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00020">configuration.hpp:20</a></div></div>
-<div class="ttc" id="aclassautd_1_1Configuration_html_ac2683634eb4b91a758b11900bacdf162"><div class="ttname"><a href="classautd_1_1Configuration.html#ac2683634eb4b91a758b11900bacdf162">autd::Configuration::set_mod_sampling_freq</a></div><div class="ttdeci">void set_mod_sampling_freq(MOD_SAMPLING_FREQ f)</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00052">configuration.hpp:52</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a20e9a6bd5bbda09d5964d7cdf2ace569"><div class="ttname"><a href="classautd_1_1Configuration.html#a20e9a6bd5bbda09d5964d7cdf2ace569">autd::Configuration::set_mod_sampling_freq</a></div><div class="ttdeci">void set_mod_sampling_freq(const MOD_SAMPLING_FREQ f)</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00053">configuration.hpp:53</a></div></div>
+<div class="ttc" id="anamespaceautd_html_a4b5bb36215128093c7c24a9f38929ea4"><div class="ttname"><a href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4">autd::MOD_SAMPLING_FREQ</a></div><div class="ttdeci">MOD_SAMPLING_FREQ</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00016">configuration.hpp:16</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a2f3cbbd15ac1fb9c3c0f206bdeb11960"><div class="ttname"><a href="classautd_1_1Configuration.html#a2f3cbbd15ac1fb9c3c0f206bdeb11960">autd::Configuration::set_mod_buf_size</a></div><div class="ttdeci">void set_mod_buf_size(const MOD_BUF_SIZE s)</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00054">configuration.hpp:54</a></div></div>
 <div class="ttc" id="anamespaceautd_html_a4b5bb36215128093c7c24a9f38929ea4a0da39adb3c6324943dfef5ecb240d90b"><div class="ttname"><a href="namespaceautd.html#a4b5bb36215128093c7c24a9f38929ea4a0da39adb3c6324943dfef5ecb240d90b">autd::MOD_SAMPLING_FREQ::SMPL_125_HZ</a></div><div class="ttdeci">@ SMPL_125_HZ</div></div>
-<div class="ttc" id="aclassautd_1_1Configuration_html_a8730ada3045468345e4b92e9d6c735ee"><div class="ttname"><a href="classautd_1_1Configuration.html#a8730ada3045468345e4b92e9d6c735ee">autd::Configuration::set_mod_buf_size</a></div><div class="ttdeci">void set_mod_buf_size(MOD_BUF_SIZE s)</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00053">configuration.hpp:53</a></div></div>
+<div class="ttc" id="aclassautd_1_1Configuration_html_a7f02ed5e8c1a9dcfbb8e613bd714ddc9"><div class="ttname"><a href="classautd_1_1Configuration.html#a7f02ed5e8c1a9dcfbb8e613bd714ddc9">autd::Configuration::mod_buf_size</a></div><div class="ttdeci">MOD_BUF_SIZE mod_buf_size() const</div><div class="ttdef"><b>Definition:</b> <a href="configuration_8hpp_source.html#l00057">configuration.hpp:57</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20

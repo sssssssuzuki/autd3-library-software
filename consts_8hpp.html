@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">autd3
-   &#160;<span id="projectnumber">0.7.0</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
   </td>
  </tr>
@@ -68,20 +68,27 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">consts.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;math.h&gt;</code><br />
+<code>#include &lt;array&gt;</code><br />
+<code>#include &quot;<a class="el" href="autd__types_8hpp_source.html">autd_types.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for consts.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="consts_8hpp__incl.png" border="0" usemap="#ainclude_2consts_8hpp" alt=""/></div>
 <map name="include_2consts_8hpp" id="ainclude_2consts_8hpp">
-<area shape="rect" title=" " alt="" coords="5,5,136,32"/>
-<area shape="rect" title=" " alt="" coords="41,80,101,107"/>
+<area shape="rect" title=" " alt="" coords="51,5,181,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,67,107"/>
+<area shape="rect" title=" " alt="" coords="91,80,141,107"/>
+<area shape="rect" href="autd__types_8hpp.html" title=" " alt="" coords="165,80,275,107"/>
+<area shape="rect" title=" " alt="" coords="173,155,267,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -90,7 +97,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="consts_8hpp__dep__incl.png" border="0" usemap="#ainclude_2consts_8hppdep" alt=""/></div>
 <map name="include_2consts_8hppdep" id="ainclude_2consts_8hppdep">
 <area shape="rect" title=" " alt="" coords="5,5,136,32"/>
-<area shape="rect" href="autd3_8hpp.html" title=" " alt="" coords="9,80,132,107"/>
+<area shape="rect" href="autd3_8hpp.html" title=" " alt="" coords="39,229,161,256"/>
+<area shape="rect" href="controller_8hpp.html" title=" " alt="" coords="28,155,172,181"/>
+<area shape="rect" href="gain_8hpp.html" title=" " alt="" coords="108,80,223,107"/>
 </map>
 </div>
 </div>
@@ -101,11 +110,21 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceautd"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html">autd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a525335710b53cb064ca56b936120431e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="consts_8hpp.html#a525335710b53cb064ca56b936120431e">_USE_MATH_DEFINES</a></td></tr>
+<tr class="separator:a525335710b53cb064ca56b936120431e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ab327e6b9aa1f7390b9402c67b2230b55"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab327e6b9aa1f7390b9402c67b2230b55">autd::AUTDDataArray</a> = std::array&lt; uint16_t, NUM_TRANS_IN_UNIT &gt;</td></tr>
+<tr class="separator:ab327e6b9aa1f7390b9402c67b2230b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a535e962b93e99cda683b09003b7efc49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a535e962b93e99cda683b09003b7efc49"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a535e962b93e99cda683b09003b7efc49">autd::IS_MISSING_TRANSDUCER</a> (T X, T Y)</td></tr>
-<tr class="separator:a535e962b93e99cda683b09003b7efc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab6f4d483d1cb177f9955f7db8aaff155">autd::IsMissingTransducer</a> (T x, T y)</td></tr>
+<tr class="separator:ab6f4d483d1cb177f9955f7db8aaff155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -115,27 +134,42 @@ Variables</h2></td></tr>
 <tr class="separator:ad6774eed0e4a9b96e644dbe4b470e795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8caff93de9170505fcf236e48fc5d602"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a8caff93de9170505fcf236e48fc5d602">autd::NUM_TRANS_Y</a> = 14</td></tr>
 <tr class="separator:a8caff93de9170505fcf236e48fc5d602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682044665c146ab76d94e776224d8de0"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a682044665c146ab76d94e776224d8de0">autd::TRANS_SIZE_MM</a> = 10.18</td></tr>
-<tr class="separator:a682044665c146ab76d94e776224d8de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f6e2d9e43dabab468072d6a8934b6c9"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2f6e2d9e43dabab468072d6a8934b6c9">autd::AUTD_WIDTH</a> = 192.0</td></tr>
-<tr class="separator:a2f6e2d9e43dabab468072d6a8934b6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037a3a6161f9fefda67f3268d690b997"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a037a3a6161f9fefda67f3268d690b997">autd::AUTD_HEIGHT</a> = 151.4</td></tr>
-<tr class="separator:a037a3a6161f9fefda67f3268d690b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a64bb85f1759deaf21c027a644a2b7"><td class="memItemLeft" align="right" valign="top">constexpr Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad5a64bb85f1759deaf21c027a644a2b7">autd::TRANS_SIZE_MM</a> = ToFloat(10.16)</td></tr>
+<tr class="separator:ad5a64bb85f1759deaf21c027a644a2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39de4a36f496ed80d7d6b8fd77c9fce2"><td class="memItemLeft" align="right" valign="top">constexpr Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a39de4a36f496ed80d7d6b8fd77c9fce2">autd::AUTD_WIDTH</a> = ToFloat(192.0)</td></tr>
+<tr class="separator:a39de4a36f496ed80d7d6b8fd77c9fce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71790a71f908a35af60e4820855eb87a"><td class="memItemLeft" align="right" valign="top">constexpr Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a71790a71f908a35af60e4820855eb87a">autd::AUTD_HEIGHT</a> = ToFloat(151.4)</td></tr>
+<tr class="separator:a71790a71f908a35af60e4820855eb87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4972c8f49f2a9ea129ee12aac5804c34"><td class="memItemLeft" align="right" valign="top">constexpr Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a4972c8f49f2a9ea129ee12aac5804c34">autd::PI</a> = ToFloat(M_PI)</td></tr>
+<tr class="separator:a4972c8f49f2a9ea129ee12aac5804c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2590369033b0824463ac61d6162ab528"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a2590369033b0824463ac61d6162ab528">autd::FPGA_CLOCK</a> = 25600000</td></tr>
 <tr class="separator:a2590369033b0824463ac61d6162ab528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add3d98c8c808313d610177de1b34439c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#add3d98c8c808313d610177de1b34439c">autd::ULTRASOUND_FREQUENCY</a> = 40000</td></tr>
 <tr class="separator:add3d98c8c808313d610177de1b34439c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82a93877b9cb4080c03dfd540a0a6ee1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a82a93877b9cb4080c03dfd540a0a6ee1">autd::ULTRASOUND_WAVELENGTH</a> = 8.5</td></tr>
-<tr class="separator:a82a93877b9cb4080c03dfd540a0a6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c491d3aec2472bf5109295388ce89a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a37c491d3aec2472bf5109295388ce89a">autd::POINT_SEQ_BUFFER_SIZE_MAX</a> = 40000</td></tr>
 <tr class="separator:a37c491d3aec2472bf5109295388ce89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8328a50ea98ad6ad7347ff45e8464b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#acd8328a50ea98ad6ad7347ff45e8464b">autd::POINT_SEQ_CLK_IDX_MAX</a> = 40000</td></tr>
 <tr class="separator:acd8328a50ea98ad6ad7347ff45e8464b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab07ccf15669a8c1d37a74da2e756f588"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ab07ccf15669a8c1d37a74da2e756f588">autd::POINT_SEQ_BASE_FREQ</a> = 40000.0</td></tr>
-<tr class="separator:ab07ccf15669a8c1d37a74da2e756f588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad28ab4e896509b1dae69dcc4009e335d"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#ad28ab4e896509b1dae69dcc4009e335d">autd::FIXED_NUM_UNIT</a> = ULTRASOUND_WAVELENGTH / 256.0</td></tr>
-<tr class="separator:ad28ab4e896509b1dae69dcc4009e335d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be2501223447430a8ad5e815b56b38e"><td class="memItemLeft" align="right" valign="top">constexpr Float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceautd.html#a7be2501223447430a8ad5e815b56b38e">autd::POINT_SEQ_BASE_FREQ</a> = ToFloat(40000.0)</td></tr>
+<tr class="separator:a7be2501223447430a8ad5e815b56b38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a525335710b53cb064ca56b936120431e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a525335710b53cb064ca56b936120431e">&#9670;&nbsp;</a></span>_USE_MATH_DEFINES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _USE_MATH_DEFINES</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="consts_8hpp_source.html#l00014">14</a> of file <a class="el" href="consts_8hpp_source.html">consts.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

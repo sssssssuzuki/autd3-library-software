@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['is_5fmissing_5ftransducer_439',['IS_MISSING_TRANSDUCER',['../namespaceautd.html#a535e962b93e99cda683b09003b7efc49',1,'autd']]],
-  ['is_5fopen_440',['is_open',['../classautd_1_1Controller.html#ac5404de7040be695024516480bc2a81b',1,'autd::Controller']]]
+  ['hologain_285',['HoloGain',['../classautd_1_1gain_1_1HoloGain.html#a8a5ea2ed5e5fa8b49a1e8c94d137a3c3',1,'autd::gain::HoloGain::HoloGain(std::vector&lt; Vector3 &gt; foci, std::vector&lt; Float &gt; amps, const OPT_METHOD method=OPT_METHOD::SDP, void *params=nullptr)'],['../classautd_1_1gain_1_1HoloGain.html#a2a17ec867fe83ecef1a097c05af067b0',1,'autd::gain::HoloGain::HoloGain(const HoloGain &amp;v) noexcept=default'],['../classautd_1_1gain_1_1HoloGain.html#ab117827a218ae1929bdd4c3ecb21d979',1,'autd::gain::HoloGain::HoloGain(HoloGain &amp;&amp;obj)=default']]]
 ];

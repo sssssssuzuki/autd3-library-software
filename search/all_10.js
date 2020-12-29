@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['quaternion_217',['Quaternion',['../classautd_1_1__utils_1_1Quaternion.html',1,'autd::_utils::Quaternion'],['../classautd_1_1__utils_1_1Quaternion.html#a3385767d05e5eb31f050ca36be7053ae',1,'autd::_utils::Quaternion::Quaternion()']]],
-  ['quaternion_2ehpp_218',['quaternion.hpp',['../quaternion_8hpp.html',1,'']]]
+  ['quaternion_125',['Quaternion',['../namespaceautd.html#ab355aeed291de48aef91866a5746f85c',1,'autd']]]
 ];

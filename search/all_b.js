@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['l2_5fnorm_169',['l2_norm',['../classautd_1_1__utils_1_1Vector3.html#afe7a49f904ddae507192613279a7105b',1,'autd::_utils::Vector3']]],
-  ['l2_5fnorm_5fsquared_170',['l2_norm_squared',['../classautd_1_1__utils_1_1Vector3.html#a218adbe5e02199973394868b5b536a24',1,'autd::_utils::Vector3']]],
-  ['lambda_171',['lambda',['../structautd_1_1gain_1_1SDPParams.html#a05d98ee0c17009b55eac14c762c89ef0',1,'autd::gain::SDPParams']]],
-  ['lateralmodulationat_172',['LateralModulationAT',['../classautd_1_1Controller.html#a3a14f0d476cfd89193ae69de7ac21c63',1,'autd::Controller']]],
-  ['link_173',['Link',['../classautd_1_1link_1_1Link.html',1,'autd::link']]],
-  ['link_2ehpp_174',['link.hpp',['../link_8hpp.html',1,'']]],
-  ['linkptr_175',['LinkPtr',['../namespaceautd.html#acb23fa0532da3d9178c03045c7e42896',1,'autd']]],
-  ['lm_176',['LM',['../namespaceautd_1_1gain.html#a331754fb8512a3e5d0425116e49ea176adfd5b430bc4db2c2836d0227ad9ac0c4',1,'autd::gain']]],
-  ['local_5fposition_177',['local_position',['../classautd_1_1Geometry.html#a7b3632039c9ff2e1c82445c22c062b8a',1,'autd::Geometry']]],
-  ['localtwincatlink_178',['LocalTwinCATLink',['../classautd_1_1link_1_1LocalTwinCATLink.html',1,'autd::link']]]
+  ['lambda_90',['lambda',['../structautd_1_1gain_1_1SDPParams.html#aa5479b5e11dc66f6d18e1ea6a61fb5f6',1,'autd::gain::SDPParams']]],
+  ['link_91',['Link',['../classautd_1_1link_1_1Link.html',1,'autd::link::Link'],['../classautd_1_1link_1_1Link.html#a8a6912aef3c8198dce2953f1dcdb4263',1,'autd::link::Link::Link()=default'],['../classautd_1_1link_1_1Link.html#a8b7852819cd6a229268013a43e775c0d',1,'autd::link::Link::Link(const Link &amp;v)=delete'],['../classautd_1_1link_1_1Link.html#a28977f0e554ad6ed4247f5140a055b13',1,'autd::link::Link::Link(Link &amp;&amp;obj)=delete']]],
+  ['link_2ehpp_92',['link.hpp',['../link_8hpp.html',1,'']]],
+  ['linkptr_93',['LinkPtr',['../namespaceautd.html#ac245083bcdbe668a6a5527195aac9f10',1,'autd']]],
+  ['lm_94',['LM',['../namespaceautd_1_1gain.html#abad8dffb1def5cab9c93124f39fd52bbadfd5b430bc4db2c2836d0227ad9ac0c4',1,'autd::gain']]],
+  ['local_5fposition_95',['local_position',['../classautd_1_1Geometry.html#aa5ed6c07c6a78ea961e958a1137ecfaf',1,'autd::Geometry']]],
+  ['localtwincatlink_96',['LocalTwinCATLink',['../classautd_1_1link_1_1LocalTwinCATLink.html',1,'autd::link::LocalTwinCATLink'],['../classautd_1_1link_1_1LocalTwinCATLink.html#a0942a6a337ba03c68d174475f47182ac',1,'autd::link::LocalTwinCATLink::LocalTwinCATLink()=default'],['../classautd_1_1link_1_1LocalTwinCATLink.html#a0426790db75b45248372da35eb9c0f2a',1,'autd::link::LocalTwinCATLink::LocalTwinCATLink(const LocalTwinCATLink &amp;v) noexcept=delete'],['../classautd_1_1link_1_1LocalTwinCATLink.html#aed97d7c337f84b3d7ce05adb00b22722',1,'autd::link::LocalTwinCATLink::LocalTwinCATLink(LocalTwinCATLink &amp;&amp;obj)=delete']]]
 ];

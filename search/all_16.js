@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['w_265',['w',['../classautd_1_1__utils_1_1Quaternion.html#ad0e882adaef9070d80bcdf2609537bab',1,'autd::_utils::Quaternion']]],
-  ['wavmodulation_266',['WavModulation',['../classautd_1_1modulation_1_1WavModulation.html',1,'autd::modulation']]]
+  ['wavelength_170',['wavelength',['../classautd_1_1Geometry.html#a123faec0d875f63e6936927f320f423b',1,'autd::Geometry']]],
+  ['wavmodulation_171',['WavModulation',['../classautd_1_1modulation_1_1WavModulation.html',1,'autd::modulation::WavModulation'],['../classautd_1_1modulation_1_1WavModulation.html#a40be93b99246785011229c611e469727',1,'autd::modulation::WavModulation::WavModulation()']]]
 ];
